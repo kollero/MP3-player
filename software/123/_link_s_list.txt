@@ -1,0 +1,1177 @@
+// Listing
+
+.sect code, votext
+_PlayNamedFile:
+    /*  0:*/ .uword 0x00001f80 
+    /*  1:*/ .uword 0x36130024 
+    /*  2:*/ .uword 0x3e120024 
+    /*  3:*/ .uword 0x3e043811 
+    /*  4:*/ .uword 0x00003a50 
+    /*  5:*/ .uword 0x29000000  //Symb02BD9ABC _strncpy+0; 	Sect votext+276  UWord 0x29004500 (<<6)
+          // RE Sym(02BD9ABC)_strncpy Sec(votext) Value(276) Symoffset(0) curval(0) 
+    /*  6:*/ .uword 0xf4004491 
+    /*  7:*/ .uword 0x290019c0 
+    /*  8:*/ .uword 0x00000024 
+    /*  9:*/ .uword 0x36f41811 
+    /* 10:*/ .uword 0x36f20024 
+    /* 11:*/ .uword 0x20000000 
+    /* 12:*/ .uword 0x00000024 
+_MyPlayerCallback:
+    /* 13:*/ .uword 0x36130024 
+    /* 14:*/ .uword 0x3e120024 
+    /* 15:*/ .uword 0x3e05b814 
+    /* 16:*/ .uword 0x36150024 
+    /* 17:*/ .uword 0x3e003841 
+    /* 18:*/ .uword 0x3e00b843 
+    /* 19:*/ .uword 0x3e013850 
+    /* 20:*/ .uword 0x3e148024 
+    /* 21:*/ .uword 0x29001900 
+    /* 22:*/ .uword 0x00000704 
+    /* 23:*/ .uword 0x00000210  //Symb02BD8414 _nowPressed+0; 	Sect voxdata_1+8  UWord 0x00000210 (<<6)
+          // RE Sym(02BD8414)_nowPressed Sec(voxdata_1) Value(8) Symoffset(0) curval(8) 
+    /* 24:*/ .uword 0x60802000 
+    /* 25:*/ .uword 0x00000250  //Symb02BD84FC _lastPressed1+0; 	Sect voxdata_1+9  UWord 0x00000250 (<<6)
+          // RE Sym(02BD84FC)_lastPressed1 Sec(voxdata_1) Value(9) Symoffset(0) curval(9) 
+    /* 26:*/ .uword 0x28000555  //Symb02BD500C _MyPlayerCallback+21; 	Sect votext+34  UWord 0x28000895 (<<6)
+          // RE Sym(02BD500C)_MyPlayerCallback Sec(votext) Value(13) Symoffset(21) curval(21) 
+    /* 27:*/ .uword 0x00000024 
+    /* 28:*/ .uword 0x3000184c 
+    /* 29:*/ .uword 0x60800024 
+    /* 30:*/ .uword 0x00000000  //Symb02BD8AE0 next_1+0; 	Sect voxdata_1+16  UWord 0x00000400 (<<6)
+          // RE Sym(02BD8AE0)next_1 Sec(voxdata_1) Value(16) Symoffset(0) curval(0) 
+    /* 31:*/ .uword 0x28002e15  //Symb02BD500C _MyPlayerCallback+184; 	Sect votext+197  UWord 0x28003155 (<<6)
+          // RE Sym(02BD500C)_MyPlayerCallback Sec(votext) Value(13) Symoffset(184) curval(184) 
+    /* 32:*/ .uword 0x00000024 
+    /* 33:*/ .uword 0x36f30024 
+    /* 34:*/ .uword 0x00000210  //Symb02BD8414 _nowPressed+0; 	Sect voxdata_1+8  UWord 0x00000210 (<<6)
+          // RE Sym(02BD8414)_nowPressed Sec(voxdata_1) Value(8) Symoffset(0) curval(8) 
+    /* 35:*/ .uword 0x00000252  //Symb02BD84FC _lastPressed1+0; 	Sect voxdata_1+9  UWord 0x00000252 (<<6)
+          // RE Sym(02BD84FC)_lastPressed1 Sec(voxdata_1) Value(9) Symoffset(0) curval(9) 
+    /* 36:*/ .uword 0x00000744 
+    /* 37:*/ .uword 0x3000184c 
+    /* 38:*/ .uword 0x29001900 
+    /* 39:*/ .uword 0x3a000024 
+    /* 40:*/ .uword 0x60802000 
+    /* 41:*/ .uword 0x00000290  //Symb02BD85E4 _lastPressed2+0; 	Sect voxdata_1+10  UWord 0x00000290 (<<6)
+          // RE Sym(02BD85E4)_lastPressed2 Sec(voxdata_1) Value(10) Symoffset(0) curval(10) 
+    /* 42:*/ .uword 0x28000955  //Symb02BD500C _MyPlayerCallback+37; 	Sect votext+50  UWord 0x28000c95 (<<6)
+          // RE Sym(02BD500C)_MyPlayerCallback Sec(votext) Value(13) Symoffset(37) curval(37) 
+    /* 43:*/ .uword 0x00000024 
+    /* 44:*/ .uword 0x3000184c 
+    /* 45:*/ .uword 0x60800024 
+    /* 46:*/ .uword 0x00000180  //Symb02BD8C3C pause_2+0; 	Sect voxdata_1+22  UWord 0x00000580 (<<6)
+          // RE Sym(02BD8C3C)pause_2 Sec(voxdata_1) Value(22) Symoffset(0) curval(6) 
+    /* 47:*/ .uword 0x28002bd5  //Symb02BD500C _MyPlayerCallback+175; 	Sect votext+188  UWord 0x28002f15 (<<6)
+          // RE Sym(02BD500C)_MyPlayerCallback Sec(votext) Value(13) Symoffset(175) curval(175) 
+    /* 48:*/ .uword 0x00000024 
+    /* 49:*/ .uword 0x36f30024 
+    /* 50:*/ .uword 0x00000210  //Symb02BD8414 _nowPressed+0; 	Sect voxdata_1+8  UWord 0x00000210 (<<6)
+          // RE Sym(02BD8414)_nowPressed Sec(voxdata_1) Value(8) Symoffset(0) curval(8) 
+    /* 51:*/ .uword 0x00000292  //Symb02BD85E4 _lastPressed2+0; 	Sect voxdata_1+10  UWord 0x00000292 (<<6)
+          // RE Sym(02BD85E4)_lastPressed2 Sec(voxdata_1) Value(10) Symoffset(0) curval(10) 
+    /* 52:*/ .uword 0x00000404 
+    /* 53:*/ .uword 0x3000184c 
+    /* 54:*/ .uword 0x29001900 
+    /* 55:*/ .uword 0x3a000024 
+    /* 56:*/ .uword 0x60802000 
+    /* 57:*/ .uword 0x00000310  //Symb02BD87B4 _lastPressed4+0; 	Sect voxdata_1+12  UWord 0x00000310 (<<6)
+          // RE Sym(02BD87B4)_lastPressed4 Sec(voxdata_1) Value(12) Symoffset(0) curval(12) 
+    /* 58:*/ .uword 0x28000d15  //Symb02BD500C _MyPlayerCallback+52; 	Sect votext+65  UWord 0x28001055 (<<6)
+          // RE Sym(02BD500C)_MyPlayerCallback Sec(votext) Value(13) Symoffset(52) curval(52) 
+    /* 59:*/ .uword 0x00000024 
+    /* 60:*/ .uword 0x30000024 
+    /* 61:*/ .uword 0x60800024 
+    /* 62:*/ .uword 0x00003690 
+    /* 63:*/ .uword 0x28002895  //Symb02BD500C _MyPlayerCallback+162; 	Sect votext+175  UWord 0x28002bd5 (<<6)
+          // RE Sym(02BD500C)_MyPlayerCallback Sec(votext) Value(13) Symoffset(162) curval(162) 
+    /* 64:*/ .uword 0x00000024 
+    /* 65:*/ .uword 0x00000210  //Symb02BD8414 _nowPressed+0; 	Sect voxdata_1+8  UWord 0x00000210 (<<6)
+          // RE Sym(02BD8414)_nowPressed Sec(voxdata_1) Value(8) Symoffset(0) curval(8) 
+    /* 66:*/ .uword 0x00000312  //Symb02BD87B4 _lastPressed4+0; 	Sect voxdata_1+12  UWord 0x00000312 (<<6)
+          // RE Sym(02BD87B4)_lastPressed4 Sec(voxdata_1) Value(12) Symoffset(0) curval(12) 
+    /* 67:*/ .uword 0x00000404 
+    /* 68:*/ .uword 0x3000184c 
+    /* 69:*/ .uword 0x29001900 
+    /* 70:*/ .uword 0x3a000024 
+    /* 71:*/ .uword 0x60802000 
+    /* 72:*/ .uword 0x00000350  //Symb02BD889C _lastPressed5+0; 	Sect voxdata_1+13  UWord 0x00000350 (<<6)
+          // RE Sym(02BD889C)_lastPressed5 Sec(voxdata_1) Value(13) Symoffset(0) curval(13) 
+    /* 73:*/ .uword 0x280010c5  //Symb02BD500C _MyPlayerCallback+67; 	Sect votext+80  UWord 0x28001405 (<<6)
+          // RE Sym(02BD500C)_MyPlayerCallback Sec(votext) Value(13) Symoffset(67) curval(67) 
+    /* 74:*/ .uword 0x00000024 
+    /* 75:*/ .uword 0x30000024 
+    /* 76:*/ .uword 0x60800024 
+    /* 77:*/ .uword 0x00000190  //Symb02BD832C _delay_samples+0; 	Sect voxdata_1+6  UWord 0x00000190 (<<6)
+          // RE Sym(02BD832C)_delay_samples Sec(voxdata_1) Value(6) Symoffset(0) curval(6) 
+    /* 78:*/ .uword 0x28002705  //Symb02BD500C _MyPlayerCallback+156; 	Sect votext+169  UWord 0x28002a45 (<<6)
+          // RE Sym(02BD500C)_MyPlayerCallback Sec(votext) Value(13) Symoffset(156) curval(156) 
+    /* 79:*/ .uword 0x00000024 
+    /* 80:*/ .uword 0x00000210  //Symb02BD8414 _nowPressed+0; 	Sect voxdata_1+8  UWord 0x00000210 (<<6)
+          // RE Sym(02BD8414)_nowPressed Sec(voxdata_1) Value(8) Symoffset(0) curval(8) 
+    /* 81:*/ .uword 0x30000024 
+    /* 82:*/ .uword 0x00000350  //Symb02BD889C _lastPressed5+0; 	Sect voxdata_1+13  UWord 0x00000350 (<<6)
+          // RE Sym(02BD889C)_lastPressed5 Sec(voxdata_1) Value(13) Symoffset(0) curval(13) 
+    /* 83:*/ .uword 0x38000024 
+    /* 84:*/ .uword 0x00000090  //Symb02BD7FA0 _button_volume_pressed+0; 	Sect voxdata_1+2  UWord 0x00000090 (<<6)
+          // RE Sym(02BD7FA0)_button_volume_pressed Sec(voxdata_1) Value(2) Symoffset(0) curval(2) 
+    /* 85:*/ .uword 0x30000024 
+    /* 86:*/ .uword 0x60800024 
+    /* 87:*/ .uword 0x00000190  //Symb02BD832C _delay_samples+0; 	Sect voxdata_1+6  UWord 0x00000190 (<<6)
+          // RE Sym(02BD832C)_delay_samples Sec(voxdata_1) Value(6) Symoffset(0) curval(6) 
+    /* 88:*/ .uword 0x28001b05  //Symb02BD500C _MyPlayerCallback+108; 	Sect votext+121  UWord 0x28001e45 (<<6)
+          // RE Sym(02BD500C)_MyPlayerCallback Sec(votext) Value(13) Symoffset(108) curval(108) 
+    /* 89:*/ .uword 0x00000024 
+    /* 90:*/ .uword 0x3010134c 
+    /* 91:*/ .uword 0x30f04024 
+    /* 92:*/ .uword 0xf4004041 
+    /* 93:*/ .uword 0x6c8210c2 
+    /* 94:*/ .uword 0x00000003 
+    /* 95:*/ .uword 0x28002619  //Symb02BD500C _MyPlayerCallback+152; 	Sect votext+165  UWord 0x28002959 (<<6)
+          // RE Sym(02BD500C)_MyPlayerCallback Sec(votext) Value(13) Symoffset(152) curval(152) 
+    /* 96:*/ .uword 0x00000024 
+    /* 97:*/ .uword 0x000000d0  //Symb02BD8074 _button_volume_pressed2+0; 	Sect voxdata_1+3  UWord 0x000000d0 (<<6)
+          // RE Sym(02BD8074)_button_volume_pressed2 Sec(voxdata_1) Value(3) Symoffset(0) curval(3) 
+    /* 98:*/ .uword 0x00000192  //Symb02BD832C _delay_samples+0; 	Sect voxdata_1+6  UWord 0x00000192 (<<6)
+          // RE Sym(02BD832C)_delay_samples Sec(voxdata_1) Value(6) Symoffset(0) curval(6) 
+    /* 99:*/ .uword 0xc8902003 
+    /*100:*/ .uword 0x00003690 
+    /*101:*/ .uword 0x30108024 
+    /*102:*/ .uword 0x3070c024 
+    /*103:*/ .uword 0xad02804c 
+    /*104:*/ .uword 0x3a100024 
+    /*105:*/ .uword 0x00001800 
+    /*106:*/ .uword 0x3af04024 
+    /*107:*/ .uword 0x30004024 
+    /*108:*/ .uword 0x61000024 
+    /*109:*/ .uword 0x000038d0 
+    /*110:*/ .uword 0x28001b18  //Symb02BD500C _MyPlayerCallback+108; 	Sect votext+121  UWord 0x28001e58 (<<6)
+          // RE Sym(02BD500C)_MyPlayerCallback Sec(votext) Value(13) Symoffset(108) curval(108) 
+    /*111:*/ .uword 0x00000340  //Symb02BD8D98 vol_3+0; 	Sect voxdata_1+29  UWord 0x00000740 (<<6)
+          // RE Sym(02BD8D98)vol_3 Sec(voxdata_1) Value(29) Symoffset(0) curval(13) 
+    /*112:*/ .uword 0x36130024 
+    /*113:*/ .uword 0x290016c0 
+    /*114:*/ .uword 0x3e000024 
+    /*115:*/ .uword 0x30001bcc 
+    /*116:*/ .uword 0x60900024 
+    /*117:*/ .uword 0x60900024 
+    /*118:*/ .uword 0x60900024 
+    /*119:*/ .uword 0x60900024 
+    /*120:*/ .uword 0x38000024 
+    /*121:*/ .uword 0x00000090  //Symb02BD7FA0 _button_volume_pressed+0; 	Sect voxdata_1+2  UWord 0x00000090 (<<6)
+          // RE Sym(02BD7FA0)_button_volume_pressed Sec(voxdata_1) Value(2) Symoffset(0) curval(2) 
+    /*122:*/ .uword 0x30000024 
+    /*123:*/ .uword 0x60800024 
+    /*124:*/ .uword 0x000000d0  //Symb02BD8074 _button_volume_pressed2+0; 	Sect voxdata_1+3  UWord 0x000000d0 (<<6)
+          // RE Sym(02BD8074)_button_volume_pressed2 Sec(voxdata_1) Value(3) Symoffset(0) curval(3) 
+    /*125:*/ .uword 0x28002355  //Symb02BD500C _MyPlayerCallback+141; 	Sect votext+154  UWord 0x28002695 (<<6)
+          // RE Sym(02BD500C)_MyPlayerCallback Sec(votext) Value(13) Symoffset(141) curval(141) 
+    /*126:*/ .uword 0x00000024 
+    /*127:*/ .uword 0x30000024 
+    /*128:*/ .uword 0x60800024 
+    /*129:*/ .uword 0x00000110  //Symb02BD815C _button_volume_pressed3+0; 	Sect voxdata_1+4  UWord 0x00000110 (<<6)
+          // RE Sym(02BD815C)_button_volume_pressed3 Sec(voxdata_1) Value(4) Symoffset(0) curval(4) 
+    /*130:*/ .uword 0x28002345  //Symb02BD500C _MyPlayerCallback+141; 	Sect votext+154  UWord 0x28002685 (<<6)
+          // RE Sym(02BD500C)_MyPlayerCallback Sec(votext) Value(13) Symoffset(141) curval(141) 
+    /*131:*/ .uword 0x00000024 
+    /*132:*/ .uword 0x30000024 
+    /*133:*/ .uword 0x60800024 
+    /*134:*/ .uword 0x00000000 
+    /*135:*/ .uword 0x28002345  //Symb02BD500C _MyPlayerCallback+141; 	Sect votext+154  UWord 0x28002685 (<<6)
+          // RE Sym(02BD500C)_MyPlayerCallback Sec(votext) Value(13) Symoffset(141) curval(141) 
+    /*136:*/ .uword 0x00000024 
+    /*137:*/ .uword 0x38000024 
+    /*138:*/ .uword 0x000038d0 
+    /*139:*/ .uword 0x000000c0 
+    /*140:*/ .uword 0x30004024 
+    /*141:*/ .uword 0x61000024 
+    /*142:*/ .uword 0x000004c0  //Symb02BD8EF4 vol_4+0; 	Sect voxdata_1+35  UWord 0x000008c0 (<<6)
+          // RE Sym(02BD8EF4)vol_4 Sec(voxdata_1) Value(35) Symoffset(0) curval(19) 
+    /*143:*/ .uword 0x28002349  //Symb02BD500C _MyPlayerCallback+141; 	Sect votext+154  UWord 0x28002689 (<<6)
+          // RE Sym(02BD500C)_MyPlayerCallback Sec(votext) Value(13) Symoffset(141) curval(141) 
+    /*144:*/ .uword 0x00000024 
+    /*145:*/ .uword 0x36130024 
+    /*146:*/ .uword 0x290016c0 
+    /*147:*/ .uword 0x3e000024 
+    /*148:*/ .uword 0x30001bcc 
+    /*149:*/ .uword 0x40900024 
+    /*150:*/ .uword 0x40900024 
+    /*151:*/ .uword 0x40900024 
+    /*152:*/ .uword 0x40900024 
+    /*153:*/ .uword 0x38000024 
+    /*154:*/ .uword 0x36f48024 
+    /*155:*/ .uword 0x36f11810 
+    /*156:*/ .uword 0x36f09803 
+    /*157:*/ .uword 0x36f01801 
+    /*158:*/ .uword 0x34059014 
+    /*159:*/ .uword 0x36f30024 
+    /*160:*/ .uword 0x36f20024 
+    /*161:*/ .uword 0x20000000 
+    /*162:*/ .uword 0x00000024 
+    /*163:*/ .uword 0xb386134c 
+    /*164:*/ .uword 0x34308024 
+    /*165:*/ .uword 0x6cd20024 
+    /*166:*/ .uword 0x38100024 
+    /*167:*/ .uword 0x28001b00  //Symb02BD500C _MyPlayerCallback+108; 	Sect votext+121  UWord 0x28001e40 (<<6)
+          // RE Sym(02BD500C)_MyPlayerCallback Sec(votext) Value(13) Symoffset(108) curval(108) 
+    /*168:*/ .uword 0x38f04024 
+    /*169:*/ .uword 0xbc820024 
+    /*170:*/ .uword 0xb8802040 
+    /*171:*/ .uword 0x38f04024 
+    /*172:*/ .uword 0x00000090  //Symb02BD7FA0 _button_volume_pressed+0; 	Sect voxdata_1+2  UWord 0x00000090 (<<6)
+          // RE Sym(02BD7FA0)_button_volume_pressed Sec(voxdata_1) Value(2) Symoffset(0) curval(2) 
+    /*173:*/ .uword 0x280010c0  //Symb02BD500C _MyPlayerCallback+67; 	Sect votext+80  UWord 0x28001400 (<<6)
+          // RE Sym(02BD500C)_MyPlayerCallback Sec(votext) Value(13) Symoffset(67) curval(67) 
+    /*174:*/ .uword 0x38000024 
+    /*175:*/ .uword 0xc8900042 
+    /*176:*/ .uword 0x30f0c024 
+    /*177:*/ .uword 0x00000190  //Symb02BD832C _delay_samples+0; 	Sect voxdata_1+6  UWord 0x00000190 (<<6)
+          // RE Sym(02BD832C)_delay_samples Sec(voxdata_1) Value(6) Symoffset(0) curval(6) 
+    /*178:*/ .uword 0xad020024 
+    /*179:*/ .uword 0x68902040 
+    /*180:*/ .uword 0x38f04024 
+    /*181:*/ .uword 0x00000090  //Symb02BD7FA0 _button_volume_pressed+0; 	Sect voxdata_1+2  UWord 0x00000090 (<<6)
+          // RE Sym(02BD7FA0)_button_volume_pressed Sec(voxdata_1) Value(2) Symoffset(0) curval(2) 
+    /*182:*/ .uword 0x68902000 
+    /*183:*/ .uword 0x000000d0  //Symb02BD8074 _button_volume_pressed2+0; 	Sect voxdata_1+3  UWord 0x000000d0 (<<6)
+          // RE Sym(02BD8074)_button_volume_pressed2 Sec(voxdata_1) Value(3) Symoffset(0) curval(3) 
+    /*184:*/ .uword 0x68902000 
+    /*185:*/ .uword 0x00000110  //Symb02BD815C _button_volume_pressed3+0; 	Sect voxdata_1+4  UWord 0x00000110 (<<6)
+          // RE Sym(02BD815C)_button_volume_pressed3 Sec(voxdata_1) Value(4) Symoffset(0) curval(4) 
+    /*186:*/ .uword 0x28000d00  //Symb02BD500C _MyPlayerCallback+52; 	Sect votext+65  UWord 0x28001040 (<<6)
+          // RE Sym(02BD500C)_MyPlayerCallback Sec(votext) Value(13) Symoffset(52) curval(52) 
+    /*187:*/ .uword 0x38000024 
+    /*188:*/ .uword 0x290016c0 
+    /*189:*/ .uword 0x3e000024 
+    /*190:*/ .uword 0x00003650 
+    /*191:*/ .uword 0x68900001 
+    /*192:*/ .uword 0xd1009bcc 
+    /*193:*/ .uword 0x68902000 
+    /*194:*/ .uword 0x00000010  //Symb02BD7DD0 _button_pause_pressed+0; 	Sect voxdata_1+0  UWord 0x00000010 (<<6)
+          // RE Sym(02BD7DD0)_button_pause_pressed Sec(voxdata_1) Value(0) Symoffset(0) curval(0) 
+    /*195:*/ .uword 0x28000940  //Symb02BD500C _MyPlayerCallback+37; 	Sect votext+50  UWord 0x28000c80 (<<6)
+          // RE Sym(02BD500C)_MyPlayerCallback Sec(votext) Value(13) Symoffset(37) curval(37) 
+    /*196:*/ .uword 0x38000024 
+    /*197:*/ .uword 0x290016c0 
+    /*198:*/ .uword 0x3e000024 
+    /*199:*/ .uword 0x00003850 
+    /*200:*/ .uword 0x68909bcc 
+    /*201:*/ .uword 0xb8822240 
+    /*202:*/ .uword 0x30f30024 
+    /*203:*/ .uword 0x38004024 
+    /*204:*/ .uword 0x00002f90 
+    /*205:*/ .uword 0x68902000 
+    /*206:*/ .uword 0x00000050  //Symb02BD7EB8 _button_change_song+0; 	Sect voxdata_1+1  UWord 0x00000050 (<<6)
+          // RE Sym(02BD7EB8)_button_change_song Sec(voxdata_1) Value(1) Symoffset(0) curval(1) 
+    /*207:*/ .uword 0x28000540  //Symb02BD500C _MyPlayerCallback+21; 	Sect votext+34  UWord 0x28000880 (<<6)
+          // RE Sym(02BD500C)_MyPlayerCallback Sec(votext) Value(13) Symoffset(21) curval(21) 
+    /*208:*/ .uword 0x38000024 
+_main:
+    /*209:*/ .uword 0x00000640  //Symb02BD9050 vs1010cpl_5+0; 	Sect voxdata_1+41  UWord 0x00000a40 (<<6)
+          // RE Sym(02BD9050)vs1010cpl_5 Sec(voxdata_1) Value(41) Symoffset(0) curval(25) 
+    /*210:*/ .uword 0x36130024 
+    /*211:*/ .uword 0x3e120024 
+    /*212:*/ .uword 0x290016c0 
+    /*213:*/ .uword 0x3e000024 
+    /*214:*/ .uword 0x00000a40  //Symb02BD91AC presss0_6+0; 	Sect voxdata_1+57  UWord 0x00000e40 (<<6)
+          // RE Sym(02BD91AC)presss0_6 Sec(voxdata_1) Value(57) Symoffset(0) curval(41) 
+    /*215:*/ .uword 0x290016c0 
+    /*216:*/ .uword 0x3e000024 
+    /*217:*/ .uword 0x00001880  //Symb02BD9308 presssx_7+0; 	Sect voxdata_1+114  UWord 0x00001c80 (<<6)
+          // RE Sym(02BD9308)presssx_7 Sec(voxdata_1) Value(114) Symoffset(0) curval(98) 
+    /*218:*/ .uword 0x290016c0 
+    /*219:*/ .uword 0x3e000024 
+    /*220:*/ .uword 0x00002cc0  //Symb02BD9464 smp3_8+0; 	Sect voxdata_1+195  UWord 0x000030c0 (<<6)
+          // RE Sym(02BD9464)smp3_8 Sec(voxdata_1) Value(195) Symoffset(0) curval(179) 
+    /*221:*/ .uword 0x3e100024 
+    /*222:*/ .uword 0x00002ec0  //Symb02BD95C0 countfiles_9+0; 	Sect voxdata_1+203  UWord 0x000032c0 (<<6)
+          // RE Sym(02BD95C0)countfiles_9 Sec(voxdata_1) Value(203) Symoffset(0) curval(187) 
+    /*223:*/ .uword 0x29001a00 
+    /*224:*/ .uword 0x3e000024 
+    /*225:*/ .uword 0x00000390  //Symb02BD8984 _totalFiles+0; 	Sect voxdata_1+14  UWord 0x00000390 (<<6)
+          // RE Sym(02BD8984)_totalFiles Sec(voxdata_1) Value(14) Symoffset(0) curval(14) 
+    /*226:*/ .uword 0x1fe17f82 
+    /*227:*/ .uword 0x68921b8c 
+    /*228:*/ .uword 0xfe100024 
+    /*229:*/ .uword 0x48b20024 
+    /*230:*/ .uword 0xc8962040 
+    /*231:*/ .uword 0xf40040c3 
+    /*232:*/ .uword 0x6cd223c1 
+    /*233:*/ .uword 0x00003180  //Symb02BD971C countfiles_10+0; 	Sect voxdata_1+214  UWord 0x00003580 (<<6)
+          // RE Sym(02BD971C)countfiles_10 Sec(voxdata_1) Value(214) Symoffset(0) curval(198) 
+    /*234:*/ .uword 0x280007d5  //Symb02BD79BC _main+31; 	Sect votext+240  UWord 0x28003c15 (<<6)
+          // RE Sym(02BD79BC)_main Sec(votext) Value(209) Symoffset(31) curval(31) 
+    /*235:*/ .uword 0x00000024 
+    /*236:*/ .uword 0x36130024 
+    /*237:*/ .uword 0x290016c0 
+    /*238:*/ .uword 0x3e000024 
+    /*239:*/ .uword 0x36f30024 
+    /*240:*/ .uword 0x00003850 
+    /*241:*/ .uword 0x68900024 
+    /*242:*/ .uword 0x00002cd2  //Symb02BD9464 smp3_8+0; 	Sect voxdata_1+195  UWord 0x000030d2 (<<6)
+          // RE Sym(02BD9464)smp3_8 Sec(voxdata_1) Value(195) Symoffset(0) curval(179) 
+    /*243:*/ .uword 0x29000000  //Symb02BD4D54 _PlayNamedFile+0; 	Sect votext+0  UWord 0x29000000 (<<6)
+          // RE Sym(02BD4D54)_PlayNamedFile Sec(votext) Value(0) Symoffset(0) curval(0) 
+    /*244:*/ .uword 0x38000024 
+    /*245:*/ .uword 0x00003810 
+    /*246:*/ .uword 0x30000024 
+    /*247:*/ .uword 0x60800024 
+    /*248:*/ .uword 0x00000024 
+    /*249:*/ .uword 0x28000b45  //Symb02BD79BC _main+45; 	Sect votext+254  UWord 0x28003f85 (<<6)
+          // RE Sym(02BD79BC)_main Sec(votext) Value(209) Symoffset(45) curval(45) 
+    /*250:*/ .uword 0x00000024 
+    /*251:*/ .uword 0x000037d2 
+    /*252:*/ .uword 0xb8802800 
+    /*253:*/ .uword 0x38000024 
+    /*254:*/ .uword 0x00003790 
+    /*255:*/ .uword 0x3000184c 
+    /*256:*/ .uword 0x3e100024 
+    /*257:*/ .uword 0x00003700  //Symb02BD9878 playerfil_11+0; 	Sect voxdata_1+236  UWord 0x00003b00 (<<6)
+          // RE Sym(02BD9878)playerfil_11 Sec(voxdata_1) Value(236) Symoffset(0) curval(220) 
+    /*258:*/ .uword 0x290016c0 
+    /*259:*/ .uword 0x3e000024 
+    /*260:*/ .uword 0x00000390  //Symb02BD8984 _totalFiles+0; 	Sect voxdata_1+14  UWord 0x00000390 (<<6)
+          // RE Sym(02BD8984)_totalFiles Sec(voxdata_1) Value(14) Symoffset(0) curval(14) 
+    /*261:*/ .uword 0x30101bcc 
+    /*262:*/ .uword 0x30f04024 
+    /*263:*/ .uword 0x3e100024 
+    /*264:*/ .uword 0x00003b80  //Symb02BD99D4 filesd_12+0; 	Sect voxdata_1+254  UWord 0x00003f80 (<<6)
+          // RE Sym(02BD99D4)filesd_12 Sec(voxdata_1) Value(254) Symoffset(0) curval(238) 
+    /*265:*/ .uword 0x3e104024 
+    /*266:*/ .uword 0x290016c0 
+    /*267:*/ .uword 0x3e000024 
+    /*268:*/ .uword 0x000037d0 
+    /*269:*/ .uword 0x30001b4c 
+    /*270:*/ .uword 0x60800024 
+    /*271:*/ .uword 0x00000040 
+    /*272:*/ .uword 0x280007d9  //Symb02BD79BC _main+31; 	Sect votext+240  UWord 0x28003c19 (<<6)
+          // RE Sym(02BD79BC)_main Sec(votext) Value(209) Symoffset(31) curval(31) 
+    /*273:*/ .uword 0x00000024 
+    /*274:*/ .uword 0x280007c0  //Symb02BD79BC _main+31; 	Sect votext+240  UWord 0x28003c00 (<<6)
+          // RE Sym(02BD79BC)_main Sec(votext) Value(209) Symoffset(31) curval(31) 
+    /*275:*/ .uword 0x38000024 
+_strncpy:
+    /*276:*/ .uword 0x36130024 
+    /*277:*/ .uword 0x40803850 
+    /*278:*/ .uword 0x3e03784f 
+    /*279:*/ .uword 0x280003c5  //Symb02BDE020 ncp_done+0; 	Sect votext+291  UWord 0x280048c5 (<<6)
+          // RE Sym(02BDE020)ncp_done Sec(votext) Value(291) Symoffset(0) curval(15) 
+    /*280:*/ .uword 0x3e03b802 
+    /*281:*/ .uword 0x40900024 
+    /*282:*/ .uword 0x24000380  //Symb02BDE17C ncp_lp+0; 	Sect votext+290  UWord 0x24004880 (<<6)
+          // RE Sym(02BDE17C)ncp_lp Sec(votext) Value(290) Symoffset(0) curval(14) 
+    /*283:*/ .uword 0x003fffc2 
+    /*284:*/ .uword 0x31100024 
+    /*285:*/ .uword 0x40800024 
+    /*286:*/ .uword 0x00000024 
+    /*287:*/ .uword 0x28000395  //Symb02BDE17C ncp_lp+0; 	Sect votext+290  UWord 0x28004895 (<<6)
+          // RE Sym(02BDE17C)ncp_lp Sec(votext) Value(290) Symoffset(0) curval(14) 
+    /*288:*/ .uword 0xb0200024 
+    /*289:*/ .uword 0x00000002 
+ncp_lp:
+    /*290:*/ .uword 0x38100024 
+ncp_done:
+    /*291:*/ .uword 0x36039bc2 
+    /*292:*/ .uword 0x36035bcf 
+    /*293:*/ .uword 0x20000000 
+    /*294:*/ .uword 0x36f40024 
+    /*295:*/ .uword 0x36130024 
+    /*296:*/ .uword 0x40803850 
+    /*297:*/ .uword 0x3e03784f 
+    /*298:*/ .uword 0x28000885  //Symb02BDE604 ncp_doneXY+0; 	Sect votext+310  UWord 0x28004d85 (<<6)
+          // RE Sym(02BDE604)ncp_doneXY Sec(votext) Value(310) Symoffset(0) curval(34) 
+    /*299:*/ .uword 0x3e03b802 
+    /*300:*/ .uword 0x40900024 
+    /*301:*/ .uword 0x24000840  //Symb02BDF0E4 ncp_lpXY+0; 	Sect votext+309  UWord 0x24004d40 (<<6)
+          // RE Sym(02BDF0E4)ncp_lpXY Sec(votext) Value(309) Symoffset(0) curval(33) 
+    /*302:*/ .uword 0x003fffc2 
+    /*303:*/ .uword 0x31100024 
+    /*304:*/ .uword 0x40800024 
+    /*305:*/ .uword 0x00000024 
+    /*306:*/ .uword 0x28000855  //Symb02BDF0E4 ncp_lpXY+0; 	Sect votext+309  UWord 0x28004d55 (<<6)
+          // RE Sym(02BDF0E4)ncp_lpXY Sec(votext) Value(309) Symoffset(0) curval(33) 
+    /*307:*/ .uword 0xb0200024 
+    /*308:*/ .uword 0x00000002 
+ncp_lpXY:
+    /*309:*/ .uword 0x30092040 
+ncp_doneXY:
+    /*310:*/ .uword 0x36039bc2 
+    /*311:*/ .uword 0x36035bcf 
+    /*312:*/ .uword 0x20000000 
+    /*313:*/ .uword 0x36f40024 
+    /*314:*/ .uword 0x36130024 
+    /*315:*/ .uword 0x40803850 
+    /*316:*/ .uword 0x3e03784f 
+    /*317:*/ .uword 0x28000d45  //Symb02BDE678 ncp_doneYX+0; 	Sect votext+329  UWord 0x28005245 (<<6)
+          // RE Sym(02BDE678)ncp_doneYX Sec(votext) Value(329) Symoffset(0) curval(53) 
+    /*318:*/ .uword 0x3e03b802 
+    /*319:*/ .uword 0x40900024 
+    /*320:*/ .uword 0x24000d00  //Symb02BDF158 ncp_lpYX+0; 	Sect votext+328  UWord 0x24005200 (<<6)
+          // RE Sym(02BDF158)ncp_lpYX Sec(votext) Value(328) Symoffset(0) curval(52) 
+    /*321:*/ .uword 0x003fffc2 
+    /*322:*/ .uword 0x30090440 
+    /*323:*/ .uword 0x40800024 
+    /*324:*/ .uword 0x00000024 
+    /*325:*/ .uword 0x28000d15  //Symb02BDF158 ncp_lpYX+0; 	Sect votext+328  UWord 0x28005215 (<<6)
+          // RE Sym(02BDF158)ncp_lpYX Sec(votext) Value(328) Symoffset(0) curval(52) 
+    /*326:*/ .uword 0xb0200024 
+    /*327:*/ .uword 0x00000002 
+ncp_lpYX:
+    /*328:*/ .uword 0x38100024 
+ncp_doneYX:
+    /*329:*/ .uword 0x36039bc2 
+    /*330:*/ .uword 0x36035bcf 
+    /*331:*/ .uword 0x20000000 
+    /*332:*/ .uword 0x36f40024 
+    /*333:*/ .uword 0x36130024 
+    /*334:*/ .uword 0x40803850 
+    /*335:*/ .uword 0x3e03784f 
+    /*336:*/ .uword 0x28001205  //Symb02BDE6EC ncp_doneYY+0; 	Sect votext+348  UWord 0x28005705 (<<6)
+          // RE Sym(02BDE6EC)ncp_doneYY Sec(votext) Value(348) Symoffset(0) curval(72) 
+    /*337:*/ .uword 0x3e03b802 
+    /*338:*/ .uword 0x40900024 
+    /*339:*/ .uword 0x240011c0  //Symb02BDF1CC ncp_lpYY+0; 	Sect votext+347  UWord 0x240056c0 (<<6)
+          // RE Sym(02BDF1CC)ncp_lpYY Sec(votext) Value(347) Symoffset(0) curval(71) 
+    /*340:*/ .uword 0x003fffc2 
+    /*341:*/ .uword 0x30090440 
+    /*342:*/ .uword 0x40800024 
+    /*343:*/ .uword 0x00000024 
+    /*344:*/ .uword 0x280011d5  //Symb02BDF1CC ncp_lpYY+0; 	Sect votext+347  UWord 0x280056d5 (<<6)
+          // RE Sym(02BDF1CC)ncp_lpYY Sec(votext) Value(347) Symoffset(0) curval(71) 
+    /*345:*/ .uword 0xb0200024 
+    /*346:*/ .uword 0x00000002 
+ncp_lpYY:
+    /*347:*/ .uword 0x30092040 
+ncp_doneYY:
+    /*348:*/ .uword 0x36039bc2 
+    /*349:*/ .uword 0x36035bcf 
+    /*350:*/ .uword 0x20000000 
+    /*351:*/ .uword 0x36f40024 
+    /*352:*/ .uword 0x36130024 
+    /*353:*/ .uword 0x3e003810 
+cat_next:
+    /*354:*/ .uword 0x30100024 
+    /*355:*/ .uword 0x40800024 
+    /*356:*/ .uword 0x00000024 
+    /*357:*/ .uword 0x28001395  //Symb02BDEB74 cat_next+0; 	Sect votext+354  UWord 0x28005895 (<<6)
+          // RE Sym(02BDEB74)cat_next Sec(votext) Value(354) Symoffset(0) curval(78) 
+    /*358:*/ .uword 0x00000024 
+    /*359:*/ .uword 0x30f30024 
+cat_next2:
+    /*360:*/ .uword 0x31100024 
+    /*361:*/ .uword 0x40802040 
+    /*362:*/ .uword 0x00000024 
+    /*363:*/ .uword 0x28001515  //Symb02BDDC7C cat_next2+0; 	Sect votext+360  UWord 0x28005a15 (<<6)
+          // RE Sym(02BDDC7C)cat_next2 Sec(votext) Value(360) Symoffset(0) curval(84) 
+    /*364:*/ .uword 0x00000024 
+    /*365:*/ .uword 0x20000000 
+    /*366:*/ .uword 0x36001bd0 
+    /*367:*/ .uword 0x4080184c 
+    /*368:*/ .uword 0x00000024 
+    /*369:*/ .uword 0x28001b85  //Symb02BDDFAC ncat_done+0; 	Sect votext+386  UWord 0x28006085 (<<6)
+          // RE Sym(02BDDFAC)ncat_done Sec(votext) Value(386) Symoffset(0) curval(110) 
+    /*370:*/ .uword 0x3e007810 
+ncat_next:
+    /*371:*/ .uword 0x30104024 
+    /*372:*/ .uword 0x41820024 
+    /*373:*/ .uword 0x00000024 
+    /*374:*/ .uword 0x280017d5  //Symb02BDEB00 ncat_next+0; 	Sect votext+371  UWord 0x28005cd5 (<<6)
+          // RE Sym(02BDEB00)ncat_next Sec(votext) Value(371) Symoffset(0) curval(95) 
+    /*375:*/ .uword 0x00000024 
+    /*376:*/ .uword 0x30f30024 
+ncat_next2:
+    /*377:*/ .uword 0x31104024 
+    /*378:*/ .uword 0x41820024 
+    /*379:*/ .uword 0x00000024 
+    /*380:*/ .uword 0x28001b85  //Symb02BDDFAC ncat_done+0; 	Sect votext+386  UWord 0x28006085 (<<6)
+          // RE Sym(02BDDFAC)ncat_done Sec(votext) Value(386) Symoffset(0) curval(110) 
+    /*381:*/ .uword 0x40902041 
+    /*382:*/ .uword 0x00000024 
+    /*383:*/ .uword 0x28001955  //Symb02BDDC24 ncat_next2+0; 	Sect votext+377  UWord 0x28005e55 (<<6)
+          // RE Sym(02BDDC24)ncat_next2 Sec(votext) Value(377) Symoffset(0) curval(101) 
+    /*384:*/ .uword 0x00000001 
+    /*385:*/ .uword 0x38004024 
+ncat_done:
+    /*386:*/ .uword 0x20000000 
+    /*387:*/ .uword 0x36005bd0 
+    /*388:*/ .uword 0x4080184c 
+    /*389:*/ .uword 0x3e00b801 
+    /*390:*/ .uword 0x28001fc5  //Symb02BDDF38 ncmp_done+0; 	Sect votext+403  UWord 0x280064c5 (<<6)
+          // RE Sym(02BDDF38)ncmp_done Sec(votext) Value(403) Symoffset(0) curval(127) 
+    /*391:*/ .uword 0xb2840024 
+ncmp_next:
+    /*392:*/ .uword 0x30108024 
+    /*393:*/ .uword 0x42840441 
+    /*394:*/ .uword 0x00000024 
+    /*395:*/ .uword 0x28001fc5  //Symb02BDDF38 ncmp_done+0; 	Sect votext+403  UWord 0x280064c5 (<<6)
+          // RE Sym(02BDDF38)ncmp_done Sec(votext) Value(403) Symoffset(0) curval(127) 
+    /*396:*/ .uword 0x62149801 
+    /*397:*/ .uword 0x00000024 
+    /*398:*/ .uword 0x28001fd5  //Symb02BDDF38 ncmp_done+0; 	Sect votext+403  UWord 0x280064d5 (<<6)
+          // RE Sym(02BDDF38)ncmp_done Sec(votext) Value(403) Symoffset(0) curval(127) 
+    /*399:*/ .uword 0x40900024 
+    /*400:*/ .uword 0x00000024 
+    /*401:*/ .uword 0x28001d15  //Symb02BDEA8C ncmp_next+0; 	Sect votext+392  UWord 0x28006215 (<<6)
+          // RE Sym(02BDEA8C)ncmp_next Sec(votext) Value(392) Symoffset(0) curval(116) 
+    /*402:*/ .uword 0x00000024 
+ncmp_done:
+    /*403:*/ .uword 0x20000000 
+    /*404:*/ .uword 0x42801bc2 
+    /*405:*/ .uword 0x36130024 
+    /*406:*/ .uword 0x3e004024 
+chr_next:
+    /*407:*/ .uword 0x30104024 
+    /*408:*/ .uword 0x6014b802 
+    /*409:*/ .uword 0x00000024 
+    /*410:*/ .uword 0x28002305  //Symb02BDDEC4 chr_done+0; 	Sect votext+416  UWord 0x28006805 (<<6)
+          // RE Sym(02BDDEC4)chr_done Sec(votext) Value(416) Symoffset(0) curval(140) 
+    /*411:*/ .uword 0x41829802 
+    /*412:*/ .uword 0x00000024 
+    /*413:*/ .uword 0x280020d5  //Symb02BDEA18 chr_next+0; 	Sect votext+407  UWord 0x280065d5 (<<6)
+          // RE Sym(02BDEA18)chr_next Sec(votext) Value(407) Symoffset(0) curval(131) 
+    /*414:*/ .uword 0x00000024 
+    /*415:*/ .uword 0x00000050 
+chr_done:
+    /*416:*/ .uword 0x20000000 
+    /*417:*/ .uword 0x36f043cc 
+    /*418:*/ .uword 0x36130024 
+    /*419:*/ .uword 0x68923801 
+    /*420:*/ .uword 0x30007801 
+rchr_next:
+    /*421:*/ .uword 0x60120024 
+    /*422:*/ .uword 0x30104024 
+    /*423:*/ .uword 0x28002595  //Symb02BDE34C rchr_chk+0; 	Sect votext+426  UWord 0x28006a95 (<<6)
+          // RE Sym(02BDE34C)rchr_chk Sec(votext) Value(426) Symoffset(0) curval(150) 
+    /*424:*/ .uword 0x41820024 
+    /*425:*/ .uword 0x30093810 
+rchr_chk:
+    /*426:*/ .uword 0x00000024 
+    /*427:*/ .uword 0x28002455  //Symb02BDE9A4 rchr_next+0; 	Sect votext+421  UWord 0x28006955 (<<6)
+          // RE Sym(02BDE9A4)rchr_next Sec(votext) Value(421) Symoffset(0) curval(145) 
+    /*428:*/ .uword 0x30004024 
+    /*429:*/ .uword 0x36005bd0 
+    /*430:*/ .uword 0x20000000 
+    /*431:*/ .uword 0x30f30024 
+    /*432:*/ .uword 0xb080184c 
+    /*433:*/ .uword 0x3e00f842 
+    /*434:*/ .uword 0x3e007811 
+spn_next:
+    /*435:*/ .uword 0x30105811 
+    /*436:*/ .uword 0x41820024 
+    /*437:*/ .uword 0x00000024 
+    /*438:*/ .uword 0x28002b45  //Symb02BDDDDC spn_done+0; 	Sect votext+449  UWord 0x28007045 (<<6)
+          // RE Sym(02BDDDDC)spn_done Sec(votext) Value(449) Symoffset(0) curval(173) 
+spn_next2:
+    /*439:*/ .uword 0x31108024 
+    /*440:*/ .uword 0x42840024 
+    /*441:*/ .uword 0x00000024 
+    /*442:*/ .uword 0x28002b45  //Symb02BDDDDC spn_done+0; 	Sect votext+449  UWord 0x28007045 (<<6)
+          // RE Sym(02BDDDDC)spn_done Sec(votext) Value(449) Symoffset(0) curval(173) 
+    /*443:*/ .uword 0x62140024 
+    /*444:*/ .uword 0x00000024 
+    /*445:*/ .uword 0x280028d5  //Symb02BDDBCC spn_next2+0; 	Sect votext+439  UWord 0x28006dd5 (<<6)
+          // RE Sym(02BDDBCC)spn_next2 Sec(votext) Value(439) Symoffset(0) curval(163) 
+    /*446:*/ .uword 0x00000024 
+    /*447:*/ .uword 0x280027c0  //Symb02BDE930 spn_next+0; 	Sect votext+435  UWord 0x28006cc0 (<<6)
+          // RE Sym(02BDE930)spn_next Sec(votext) Value(435) Symoffset(0) curval(159) 
+    /*448:*/ .uword 0x60900024 
+spn_done:
+    /*449:*/ .uword 0x36f04024 
+    /*450:*/ .uword 0x20000000 
+    /*451:*/ .uword 0x3600dbc2 
+    /*452:*/ .uword 0x36130024 
+    /*453:*/ .uword 0x3e007842 
+    /*454:*/ .uword 0xb080b811 
+cspn_next:
+    /*455:*/ .uword 0x30105811 
+    /*456:*/ .uword 0x41820024 
+    /*457:*/ .uword 0x00000024 
+    /*458:*/ .uword 0x28003045  //Symb02BDDD84 cspn_done+0; 	Sect votext+469  UWord 0x28007545 (<<6)
+          // RE Sym(02BDDD84)cspn_done Sec(votext) Value(469) Symoffset(0) curval(193) 
+cspn_next2:
+    /*459:*/ .uword 0x31108024 
+    /*460:*/ .uword 0x62140024 
+    /*461:*/ .uword 0x00000024 
+    /*462:*/ .uword 0x28003045  //Symb02BDDD84 cspn_done+0; 	Sect votext+469  UWord 0x28007545 (<<6)
+          // RE Sym(02BDDD84)cspn_done Sec(votext) Value(469) Symoffset(0) curval(193) 
+    /*463:*/ .uword 0x42140024 
+    /*464:*/ .uword 0x00000024 
+    /*465:*/ .uword 0x28002dd5  //Symb02BDDB74 cspn_next2+0; 	Sect votext+459  UWord 0x280072d5 (<<6)
+          // RE Sym(02BDDB74)cspn_next2 Sec(votext) Value(459) Symoffset(0) curval(183) 
+    /*466:*/ .uword 0x00000024 
+    /*467:*/ .uword 0x28002cc0  //Symb02BDE8BC cspn_next+0; 	Sect votext+455  UWord 0x280071c0 (<<6)
+          // RE Sym(02BDE8BC)cspn_next Sec(votext) Value(455) Symoffset(0) curval(179) 
+    /*468:*/ .uword 0x60900024 
+cspn_done:
+    /*469:*/ .uword 0x36f30024 
+    /*470:*/ .uword 0x20000000 
+    /*471:*/ .uword 0x36005bc2 
+    /*472:*/ .uword 0x36130024 
+    /*473:*/ .uword 0x3e007842 
+    /*474:*/ .uword 0x30093811 
+pbrk_next:
+    /*475:*/ .uword 0x30105811 
+    /*476:*/ .uword 0x41820024 
+    /*477:*/ .uword 0x00000024 
+    /*478:*/ .uword 0x28003545  //Symb02BDEC5C pbrk_done1+0; 	Sect votext+489  UWord 0x28007a45 (<<6)
+          // RE Sym(02BDEC5C)pbrk_done1 Sec(votext) Value(489) Symoffset(0) curval(213) 
+pbrk_next2:
+    /*479:*/ .uword 0x31108024 
+    /*480:*/ .uword 0x62140024 
+    /*481:*/ .uword 0x00000024 
+    /*482:*/ .uword 0x28003585  //Symb02BDE4A8 pbrk_done+0; 	Sect votext+490  UWord 0x28007a85 (<<6)
+          // RE Sym(02BDE4A8)pbrk_done Sec(votext) Value(490) Symoffset(0) curval(214) 
+    /*483:*/ .uword 0x42140024 
+    /*484:*/ .uword 0x00000024 
+    /*485:*/ .uword 0x280032d5  //Symb02BDEBE8 pbrk_next2+0; 	Sect votext+479  UWord 0x280077d5 (<<6)
+          // RE Sym(02BDEBE8)pbrk_next2 Sec(votext) Value(479) Symoffset(0) curval(203) 
+    /*486:*/ .uword 0x00000024 
+    /*487:*/ .uword 0x280031c0  //Symb02BDEF88 pbrk_next+0; 	Sect votext+475  UWord 0x280076c0 (<<6)
+          // RE Sym(02BDEF88)pbrk_next Sec(votext) Value(475) Symoffset(0) curval(199) 
+    /*488:*/ .uword 0x00000024 
+pbrk_done1:
+    /*489:*/ .uword 0x00000050 
+pbrk_done:
+    /*490:*/ .uword 0x30f31bcc 
+    /*491:*/ .uword 0x20000000 
+    /*492:*/ .uword 0x36005bc2 
+    /*493:*/ .uword 0x36130024 
+    /*494:*/ .uword 0x3e007840 
+    /*495:*/ .uword 0x30093811 
+str_next:
+    /*496:*/ .uword 0x3e041811 
+str_next2:
+    /*497:*/ .uword 0x31104024 
+    /*498:*/ .uword 0x41820040 
+    /*499:*/ .uword 0x00000024 
+    /*500:*/ .uword 0x28003b45  //Symb02BDDD2C str_done+0; 	Sect votext+513  UWord 0x28008045 (<<6)
+          // RE Sym(02BDDD2C)str_done Sec(votext) Value(513) Symoffset(0) curval(237) 
+    /*501:*/ .uword 0x40800024 
+    /*502:*/ .uword 0x00000024 
+    /*503:*/ .uword 0x28003ac5  //Symb02BDE108 str_done1+0; 	Sect votext+511  UWord 0x28007fc5 (<<6)
+          // RE Sym(02BDE108)str_done1 Sec(votext) Value(511) Symoffset(0) curval(235) 
+    /*504:*/ .uword 0x60100024 
+    /*505:*/ .uword 0x00000024 
+    /*506:*/ .uword 0x28003745  //Symb02BDDB1C str_next2+0; 	Sect votext+497  UWord 0x28007c45 (<<6)
+          // RE Sym(02BDDB1C)str_next2 Sec(votext) Value(497) Symoffset(0) curval(221) 
+    /*507:*/ .uword 0x00000024 
+    /*508:*/ .uword 0x36040024 
+    /*509:*/ .uword 0x28003700  //Symb02BDE848 str_next+0; 	Sect votext+496  UWord 0x28007c00 (<<6)
+          // RE Sym(02BDE848)str_next Sec(votext) Value(496) Symoffset(0) curval(220) 
+    /*510:*/ .uword 0x30130024 
+str_done1:
+    /*511:*/ .uword 0x00000010 
+    /*512:*/ .uword 0x3e040024 
+str_done:
+    /*513:*/ .uword 0x36f40024 
+    /*514:*/ .uword 0x20000000 
+    /*515:*/ .uword 0x36005bc0 
+    /*516:*/ .uword 0x20000000 
+    /*517:*/ .uword 0x00000010 
+    /*518:*/ .uword 0x4182184c 
+    /*519:*/ .uword 0x3e008024 
+    /*520:*/ .uword 0x28003f45  //Symb02BDE1F0 mchr_nul+0; 	Sect votext+529  UWord 0x28008445 (<<6)
+          // RE Sym(02BDE1F0)mchr_nul Sec(votext) Value(529) Symoffset(0) curval(253) 
+mchr_next:
+    /*521:*/ .uword 0x30108024 
+    /*522:*/ .uword 0x60240024 
+    /*523:*/ .uword 0x00000024 
+    /*524:*/ .uword 0x28003f85  //Symb02BDDCD4 mchr_done+0; 	Sect votext+530  UWord 0x28008485 (<<6)
+          // RE Sym(02BDDCD4)mchr_done Sec(votext) Value(530) Symoffset(0) curval(254) 
+    /*525:*/ .uword 0x41920024 
+    /*526:*/ .uword 0x00000024 
+    /*527:*/ .uword 0x28003d55  //Symb02BDE7D4 mchr_next+0; 	Sect votext+521  UWord 0x28008255 (<<6)
+          // RE Sym(02BDE7D4)mchr_next Sec(votext) Value(521) Symoffset(0) curval(245) 
+    /*528:*/ .uword 0x00000024 
+mchr_nul:
+    /*529:*/ .uword 0x00000050 
+mchr_done:
+    /*530:*/ .uword 0x20000000 
+    /*531:*/ .uword 0x36f083cc 
+    /*532:*/ .uword 0x36130024 
+    /*533:*/ .uword 0x3e120024 
+    /*534:*/ .uword 0x3e047810 
+    /*535:*/ .uword 0x36140024 
+    /*536:*/ .uword 0x3e003801 
+    /*537:*/ .uword 0x28000000  //Symb02BDEDB8 _strlen+0; 	Sect votext+549  UWord 0x28008940 (<<6)
+          // RE Sym(02BDEDB8)_strlen Sec(votext) Value(549) Symoffset(0) curval(0) 
+@000:
+    /*538:*/ .uword 0x000041c8  //Symb02BDDA6C @000+1; 	Sect votext+539  UWord 0x000086c8 (<<6)
+          // RE Sym(02BDDA6C)@000 Sec(votext) Value(538) Symoffset(1) curval(263) 
+    /*539:*/ .uword 0x36004024 
+    /*540:*/ .uword 0x60120024 
+    /*541:*/ .uword 0x30091bc1 
+    /*542:*/ .uword 0x28004398  //Symb02BDEFFC xfrm_done+0; 	Sect votext+546  UWord 0x28008898 (<<6)
+          // RE Sym(02BDEFFC)xfrm_done Sec(votext) Value(546) Symoffset(0) curval(270) 
+    /*543:*/ .uword 0x36045bd0 
+    /*544:*/ .uword 0x28000000  //Symb02BDEEA0 _strcpy+0; 	Sect votext+557  UWord 0x28008b40 (<<6)
+          // RE Sym(02BDEEA0)_strcpy Sec(votext) Value(557) Symoffset(0) curval(0) 
+@001:
+    /*545:*/ .uword 0x00004388  //Symb02BDDAC4 @001+1; 	Sect votext+546  UWord 0x00008888 (<<6)
+          // RE Sym(02BDDAC4)@001 Sec(votext) Value(545) Symoffset(1) curval(270) 
+xfrm_done:
+    /*546:*/ .uword 0x36f20024 
+    /*547:*/ .uword 0x20000000 
+    /*548:*/ .uword 0x00000024 
+_strlen:
+    /*549:*/ .uword 0xc090184c 
+    /*550:*/ .uword 0x30107801 
+_strlen@0:
+    /*551:*/ .uword 0x41820024 
+    /*552:*/ .uword 0x00000024 
+    /*553:*/ .uword 0x28000095  //Symb02BDFB20 _strlen@0+0; 	Sect votext+551  UWord 0x280089d5 (<<6)
+          // RE Sym(02BDFB20)_strlen@0 Sec(votext) Value(551) Symoffset(0) curval(2) 
+    /*554:*/ .uword 0x60900041 
+    /*555:*/ .uword 0x20000000 
+    /*556:*/ .uword 0x30091bc1 
+_strcpy:
+    /*557:*/ .uword 0x36130024 
+    /*558:*/ .uword 0x3e103810 
+    /*559:*/ .uword 0x3110b802 
+    /*560:*/ .uword 0x42800024 
+_strcpy@0:
+    /*561:*/ .uword 0x31108024 
+    /*562:*/ .uword 0x28000115  //Symb02BE0640 _strcpy@0+0; 	Sect votext+561  UWord 0x28008c55 (<<6)
+          // RE Sym(02BE0640)_strcpy@0 Sec(votext) Value(561) Symoffset(0) curval(4) 
+    /*563:*/ .uword 0x42802040 
+    /*564:*/ .uword 0x30091bc2 
+    /*565:*/ .uword 0x20000000 
+    /*566:*/ .uword 0x36f01810 
+
+.sect data_x, voxdata_1
+_button_pause_pressed:
+    /*  0:*/ .uword 0x00000000 
+_button_change_song:
+    /*  1:*/ .uword 0x00000000 
+_button_volume_pressed:
+    /*  2:*/ .uword 0x00000000 
+_button_volume_pressed2:
+    /*  3:*/ .uword 0x00000000 
+_button_volume_pressed3:
+    /*  4:*/ .uword 0x00000000 
+    /*  5:*/ .uword 0x00000000 
+_delay_samples:
+    /*  6:*/ .uword 0x00000000 
+    /*  7:*/ .uword 0x00000000 
+_nowPressed:
+    /*  8:*/ .uword 0x00000001 
+_lastPressed1:
+    /*  9:*/ .uword 0x00000001 
+_lastPressed2:
+    /* 10:*/ .uword 0x00000001 
+    /* 11:*/ .uword 0x00000001 
+_lastPressed4:
+    /* 12:*/ .uword 0x00000001 
+_lastPressed5:
+    /* 13:*/ .uword 0x00000001 
+_totalFiles:
+    /* 14:*/ .uword 0x00000000 
+    /* 15:*/ .uword 0x00000000 
+next_1:
+    /* 16:*/ .uword 0x0000006e  /*'n'*/ 
+    /* 17:*/ .uword 0x00000065  /*'e'*/ 
+    /* 18:*/ .uword 0x00000078  /*'x'*/ 
+    /* 19:*/ .uword 0x00000074  /*'t'*/ 
+    /* 20:*/ .uword 0x0000000a 
+    /* 21:*/ .uword 0x00000000 
+pause_2:
+    /* 22:*/ .uword 0x00000070  /*'p'*/ 
+    /* 23:*/ .uword 0x00000061  /*'a'*/ 
+    /* 24:*/ .uword 0x00000075  /*'u'*/ 
+    /* 25:*/ .uword 0x00000073  /*'s'*/ 
+    /* 26:*/ .uword 0x00000065  /*'e'*/ 
+    /* 27:*/ .uword 0x0000000a 
+    /* 28:*/ .uword 0x00000000 
+vol_3:
+    /* 29:*/ .uword 0x00000076  /*'v'*/ 
+    /* 30:*/ .uword 0x0000006f  /*'o'*/ 
+    /* 31:*/ .uword 0x0000006c  /*'l'*/ 
+    /* 32:*/ .uword 0x0000002d  /*'-'*/ 
+    /* 33:*/ .uword 0x0000000a 
+    /* 34:*/ .uword 0x00000000 
+vol_4:
+    /* 35:*/ .uword 0x00000076  /*'v'*/ 
+    /* 36:*/ .uword 0x0000006f  /*'o'*/ 
+    /* 37:*/ .uword 0x0000006c  /*'l'*/ 
+    /* 38:*/ .uword 0x0000002b  /*'+'*/ 
+    /* 39:*/ .uword 0x0000000a 
+    /* 40:*/ .uword 0x00000000 
+vs1010cpl_5:
+    /* 41:*/ .uword 0x00000056  /*'V'*/ 
+    /* 42:*/ .uword 0x00000053  /*'S'*/ 
+    /* 43:*/ .uword 0x00000031  /*'1'*/ 
+    /* 44:*/ .uword 0x00000030  /*'0'*/ 
+    /* 45:*/ .uword 0x00000031  /*'1'*/ 
+    /* 46:*/ .uword 0x00000030  /*'0'*/ 
+    /* 47:*/ .uword 0x00000043  /*'C'*/ 
+    /* 48:*/ .uword 0x00000020  /*' '*/ 
+    /* 49:*/ .uword 0x00000050  /*'P'*/ 
+    /* 50:*/ .uword 0x0000006c  /*'l'*/ 
+    /* 51:*/ .uword 0x00000061  /*'a'*/ 
+    /* 52:*/ .uword 0x00000079  /*'y'*/ 
+    /* 53:*/ .uword 0x00000065  /*'e'*/ 
+    /* 54:*/ .uword 0x00000072  /*'r'*/ 
+    /* 55:*/ .uword 0x0000000a 
+    /* 56:*/ .uword 0x00000000 
+presss0_6:
+    /* 57:*/ .uword 0x00000050  /*'P'*/ 
+    /* 58:*/ .uword 0x00000072  /*'r'*/ 
+    /* 59:*/ .uword 0x00000065  /*'e'*/ 
+    /* 60:*/ .uword 0x00000073  /*'s'*/ 
+    /* 61:*/ .uword 0x00000073  /*'s'*/ 
+    /* 62:*/ .uword 0x00000020  /*' '*/ 
+    /* 63:*/ .uword 0x0000005b  /*'['*/ 
+    /* 64:*/ .uword 0x00000053  /*'S'*/ 
+    /* 65:*/ .uword 0x00000030  /*'0'*/ 
+    /* 66:*/ .uword 0x0000005d  /*']'*/ 
+    /* 67:*/ .uword 0x00000020  /*' '*/ 
+    /* 68:*/ .uword 0x00000074  /*'t'*/ 
+    /* 69:*/ .uword 0x0000006f  /*'o'*/ 
+    /* 70:*/ .uword 0x00000020  /*' '*/ 
+    /* 71:*/ .uword 0x00000073  /*'s'*/ 
+    /* 72:*/ .uword 0x00000077  /*'w'*/ 
+    /* 73:*/ .uword 0x00000069  /*'i'*/ 
+    /* 74:*/ .uword 0x00000074  /*'t'*/ 
+    /* 75:*/ .uword 0x00000063  /*'c'*/ 
+    /* 76:*/ .uword 0x00000068  /*'h'*/ 
+    /* 77:*/ .uword 0x00000020  /*' '*/ 
+    /* 78:*/ .uword 0x00000074  /*'t'*/ 
+    /* 79:*/ .uword 0x0000006f  /*'o'*/ 
+    /* 80:*/ .uword 0x00000020  /*' '*/ 
+    /* 81:*/ .uword 0x0000006e  /*'n'*/ 
+    /* 82:*/ .uword 0x00000065  /*'e'*/ 
+    /* 83:*/ .uword 0x00000078  /*'x'*/ 
+    /* 84:*/ .uword 0x00000074  /*'t'*/ 
+    /* 85:*/ .uword 0x00000020  /*' '*/ 
+    /* 86:*/ .uword 0x00000073  /*'s'*/ 
+    /* 87:*/ .uword 0x0000006f  /*'o'*/ 
+    /* 88:*/ .uword 0x0000006e  /*'n'*/ 
+    /* 89:*/ .uword 0x00000067  /*'g'*/ 
+    /* 90:*/ .uword 0x0000002c  /*','*/ 
+    /* 91:*/ .uword 0x00000020  /*' '*/ 
+    /* 92:*/ .uword 0x00000020  /*' '*/ 
+    /* 93:*/ .uword 0x0000005b  /*'['*/ 
+    /* 94:*/ .uword 0x00000053  /*'S'*/ 
+    /* 95:*/ .uword 0x00000031  /*'1'*/ 
+    /* 96:*/ .uword 0x0000005d  /*']'*/ 
+    /* 97:*/ .uword 0x00000020  /*' '*/ 
+    /* 98:*/ .uword 0x00000074  /*'t'*/ 
+    /* 99:*/ .uword 0x0000006f  /*'o'*/ 
+    /*100:*/ .uword 0x00000020  /*' '*/ 
+    /*101:*/ .uword 0x00000070  /*'p'*/ 
+    /*102:*/ .uword 0x00000061  /*'a'*/ 
+    /*103:*/ .uword 0x00000075  /*'u'*/ 
+    /*104:*/ .uword 0x00000073  /*'s'*/ 
+    /*105:*/ .uword 0x00000065  /*'e'*/ 
+    /*106:*/ .uword 0x0000002f  /*'/'*/ 
+    /*107:*/ .uword 0x00000070  /*'p'*/ 
+    /*108:*/ .uword 0x0000006c  /*'l'*/ 
+    /*109:*/ .uword 0x00000061  /*'a'*/ 
+    /*110:*/ .uword 0x00000079  /*'y'*/ 
+    /*111:*/ .uword 0x0000002e  /*'.'*/ 
+    /*112:*/ .uword 0x0000000a 
+    /*113:*/ .uword 0x00000000 
+presssx_7:
+    /*114:*/ .uword 0x00000050  /*'P'*/ 
+    /*115:*/ .uword 0x00000072  /*'r'*/ 
+    /*116:*/ .uword 0x00000065  /*'e'*/ 
+    /*117:*/ .uword 0x00000073  /*'s'*/ 
+    /*118:*/ .uword 0x00000073  /*'s'*/ 
+    /*119:*/ .uword 0x00000020  /*' '*/ 
+    /*120:*/ .uword 0x0000005b  /*'['*/ 
+    /*121:*/ .uword 0x00000053  /*'S'*/ 
+    /*122:*/ .uword 0x00000078  /*'x'*/ 
+    /*123:*/ .uword 0x0000005d  /*']'*/ 
+    /*124:*/ .uword 0x00000020  /*' '*/ 
+    /*125:*/ .uword 0x00000074  /*'t'*/ 
+    /*126:*/ .uword 0x0000006f  /*'o'*/ 
+    /*127:*/ .uword 0x00000020  /*' '*/ 
+    /*128:*/ .uword 0x00000073  /*'s'*/ 
+    /*129:*/ .uword 0x00000077  /*'w'*/ 
+    /*130:*/ .uword 0x00000069  /*'i'*/ 
+    /*131:*/ .uword 0x00000074  /*'t'*/ 
+    /*132:*/ .uword 0x00000063  /*'c'*/ 
+    /*133:*/ .uword 0x00000068  /*'h'*/ 
+    /*134:*/ .uword 0x00000020  /*' '*/ 
+    /*135:*/ .uword 0x00000074  /*'t'*/ 
+    /*136:*/ .uword 0x0000006f  /*'o'*/ 
+    /*137:*/ .uword 0x00000020  /*' '*/ 
+    /*138:*/ .uword 0x00000070  /*'p'*/ 
+    /*139:*/ .uword 0x00000072  /*'r'*/ 
+    /*140:*/ .uword 0x00000065  /*'e'*/ 
+    /*141:*/ .uword 0x00000076  /*'v'*/ 
+    /*142:*/ .uword 0x00000069  /*'i'*/ 
+    /*143:*/ .uword 0x0000006f  /*'o'*/ 
+    /*144:*/ .uword 0x00000075  /*'u'*/ 
+    /*145:*/ .uword 0x00000073  /*'s'*/ 
+    /*146:*/ .uword 0x00000020  /*' '*/ 
+    /*147:*/ .uword 0x00000073  /*'s'*/ 
+    /*148:*/ .uword 0x0000006f  /*'o'*/ 
+    /*149:*/ .uword 0x0000006e  /*'n'*/ 
+    /*150:*/ .uword 0x00000067  /*'g'*/ 
+    /*151:*/ .uword 0x0000002c  /*','*/ 
+    /*152:*/ .uword 0x00000020  /*' '*/ 
+    /*153:*/ .uword 0x00000020  /*' '*/ 
+    /*154:*/ .uword 0x0000005b  /*'['*/ 
+    /*155:*/ .uword 0x00000053  /*'S'*/ 
+    /*156:*/ .uword 0x00000078  /*'x'*/ 
+    /*157:*/ .uword 0x0000005d  /*']'*/ 
+    /*158:*/ .uword 0x00000020  /*' '*/ 
+    /*159:*/ .uword 0x00000063  /*'c'*/ 
+    /*160:*/ .uword 0x0000006f  /*'o'*/ 
+    /*161:*/ .uword 0x0000006e  /*'n'*/ 
+    /*162:*/ .uword 0x00000074  /*'t'*/ 
+    /*163:*/ .uword 0x00000072  /*'r'*/ 
+    /*164:*/ .uword 0x0000006f  /*'o'*/ 
+    /*165:*/ .uword 0x0000006c  /*'l'*/ 
+    /*166:*/ .uword 0x00000073  /*'s'*/ 
+    /*167:*/ .uword 0x00000020  /*' '*/ 
+    /*168:*/ .uword 0x00000076  /*'v'*/ 
+    /*169:*/ .uword 0x0000006f  /*'o'*/ 
+    /*170:*/ .uword 0x0000006c  /*'l'*/ 
+    /*171:*/ .uword 0x00000075  /*'u'*/ 
+    /*172:*/ .uword 0x0000006d  /*'m'*/ 
+    /*173:*/ .uword 0x00000065  /*'e'*/ 
+    /*174:*/ .uword 0x0000002c  /*','*/ 
+    /*175:*/ .uword 0x00000020  /*' '*/ 
+    /*176:*/ .uword 0x00000063  /*'c'*/ 
+    /*177:*/ .uword 0x0000006c  /*'l'*/ 
+    /*178:*/ .uword 0x00000069  /*'i'*/ 
+    /*179:*/ .uword 0x00000063  /*'c'*/ 
+    /*180:*/ .uword 0x0000006b  /*'k'*/ 
+    /*181:*/ .uword 0x00000073  /*'s'*/ 
+    /*182:*/ .uword 0x00000020  /*' '*/ 
+    /*183:*/ .uword 0x0000002b  /*'+'*/ 
+    /*184:*/ .uword 0x0000002c  /*','*/ 
+    /*185:*/ .uword 0x00000020  /*' '*/ 
+    /*186:*/ .uword 0x0000006c  /*'l'*/ 
+    /*187:*/ .uword 0x0000006f  /*'o'*/ 
+    /*188:*/ .uword 0x0000006e  /*'n'*/ 
+    /*189:*/ .uword 0x00000067  /*'g'*/ 
+    /*190:*/ .uword 0x00000020  /*' '*/ 
+    /*191:*/ .uword 0x0000002d  /*'-'*/ 
+    /*192:*/ .uword 0x0000002e  /*'.'*/ 
+    /*193:*/ .uword 0x0000000a 
+    /*194:*/ .uword 0x00000000 
+smp3_8:
+    /*195:*/ .uword 0x00000053  /*'S'*/ 
+    /*196:*/ .uword 0x0000003a  /*':'*/ 
+    /*197:*/ .uword 0x0000002a  /*'*'*/ 
+    /*198:*/ .uword 0x0000002e  /*'.'*/ 
+    /*199:*/ .uword 0x0000004d  /*'M'*/ 
+    /*200:*/ .uword 0x00000050  /*'P'*/ 
+    /*201:*/ .uword 0x00000033  /*'3'*/ 
+    /*202:*/ .uword 0x00000000 
+countfiles_9:
+    /*203:*/ .uword 0x00000043  /*'C'*/ 
+    /*204:*/ .uword 0x0000006f  /*'o'*/ 
+    /*205:*/ .uword 0x00000075  /*'u'*/ 
+    /*206:*/ .uword 0x0000006e  /*'n'*/ 
+    /*207:*/ .uword 0x00000074  /*'t'*/ 
+    /*208:*/ .uword 0x00000046  /*'F'*/ 
+    /*209:*/ .uword 0x00000069  /*'i'*/ 
+    /*210:*/ .uword 0x0000006c  /*'l'*/ 
+    /*211:*/ .uword 0x00000065  /*'e'*/ 
+    /*212:*/ .uword 0x00000073  /*'s'*/ 
+    /*213:*/ .uword 0x00000000 
+countfiles_10:
+    /*214:*/ .uword 0x00000043  /*'C'*/ 
+    /*215:*/ .uword 0x0000006f  /*'o'*/ 
+    /*216:*/ .uword 0x00000075  /*'u'*/ 
+    /*217:*/ .uword 0x0000006e  /*'n'*/ 
+    /*218:*/ .uword 0x00000074  /*'t'*/ 
+    /*219:*/ .uword 0x00000046  /*'F'*/ 
+    /*220:*/ .uword 0x00000069  /*'i'*/ 
+    /*221:*/ .uword 0x0000006c  /*'l'*/ 
+    /*222:*/ .uword 0x00000065  /*'e'*/ 
+    /*223:*/ .uword 0x00000073  /*'s'*/ 
+    /*224:*/ .uword 0x00000020  /*' '*/ 
+    /*225:*/ .uword 0x0000006e  /*'n'*/ 
+    /*226:*/ .uword 0x0000006f  /*'o'*/ 
+    /*227:*/ .uword 0x00000074  /*'t'*/ 
+    /*228:*/ .uword 0x00000020  /*' '*/ 
+    /*229:*/ .uword 0x00000066  /*'f'*/ 
+    /*230:*/ .uword 0x0000006f  /*'o'*/ 
+    /*231:*/ .uword 0x00000075  /*'u'*/ 
+    /*232:*/ .uword 0x0000006e  /*'n'*/ 
+    /*233:*/ .uword 0x00000064  /*'d'*/ 
+    /*234:*/ .uword 0x0000000a 
+    /*235:*/ .uword 0x00000000 
+playerfil_11:
+    /*236:*/ .uword 0x00000070  /*'p'*/ 
+    /*237:*/ .uword 0x0000006c  /*'l'*/ 
+    /*238:*/ .uword 0x00000061  /*'a'*/ 
+    /*239:*/ .uword 0x00000079  /*'y'*/ 
+    /*240:*/ .uword 0x00000065  /*'e'*/ 
+    /*241:*/ .uword 0x00000072  /*'r'*/ 
+    /*242:*/ .uword 0x0000002e  /*'.'*/ 
+    /*243:*/ .uword 0x00000066  /*'f'*/ 
+    /*244:*/ .uword 0x00000069  /*'i'*/ 
+    /*245:*/ .uword 0x0000006c  /*'l'*/ 
+    /*246:*/ .uword 0x00000065  /*'e'*/ 
+    /*247:*/ .uword 0x00000073  /*'s'*/ 
+    /*248:*/ .uword 0x0000003a  /*':'*/ 
+    /*249:*/ .uword 0x00000020  /*' '*/ 
+    /*250:*/ .uword 0x00000025  /*'%'*/ 
+    /*251:*/ .uword 0x00000064  /*'d'*/ 
+    /*252:*/ .uword 0x0000000a 
+    /*253:*/ .uword 0x00000000 
+filesd_12:
+    /*254:*/ .uword 0x00000066  /*'f'*/ 
+    /*255:*/ .uword 0x00000069  /*'i'*/ 
+    /*256:*/ .uword 0x0000006c  /*'l'*/ 
+    /*257:*/ .uword 0x00000065  /*'e'*/ 
+    /*258:*/ .uword 0x00000073  /*'s'*/ 
+    /*259:*/ .uword 0x0000003a  /*':'*/ 
+    /*260:*/ .uword 0x00000020  /*' '*/ 
+    /*261:*/ .uword 0x00000025  /*'%'*/ 
+    /*262:*/ .uword 0x00000064  /*'d'*/ 
+    /*263:*/ .uword 0x0000000a 
+    /*264:*/ .uword 0x00000000 
+.end
+Text of Section 0,page 0 votext:
+  length 567 words.
+Text of Section 1,page 1 voxdata_1:
+  length 265 words.
+Relocations of Section 0,page 0 votext:
+  Reloc 0 (Internal: _strncpy):  Target section 0:
+    5 
+  Reloc 1 (Internal: _nowPressed):  Target section 1:
+    23 34 50 65 80 
+  Reloc 2 (Internal: _lastPressed1):  Target section 1:
+    25 35 
+  Reloc 3 (Internal: _MyPlayerCallback):  Target section 0:
+    26 31 42 47 58 63 73 78 88 95 110 125 130 135 143 167 173 186 195 207 
+  Reloc 4 (Internal: next_1):  Target section 1:
+    30 
+  Reloc 5 (Internal: _lastPressed2):  Target section 1:
+    41 51 
+  Reloc 6 (Internal: pause_2):  Target section 1:
+    46 
+  Reloc 7 (Internal: _lastPressed4):  Target section 1:
+    57 66 
+  Reloc 8 (Internal: _lastPressed5):  Target section 1:
+    72 82 
+  Reloc 9 (Internal: _delay_samples):  Target section 1:
+    77 87 98 177 
+  Reloc 10 (Internal: _button_volume_pressed):  Target section 1:
+    84 121 172 181 
+  Reloc 11 (Internal: _button_volume_pressed2):  Target section 1:
+    97 124 183 
+  Reloc 12 (Internal: vol_3):  Target section 1:
+    111 
+  Reloc 13 (Internal: _button_volume_pressed3):  Target section 1:
+    129 185 
+  Reloc 14 (Internal: vol_4):  Target section 1:
+    142 
+  Reloc 15 (Internal: _button_pause_pressed):  Target section 1:
+    194 
+  Reloc 16 (Internal: _button_change_song):  Target section 1:
+    206 
+  Reloc 17 (Internal: vs1010cpl_5):  Target section 1:
+    209 
+  Reloc 18 (Internal: presss0_6):  Target section 1:
+    214 
+  Reloc 19 (Internal: presssx_7):  Target section 1:
+    217 
+  Reloc 20 (Internal: smp3_8):  Target section 1:
+    220 242 
+  Reloc 21 (Internal: countfiles_9):  Target section 1:
+    222 
+  Reloc 22 (Internal: _totalFiles):  Target section 1:
+    225 260 
+  Reloc 23 (Internal: countfiles_10):  Target section 1:
+    233 
+  Reloc 24 (Internal: _main):  Target section 0:
+    234 249 272 274 
+  Reloc 25 (Internal: _PlayNamedFile):  Target section 0:
+    243 
+  Reloc 26 (Internal: playerfil_11):  Target section 1:
+    257 
+  Reloc 27 (Internal: filesd_12):  Target section 1:
+    264 
+  Reloc 28 (Internal: ncp_done):  Target section 0:
+    279 
+  Reloc 29 (Internal: ncp_lp):  Target section 0:
+    282 287 
+  Reloc 30 (Internal: ncp_doneXY):  Target section 0:
+    298 
+  Reloc 31 (Internal: ncp_lpXY):  Target section 0:
+    301 306 
+  Reloc 32 (Internal: ncp_doneYX):  Target section 0:
+    317 
+  Reloc 33 (Internal: ncp_lpYX):  Target section 0:
+    320 325 
+  Reloc 34 (Internal: ncp_doneYY):  Target section 0:
+    336 
+  Reloc 35 (Internal: ncp_lpYY):  Target section 0:
+    339 344 
+  Reloc 36 (Internal: cat_next):  Target section 0:
+    357 
+  Reloc 37 (Internal: cat_next2):  Target section 0:
+    363 
+  Reloc 38 (Internal: ncat_done):  Target section 0:
+    369 380 
+  Reloc 39 (Internal: ncat_next):  Target section 0:
+    374 
+  Reloc 40 (Internal: ncat_next2):  Target section 0:
+    383 
+  Reloc 41 (Internal: ncmp_done):  Target section 0:
+    390 395 398 
+  Reloc 42 (Internal: ncmp_next):  Target section 0:
+    401 
+  Reloc 43 (Internal: chr_done):  Target section 0:
+    410 
+  Reloc 44 (Internal: chr_next):  Target section 0:
+    413 
+  Reloc 45 (Internal: rchr_chk):  Target section 0:
+    423 
+  Reloc 46 (Internal: rchr_next):  Target section 0:
+    427 
+  Reloc 47 (Internal: spn_done):  Target section 0:
+    438 442 
+  Reloc 48 (Internal: spn_next2):  Target section 0:
+    445 
+  Reloc 49 (Internal: spn_next):  Target section 0:
+    447 
+  Reloc 50 (Internal: cspn_done):  Target section 0:
+    458 462 
+  Reloc 51 (Internal: cspn_next2):  Target section 0:
+    465 
+  Reloc 52 (Internal: cspn_next):  Target section 0:
+    467 
+  Reloc 53 (Internal: pbrk_done1):  Target section 0:
+    478 
+  Reloc 54 (Internal: pbrk_done):  Target section 0:
+    482 
+  Reloc 55 (Internal: pbrk_next2):  Target section 0:
+    485 
+  Reloc 56 (Internal: pbrk_next):  Target section 0:
+    487 
+  Reloc 57 (Internal: str_done):  Target section 0:
+    500 
+  Reloc 58 (Internal: str_done1):  Target section 0:
+    503 
+  Reloc 59 (Internal: str_next2):  Target section 0:
+    506 
+  Reloc 60 (Internal: str_next):  Target section 0:
+    509 
+  Reloc 61 (Internal: mchr_nul):  Target section 0:
+    520 
+  Reloc 62 (Internal: mchr_done):  Target section 0:
+    524 
+  Reloc 63 (Internal: mchr_next):  Target section 0:
+    527 
+  Reloc 64 (Internal: _strlen):  Target section 0:
+    537 
+  Reloc 65 (Internal: @000):  Target section 0:
+    538 
+  Reloc 66 (Internal: xfrm_done):  Target section 0:
+    542 
+  Reloc 67 (Internal: _strcpy):  Target section 0:
+    544 
+  Reloc 68 (Internal: @001):  Target section 0:
+    545 
+  Reloc 69 (Internal: _strlen@0):  Target section 0:
+    553 
+  Reloc 70 (Internal: _strcpy@0):  Target section 0:
+    562 

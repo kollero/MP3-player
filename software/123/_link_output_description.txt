@@ -1,0 +1,969 @@
+56444532
+//Section 0, 'votext':
+<0300:0000> (MEMORY; PAGE 0)
+  0300 0000 sizesize 
+  0000 0000 0237  //address, align, size
+  00001f80 36130024 3e120024 3e043811 00003a50 29004500 f4004491 290019c0 
+  00000024 36f41811 36f20024 20000000 00000024 36130024 3e120024 3e05b814 
+  36150024 3e003841 3e00b843 3e013850 3e148024 29001900 00000704 00000210 
+  60802000 00000250 28000895 00000024 3000184c 60800024 00000400 28003155 
+  00000024 36f30024 00000210 00000252 00000744 3000184c 29001900 3a000024 
+  60802000 00000290 28000c95 00000024 3000184c 60800024 00000580 28002f15 
+  00000024 36f30024 00000210 00000292 00000404 3000184c 29001900 3a000024 
+  60802000 00000310 28001055 00000024 30000024 60800024 00003690 28002bd5 
+  00000024 00000210 00000312 00000404 3000184c 29001900 3a000024 60802000 
+  00000350 28001405 00000024 30000024 60800024 00000190 28002a45 00000024 
+  00000210 30000024 00000350 38000024 00000090 30000024 60800024 00000190 
+  28001e45 00000024 3010134c 30f04024 f4004041 6c8210c2 00000003 28002959 
+  00000024 000000d0 00000192 c8902003 00003690 30108024 3070c024 ad02804c 
+  3a100024 00001800 3af04024 30004024 61000024 000038d0 28001e58 00000740 
+  36130024 290016c0 3e000024 30001bcc 60900024 60900024 60900024 60900024 
+  38000024 00000090 30000024 60800024 000000d0 28002695 00000024 30000024 
+  60800024 00000110 28002685 00000024 30000024 60800024 00000000 28002685 
+  00000024 38000024 000038d0 000000c0 30004024 61000024 000008c0 28002689 
+  00000024 36130024 290016c0 3e000024 30001bcc 40900024 40900024 40900024 
+  40900024 38000024 36f48024 36f11810 36f09803 36f01801 34059014 36f30024 
+  36f20024 20000000 00000024 b386134c 34308024 6cd20024 38100024 28001e40 
+  38f04024 bc820024 b8802040 38f04024 00000090 28001400 38000024 c8900042 
+  30f0c024 00000190 ad020024 68902040 38f04024 00000090 68902000 000000d0 
+  68902000 00000110 28001040 38000024 290016c0 3e000024 00003650 68900001 
+  d1009bcc 68902000 00000010 28000c80 38000024 290016c0 3e000024 00003850 
+  68909bcc b8822240 30f30024 38004024 00002f90 68902000 00000050 28000880 
+  38000024 00000a40 36130024 3e120024 290016c0 3e000024 00000e40 290016c0 
+  3e000024 00001c80 290016c0 3e000024 000030c0 3e100024 000032c0 29001a00 
+  3e000024 00000390 1fe17f82 68921b8c fe100024 48b20024 c8962040 f40040c3 
+  6cd223c1 00003580 28003c15 00000024 36130024 290016c0 3e000024 36f30024 
+  00003850 68900024 000030d2 29000000 38000024 00003810 30000024 60800024 
+  00000024 28003f85 00000024 000037d2 b8802800 38000024 00003790 3000184c 
+  3e100024 00003b00 290016c0 3e000024 00000390 30101bcc 30f04024 3e100024 
+  00003f80 3e104024 290016c0 3e000024 000037d0 30001b4c 60800024 00000040 
+  28003c19 00000024 28003c00 38000024 36130024 40803850 3e03784f 280048c5 
+  3e03b802 40900024 24004880 003fffc2 31100024 40800024 00000024 28004895 
+  b0200024 00000002 38100024 36039bc2 36035bcf 20000000 36f40024 36130024 
+  40803850 3e03784f 28004d85 3e03b802 40900024 24004d40 003fffc2 31100024 
+  40800024 00000024 28004d55 b0200024 00000002 30092040 36039bc2 36035bcf 
+  20000000 36f40024 36130024 40803850 3e03784f 28005245 3e03b802 40900024 
+  24005200 003fffc2 30090440 40800024 00000024 28005215 b0200024 00000002 
+  38100024 36039bc2 36035bcf 20000000 36f40024 36130024 40803850 3e03784f 
+  28005705 3e03b802 40900024 240056c0 003fffc2 30090440 40800024 00000024 
+  280056d5 b0200024 00000002 30092040 36039bc2 36035bcf 20000000 36f40024 
+  36130024 3e003810 30100024 40800024 00000024 28005895 00000024 30f30024 
+  31100024 40802040 00000024 28005a15 00000024 20000000 36001bd0 4080184c 
+  00000024 28006085 3e007810 30104024 41820024 00000024 28005cd5 00000024 
+  30f30024 31104024 41820024 00000024 28006085 40902041 00000024 28005e55 
+  00000001 38004024 20000000 36005bd0 4080184c 3e00b801 280064c5 b2840024 
+  30108024 42840441 00000024 280064c5 62149801 00000024 280064d5 40900024 
+  00000024 28006215 00000024 20000000 42801bc2 36130024 3e004024 30104024 
+  6014b802 00000024 28006805 41829802 00000024 280065d5 00000024 00000050 
+  20000000 36f043cc 36130024 68923801 30007801 60120024 30104024 28006a95 
+  41820024 30093810 00000024 28006955 30004024 36005bd0 20000000 30f30024 
+  b080184c 3e00f842 3e007811 30105811 41820024 00000024 28007045 31108024 
+  42840024 00000024 28007045 62140024 00000024 28006dd5 00000024 28006cc0 
+  60900024 36f04024 20000000 3600dbc2 36130024 3e007842 b080b811 30105811 
+  41820024 00000024 28007545 31108024 62140024 00000024 28007545 42140024 
+  00000024 280072d5 00000024 280071c0 60900024 36f30024 20000000 36005bc2 
+  36130024 3e007842 30093811 30105811 41820024 00000024 28007a45 31108024 
+  62140024 00000024 28007a85 42140024 00000024 280077d5 00000024 280076c0 
+  00000024 00000050 30f31bcc 20000000 36005bc2 36130024 3e007840 30093811 
+  3e041811 31104024 41820040 00000024 28008045 40800024 00000024 28007fc5 
+  60100024 00000024 28007c45 00000024 36040024 28007c00 30130024 00000010 
+  3e040024 36f40024 20000000 36005bc0 20000000 00000010 4182184c 3e008024 
+  28008445 30108024 60240024 00000024 28008485 41920024 00000024 28008255 
+  00000024 00000050 20000000 36f083cc 36130024 3e120024 3e047810 36140024 
+  3e003801 28008940 000086c8 36004024 60120024 30091bc1 28008898 36045bd0 
+  28008b40 00008888 36f20024 20000000 00000024 c090184c 30107801 41820024 
+  00000024 280089d5 60900041 20000000 30091bc1 36130024 3e103810 3110b802 
+  42800024 31108024 28008c55 42802040 30091bc2 20000000 36f01810 
+<\ sizesize <- 08e20000 > // 2274 bytes of payload.
+
+//Section 1, 'voxdata_1':
+<0301:0000> (MEMORY; PAGE 1)
+  0301 0000 sizesize 
+  0000 0000 0109  //address, align, size
+  0000 0000 0000 0000 0000 0000 0000 0000 
+  0001 0001 0001 0001 0001 0001 0000 0000 
+  006e 0065 0078 0074 000a 0000 0070 0061 
+  0075 0073 0065 000a 0000 0076 006f 006c 
+  002d 000a 0000 0076 006f 006c 002b 000a 
+  0000 0056 0053 0031 0030 0031 0030 0043 
+  0020 0050 006c 0061 0079 0065 0072 000a 
+  0000 0050 0072 0065 0073 0073 0020 005b 
+  0053 0030 005d 0020 0074 006f 0020 0073 
+  0077 0069 0074 0063 0068 0020 0074 006f 
+  0020 006e 0065 0078 0074 0020 0073 006f 
+  006e 0067 002c 0020 0020 005b 0053 0031 
+  005d 0020 0074 006f 0020 0070 0061 0075 
+  0073 0065 002f 0070 006c 0061 0079 002e 
+  000a 0000 0050 0072 0065 0073 0073 0020 
+  005b 0053 0078 005d 0020 0074 006f 0020 
+  0073 0077 0069 0074 0063 0068 0020 0074 
+  006f 0020 0070 0072 0065 0076 0069 006f 
+  0075 0073 0020 0073 006f 006e 0067 002c 
+  0020 0020 005b 0053 0078 005d 0020 0063 
+  006f 006e 0074 0072 006f 006c 0073 0020 
+  0076 006f 006c 0075 006d 0065 002c 0020 
+  0063 006c 0069 0063 006b 0073 0020 002b 
+  002c 0020 006c 006f 006e 0067 0020 002d 
+  002e 000a 0000 0053 003a 002a 002e 004d 
+  0050 0033 0000 0043 006f 0075 006e 0074 
+  0046 0069 006c 0065 0073 0000 0043 006f 
+  0075 006e 0074 0046 0069 006c 0065 0073 
+  0020 006e 006f 0074 0020 0066 006f 0075 
+  006e 0064 000a 0000 0070 006c 0061 0079 
+  0065 0072 002e 0066 0069 006c 0065 0073 
+  003a 0020 0025 0064 000a 0000 0066 0069 
+  006c 0065 0073 003a 0020 0025 0064 000a 
+  0000 
+<\ sizesize <- 02180000 > // 536 bytes of payload.
+
+<0401:0000> (RELOCATION : SECTION NUMBER TO POKE TO)
+  0401 0000 sizesize 
+  // Relocations for section 0 follow.
+<\ sizesize <- 00000000 > // 0 bytes of payload.
+  // Relocations whose target (_strncpy) section is 0 (votext):
+<0403:0000> (RELOCATION : INTERNAL)
+  0403 0000 sizesize 
+  0001 0005 //to 1 location add base of section 0.
+<\ sizesize <- 00040000 > // 4 bytes of payload.
+  // Relocations whose target (_nowPressed) section is 1 (voxdata_1):
+<0403:0001> (RELOCATION : INTERNAL)
+  0403 0001 sizesize 
+  0005 0017 0022 0032 0041 0050 //to 5 locations add base of section 1.
+<\ sizesize <- 000c0000 > // 12 bytes of payload.
+  // Relocations whose target (_lastPressed1) section is 1 (voxdata_1):
+<0403:0001> (RELOCATION : INTERNAL)
+  0403 0001 sizesize 
+  0002 0019 0023 //to 2 locations add base of section 1.
+<\ sizesize <- 00060000 > // 6 bytes of payload.
+  // Relocations whose target (_MyPlayerCallback) section is 0 (votext):
+<0403:0000> (RELOCATION : INTERNAL)
+  0403 0000 sizesize 
+  0014 001a 001f 002a 002f 003a 003f 0049 004e 0058 005f 006e 007d 0082 0087 008f 00a7 00ad 00ba 00c3 00cf //to 20 locations add base of section 0.
+<\ sizesize <- 002a0000 > // 42 bytes of payload.
+  // Relocations whose target (next_1) section is 1 (voxdata_1):
+<0403:0001> (RELOCATION : INTERNAL)
+  0403 0001 sizesize 
+  0001 001e //to 1 location add base of section 1.
+<\ sizesize <- 00040000 > // 4 bytes of payload.
+  // Relocations whose target (_lastPressed2) section is 1 (voxdata_1):
+<0403:0001> (RELOCATION : INTERNAL)
+  0403 0001 sizesize 
+  0002 0029 0033 //to 2 locations add base of section 1.
+<\ sizesize <- 00060000 > // 6 bytes of payload.
+  // Relocations whose target (pause_2) section is 1 (voxdata_1):
+<0403:0001> (RELOCATION : INTERNAL)
+  0403 0001 sizesize 
+  0001 002e //to 1 location add base of section 1.
+<\ sizesize <- 00040000 > // 4 bytes of payload.
+  // Relocations whose target (_lastPressed4) section is 1 (voxdata_1):
+<0403:0001> (RELOCATION : INTERNAL)
+  0403 0001 sizesize 
+  0002 0039 0042 //to 2 locations add base of section 1.
+<\ sizesize <- 00060000 > // 6 bytes of payload.
+  // Relocations whose target (_lastPressed5) section is 1 (voxdata_1):
+<0403:0001> (RELOCATION : INTERNAL)
+  0403 0001 sizesize 
+  0002 0048 0052 //to 2 locations add base of section 1.
+<\ sizesize <- 00060000 > // 6 bytes of payload.
+  // Relocations whose target (_delay_samples) section is 1 (voxdata_1):
+<0403:0001> (RELOCATION : INTERNAL)
+  0403 0001 sizesize 
+  0004 004d 0057 0062 00b1 //to 4 locations add base of section 1.
+<\ sizesize <- 000a0000 > // 10 bytes of payload.
+  // Relocations whose target (_button_volume_pressed) section is 1 (voxdata_1):
+<0403:0001> (RELOCATION : INTERNAL)
+  0403 0001 sizesize 
+  0004 0054 0079 00ac 00b5 //to 4 locations add base of section 1.
+<\ sizesize <- 000a0000 > // 10 bytes of payload.
+  // Relocations whose target (_button_volume_pressed2) section is 1 (voxdata_1):
+<0403:0001> (RELOCATION : INTERNAL)
+  0403 0001 sizesize 
+  0003 0061 007c 00b7 //to 3 locations add base of section 1.
+<\ sizesize <- 00080000 > // 8 bytes of payload.
+  // Relocations whose target (vol_3) section is 1 (voxdata_1):
+<0403:0001> (RELOCATION : INTERNAL)
+  0403 0001 sizesize 
+  0001 006f //to 1 location add base of section 1.
+<\ sizesize <- 00040000 > // 4 bytes of payload.
+  // Relocations whose target (_button_volume_pressed3) section is 1 (voxdata_1):
+<0403:0001> (RELOCATION : INTERNAL)
+  0403 0001 sizesize 
+  0002 0081 00b9 //to 2 locations add base of section 1.
+<\ sizesize <- 00060000 > // 6 bytes of payload.
+  // Relocations whose target (vol_4) section is 1 (voxdata_1):
+<0403:0001> (RELOCATION : INTERNAL)
+  0403 0001 sizesize 
+  0001 008e //to 1 location add base of section 1.
+<\ sizesize <- 00040000 > // 4 bytes of payload.
+  // Relocations whose target (_button_pause_pressed) section is 1 (voxdata_1):
+<0403:0001> (RELOCATION : INTERNAL)
+  0403 0001 sizesize 
+  0001 00c2 //to 1 location add base of section 1.
+<\ sizesize <- 00040000 > // 4 bytes of payload.
+  // Relocations whose target (_button_change_song) section is 1 (voxdata_1):
+<0403:0001> (RELOCATION : INTERNAL)
+  0403 0001 sizesize 
+  0001 00ce //to 1 location add base of section 1.
+<\ sizesize <- 00040000 > // 4 bytes of payload.
+  // Relocations whose target (vs1010cpl_5) section is 1 (voxdata_1):
+<0403:0001> (RELOCATION : INTERNAL)
+  0403 0001 sizesize 
+  0001 00d1 //to 1 location add base of section 1.
+<\ sizesize <- 00040000 > // 4 bytes of payload.
+  // Relocations whose target (presss0_6) section is 1 (voxdata_1):
+<0403:0001> (RELOCATION : INTERNAL)
+  0403 0001 sizesize 
+  0001 00d6 //to 1 location add base of section 1.
+<\ sizesize <- 00040000 > // 4 bytes of payload.
+  // Relocations whose target (presssx_7) section is 1 (voxdata_1):
+<0403:0001> (RELOCATION : INTERNAL)
+  0403 0001 sizesize 
+  0001 00d9 //to 1 location add base of section 1.
+<\ sizesize <- 00040000 > // 4 bytes of payload.
+  // Relocations whose target (smp3_8) section is 1 (voxdata_1):
+<0403:0001> (RELOCATION : INTERNAL)
+  0403 0001 sizesize 
+  0002 00dc 00f2 //to 2 locations add base of section 1.
+<\ sizesize <- 00060000 > // 6 bytes of payload.
+  // Relocations whose target (countfiles_9) section is 1 (voxdata_1):
+<0403:0001> (RELOCATION : INTERNAL)
+  0403 0001 sizesize 
+  0001 00de //to 1 location add base of section 1.
+<\ sizesize <- 00040000 > // 4 bytes of payload.
+  // Relocations whose target (_totalFiles) section is 1 (voxdata_1):
+<0403:0001> (RELOCATION : INTERNAL)
+  0403 0001 sizesize 
+  0002 00e1 0104 //to 2 locations add base of section 1.
+<\ sizesize <- 00060000 > // 6 bytes of payload.
+  // Relocations whose target (countfiles_10) section is 1 (voxdata_1):
+<0403:0001> (RELOCATION : INTERNAL)
+  0403 0001 sizesize 
+  0001 00e9 //to 1 location add base of section 1.
+<\ sizesize <- 00040000 > // 4 bytes of payload.
+  // Relocations whose target (_main) section is 0 (votext):
+<0403:0000> (RELOCATION : INTERNAL)
+  0403 0000 sizesize 
+  0004 00ea 00f9 0110 0112 //to 4 locations add base of section 0.
+<\ sizesize <- 000a0000 > // 10 bytes of payload.
+  // Relocations whose target (_PlayNamedFile) section is 0 (votext):
+<0403:0000> (RELOCATION : INTERNAL)
+  0403 0000 sizesize 
+  0001 00f3 //to 1 location add base of section 0.
+<\ sizesize <- 00040000 > // 4 bytes of payload.
+  // Relocations whose target (playerfil_11) section is 1 (voxdata_1):
+<0403:0001> (RELOCATION : INTERNAL)
+  0403 0001 sizesize 
+  0001 0101 //to 1 location add base of section 1.
+<\ sizesize <- 00040000 > // 4 bytes of payload.
+  // Relocations whose target (filesd_12) section is 1 (voxdata_1):
+<0403:0001> (RELOCATION : INTERNAL)
+  0403 0001 sizesize 
+  0001 0108 //to 1 location add base of section 1.
+<\ sizesize <- 00040000 > // 4 bytes of payload.
+  // Relocations whose target (ncp_done) section is 0 (votext):
+<0403:0000> (RELOCATION : INTERNAL)
+  0403 0000 sizesize 
+  0001 0117 //to 1 location add base of section 0.
+<\ sizesize <- 00040000 > // 4 bytes of payload.
+  // Relocations whose target (ncp_lp) section is 0 (votext):
+<0403:0000> (RELOCATION : INTERNAL)
+  0403 0000 sizesize 
+  0002 011a 011f //to 2 locations add base of section 0.
+<\ sizesize <- 00060000 > // 6 bytes of payload.
+  // Relocations whose target (ncp_doneXY) section is 0 (votext):
+<0403:0000> (RELOCATION : INTERNAL)
+  0403 0000 sizesize 
+  0001 012a //to 1 location add base of section 0.
+<\ sizesize <- 00040000 > // 4 bytes of payload.
+  // Relocations whose target (ncp_lpXY) section is 0 (votext):
+<0403:0000> (RELOCATION : INTERNAL)
+  0403 0000 sizesize 
+  0002 012d 0132 //to 2 locations add base of section 0.
+<\ sizesize <- 00060000 > // 6 bytes of payload.
+  // Relocations whose target (ncp_doneYX) section is 0 (votext):
+<0403:0000> (RELOCATION : INTERNAL)
+  0403 0000 sizesize 
+  0001 013d //to 1 location add base of section 0.
+<\ sizesize <- 00040000 > // 4 bytes of payload.
+  // Relocations whose target (ncp_lpYX) section is 0 (votext):
+<0403:0000> (RELOCATION : INTERNAL)
+  0403 0000 sizesize 
+  0002 0140 0145 //to 2 locations add base of section 0.
+<\ sizesize <- 00060000 > // 6 bytes of payload.
+  // Relocations whose target (ncp_doneYY) section is 0 (votext):
+<0403:0000> (RELOCATION : INTERNAL)
+  0403 0000 sizesize 
+  0001 0150 //to 1 location add base of section 0.
+<\ sizesize <- 00040000 > // 4 bytes of payload.
+  // Relocations whose target (ncp_lpYY) section is 0 (votext):
+<0403:0000> (RELOCATION : INTERNAL)
+  0403 0000 sizesize 
+  0002 0153 0158 //to 2 locations add base of section 0.
+<\ sizesize <- 00060000 > // 6 bytes of payload.
+  // Relocations whose target (cat_next) section is 0 (votext):
+<0403:0000> (RELOCATION : INTERNAL)
+  0403 0000 sizesize 
+  0001 0165 //to 1 location add base of section 0.
+<\ sizesize <- 00040000 > // 4 bytes of payload.
+  // Relocations whose target (cat_next2) section is 0 (votext):
+<0403:0000> (RELOCATION : INTERNAL)
+  0403 0000 sizesize 
+  0001 016b //to 1 location add base of section 0.
+<\ sizesize <- 00040000 > // 4 bytes of payload.
+  // Relocations whose target (ncat_done) section is 0 (votext):
+<0403:0000> (RELOCATION : INTERNAL)
+  0403 0000 sizesize 
+  0002 0171 017c //to 2 locations add base of section 0.
+<\ sizesize <- 00060000 > // 6 bytes of payload.
+  // Relocations whose target (ncat_next) section is 0 (votext):
+<0403:0000> (RELOCATION : INTERNAL)
+  0403 0000 sizesize 
+  0001 0176 //to 1 location add base of section 0.
+<\ sizesize <- 00040000 > // 4 bytes of payload.
+  // Relocations whose target (ncat_next2) section is 0 (votext):
+<0403:0000> (RELOCATION : INTERNAL)
+  0403 0000 sizesize 
+  0001 017f //to 1 location add base of section 0.
+<\ sizesize <- 00040000 > // 4 bytes of payload.
+  // Relocations whose target (ncmp_done) section is 0 (votext):
+<0403:0000> (RELOCATION : INTERNAL)
+  0403 0000 sizesize 
+  0003 0186 018b 018e //to 3 locations add base of section 0.
+<\ sizesize <- 00080000 > // 8 bytes of payload.
+  // Relocations whose target (ncmp_next) section is 0 (votext):
+<0403:0000> (RELOCATION : INTERNAL)
+  0403 0000 sizesize 
+  0001 0191 //to 1 location add base of section 0.
+<\ sizesize <- 00040000 > // 4 bytes of payload.
+  // Relocations whose target (chr_done) section is 0 (votext):
+<0403:0000> (RELOCATION : INTERNAL)
+  0403 0000 sizesize 
+  0001 019a //to 1 location add base of section 0.
+<\ sizesize <- 00040000 > // 4 bytes of payload.
+  // Relocations whose target (chr_next) section is 0 (votext):
+<0403:0000> (RELOCATION : INTERNAL)
+  0403 0000 sizesize 
+  0001 019d //to 1 location add base of section 0.
+<\ sizesize <- 00040000 > // 4 bytes of payload.
+  // Relocations whose target (rchr_chk) section is 0 (votext):
+<0403:0000> (RELOCATION : INTERNAL)
+  0403 0000 sizesize 
+  0001 01a7 //to 1 location add base of section 0.
+<\ sizesize <- 00040000 > // 4 bytes of payload.
+  // Relocations whose target (rchr_next) section is 0 (votext):
+<0403:0000> (RELOCATION : INTERNAL)
+  0403 0000 sizesize 
+  0001 01ab //to 1 location add base of section 0.
+<\ sizesize <- 00040000 > // 4 bytes of payload.
+  // Relocations whose target (spn_done) section is 0 (votext):
+<0403:0000> (RELOCATION : INTERNAL)
+  0403 0000 sizesize 
+  0002 01b6 01ba //to 2 locations add base of section 0.
+<\ sizesize <- 00060000 > // 6 bytes of payload.
+  // Relocations whose target (spn_next2) section is 0 (votext):
+<0403:0000> (RELOCATION : INTERNAL)
+  0403 0000 sizesize 
+  0001 01bd //to 1 location add base of section 0.
+<\ sizesize <- 00040000 > // 4 bytes of payload.
+  // Relocations whose target (spn_next) section is 0 (votext):
+<0403:0000> (RELOCATION : INTERNAL)
+  0403 0000 sizesize 
+  0001 01bf //to 1 location add base of section 0.
+<\ sizesize <- 00040000 > // 4 bytes of payload.
+  // Relocations whose target (cspn_done) section is 0 (votext):
+<0403:0000> (RELOCATION : INTERNAL)
+  0403 0000 sizesize 
+  0002 01ca 01ce //to 2 locations add base of section 0.
+<\ sizesize <- 00060000 > // 6 bytes of payload.
+  // Relocations whose target (cspn_next2) section is 0 (votext):
+<0403:0000> (RELOCATION : INTERNAL)
+  0403 0000 sizesize 
+  0001 01d1 //to 1 location add base of section 0.
+<\ sizesize <- 00040000 > // 4 bytes of payload.
+  // Relocations whose target (cspn_next) section is 0 (votext):
+<0403:0000> (RELOCATION : INTERNAL)
+  0403 0000 sizesize 
+  0001 01d3 //to 1 location add base of section 0.
+<\ sizesize <- 00040000 > // 4 bytes of payload.
+  // Relocations whose target (pbrk_done1) section is 0 (votext):
+<0403:0000> (RELOCATION : INTERNAL)
+  0403 0000 sizesize 
+  0001 01de //to 1 location add base of section 0.
+<\ sizesize <- 00040000 > // 4 bytes of payload.
+  // Relocations whose target (pbrk_done) section is 0 (votext):
+<0403:0000> (RELOCATION : INTERNAL)
+  0403 0000 sizesize 
+  0001 01e2 //to 1 location add base of section 0.
+<\ sizesize <- 00040000 > // 4 bytes of payload.
+  // Relocations whose target (pbrk_next2) section is 0 (votext):
+<0403:0000> (RELOCATION : INTERNAL)
+  0403 0000 sizesize 
+  0001 01e5 //to 1 location add base of section 0.
+<\ sizesize <- 00040000 > // 4 bytes of payload.
+  // Relocations whose target (pbrk_next) section is 0 (votext):
+<0403:0000> (RELOCATION : INTERNAL)
+  0403 0000 sizesize 
+  0001 01e7 //to 1 location add base of section 0.
+<\ sizesize <- 00040000 > // 4 bytes of payload.
+  // Relocations whose target (str_done) section is 0 (votext):
+<0403:0000> (RELOCATION : INTERNAL)
+  0403 0000 sizesize 
+  0001 01f4 //to 1 location add base of section 0.
+<\ sizesize <- 00040000 > // 4 bytes of payload.
+  // Relocations whose target (str_done1) section is 0 (votext):
+<0403:0000> (RELOCATION : INTERNAL)
+  0403 0000 sizesize 
+  0001 01f7 //to 1 location add base of section 0.
+<\ sizesize <- 00040000 > // 4 bytes of payload.
+  // Relocations whose target (str_next2) section is 0 (votext):
+<0403:0000> (RELOCATION : INTERNAL)
+  0403 0000 sizesize 
+  0001 01fa //to 1 location add base of section 0.
+<\ sizesize <- 00040000 > // 4 bytes of payload.
+  // Relocations whose target (str_next) section is 0 (votext):
+<0403:0000> (RELOCATION : INTERNAL)
+  0403 0000 sizesize 
+  0001 01fd //to 1 location add base of section 0.
+<\ sizesize <- 00040000 > // 4 bytes of payload.
+  // Relocations whose target (mchr_nul) section is 0 (votext):
+<0403:0000> (RELOCATION : INTERNAL)
+  0403 0000 sizesize 
+  0001 0208 //to 1 location add base of section 0.
+<\ sizesize <- 00040000 > // 4 bytes of payload.
+  // Relocations whose target (mchr_done) section is 0 (votext):
+<0403:0000> (RELOCATION : INTERNAL)
+  0403 0000 sizesize 
+  0001 020c //to 1 location add base of section 0.
+<\ sizesize <- 00040000 > // 4 bytes of payload.
+  // Relocations whose target (mchr_next) section is 0 (votext):
+<0403:0000> (RELOCATION : INTERNAL)
+  0403 0000 sizesize 
+  0001 020f //to 1 location add base of section 0.
+<\ sizesize <- 00040000 > // 4 bytes of payload.
+  // Relocations whose target (_strlen) section is 0 (votext):
+<0403:0000> (RELOCATION : INTERNAL)
+  0403 0000 sizesize 
+  0001 0219 //to 1 location add base of section 0.
+<\ sizesize <- 00040000 > // 4 bytes of payload.
+  // Relocations whose target (@000) section is 0 (votext):
+<0403:0000> (RELOCATION : INTERNAL)
+  0403 0000 sizesize 
+  0001 021a //to 1 location add base of section 0.
+<\ sizesize <- 00040000 > // 4 bytes of payload.
+  // Relocations whose target (xfrm_done) section is 0 (votext):
+<0403:0000> (RELOCATION : INTERNAL)
+  0403 0000 sizesize 
+  0001 021e //to 1 location add base of section 0.
+<\ sizesize <- 00040000 > // 4 bytes of payload.
+  // Relocations whose target (_strcpy) section is 0 (votext):
+<0403:0000> (RELOCATION : INTERNAL)
+  0403 0000 sizesize 
+  0001 0220 //to 1 location add base of section 0.
+<\ sizesize <- 00040000 > // 4 bytes of payload.
+  // Relocations whose target (@001) section is 0 (votext):
+<0403:0000> (RELOCATION : INTERNAL)
+  0403 0000 sizesize 
+  0001 0221 //to 1 location add base of section 0.
+<\ sizesize <- 00040000 > // 4 bytes of payload.
+  // Relocations whose target (_strlen@0) section is 0 (votext):
+<0403:0000> (RELOCATION : INTERNAL)
+  0403 0000 sizesize 
+  0001 0229 //to 1 location add base of section 0.
+<\ sizesize <- 00040000 > // 4 bytes of payload.
+  // Relocations whose target (_strcpy@0) section is 0 (votext):
+<0403:0000> (RELOCATION : INTERNAL)
+  0403 0000 sizesize 
+  0001 0232 //to 1 location add base of section 0.
+<\ sizesize <- 00040000 > // 4 bytes of payload.
+//From Emulation-Debug\main.o: //From Emulation-Debug\main.o: //From Emulation-Debug\main.o: //From D:\VSIDE\libvs1010/libc.a:_string.o: //From D:\VSIDE\libvs1010/libc.a:_string.o: //From D:\VSIDE\libvs1010/libc.a:_string.o: //From D:\VSIDE\libvs1010/libc.a:_string.o: //From D:\VSIDE\libvs1010/libc.a:_string.o: //From D:\VSIDE\libvs1010/libc.a:_string.o: //From D:\VSIDE\libvs1010/libc.a:_string.o: //From D:\VSIDE\libvs1010/libc.a:_string.o: //From D:\VSIDE\libvs1010/libc.a:_string.o: //From D:\VSIDE\libvs1010/libc.a:_string.o: //From D:\VSIDE\libvs1010/libc.a:_string.o: //From D:\VSIDE\libvs1010/libc.a:_string.o: //From D:\VSIDE\libvs1010/libc.a:_string.o: //From D:\VSIDE\libvs1010/libc.a:_string.o: //From D:\VSIDE\libvs1010/libc.a:_string.o: //From D:\VSIDE\libvs1010/libc.a:_string.o: //From D:\VSIDE\libvs1010/libc.a:_string.o: //From D:\VSIDE\libvs1010/libc.a:_string.o: //From D:\VSIDE\libvs1010/libc.a:_string.o: //From D:\VSIDE\libvs1010/libc.a:_string.o: //From D:\VSIDE\libvs1010/libc.a:_string.o: //From D:\VSIDE\libvs1010/libc.a:_string.o: //From D:\VSIDE\libvs1010/libc.a:_string.o: //From D:\VSIDE\libvs1010/libc.a:_string.o: //From D:\VSIDE\libvs1010/libc.a:_string.o: //From D:\VSIDE\libvs1010/libc.a:_string.o: //From D:\VSIDE\libvs1010/libc.a:_string.o: //From D:\VSIDE\libvs1010/libc.a:_string.o: //From D:\VSIDE\libvs1010/libc.a:_string.o: //From D:\VSIDE\libvs1010/libc.a:_string.o: //From D:\VSIDE\libvs1010/libc.a:_string.o: //From D:\VSIDE\libvs1010/libc.a:_string.o: //From D:\VSIDE\libvs1010/libc.a:_string.o: //From D:\VSIDE\libvs1010/libc.a:_string.o: //From D:\VSIDE\libvs1010/libc.a:_string.o: //From D:\VSIDE\libvs1010/libc.a:_string.o: //From D:\VSIDE\libvs1010/libc.a:_strlen.o: //From D:\VSIDE\libvs1010/libc.a:_strcpy.o: //From D:\VSIDE\libvs1010/libc.a:_string.o: //From D:\VSIDE\libvs1010/libc.a:_string.o: //From D:\VSIDE\libvs1010/libc.a:_string.o: //From D:\VSIDE\libvs1010/libc.a:_string.o: //From D:\VSIDE\libvs1010/libc.a:_string.o: //From D:\VSIDE\libvs1010/libc.a:_strlen.o: //From D:\VSIDE\libvs1010/libc.a:_strlen.o: //From D:\VSIDE\libvs1010/libc.a:_strcpy.o: //From D:\VSIDE\libvs1010/libc.a:_strcpy.o: //From Emulation-Debug\main.o: //From Emulation-Debug\main.o: //From Emulation-Debug\main.o: //From Emulation-Debug\main.o: //From Emulation-Debug\main.o: //From Emulation-Debug\main.o: //From Emulation-Debug\main.o: //From Emulation-Debug\main.o: //From Emulation-Debug\main.o: //From Emulation-Debug\main.o: //From Emulation-Debug\main.o: //From Emulation-Debug\main.o: //From Emulation-Debug\main.o: //From Emulation-Debug\main.o: //From Emulation-Debug\main.o: //From Emulation-Debug\main.o: //From Emulation-Debug\main.o: //From Emulation-Debug\main.o: //From Emulation-Debug\main.o: //From Emulation-Debug\main.o: //From Emulation-Debug\main.o: //From Emulation-Debug\main.o: //From Emulation-Debug\main.o: //From Emulation-Debug\main.o: 
+<0900:0000> (ENTRYLIST)
+  0900 0000 sizesize 
+  0061 0000 000d  // _MyPlayerCallback
+  6d61 0000 00d1  // _main
+  
+<\ sizesize <- 000c0000 > // 12 bytes of payload.
+00000000 ffffffff 56444532
+//Section 2, 'votext':
+<0300:0000> (MEMORY; PAGE 0)
+  0300 0000 sizesize 
+  0000 0000 0237  //address, align, size
+  00001f80 36130024 3e120024 3e043811 00003a50 29004500 f4004491 290019c0 
+  00000024 36f41811 36f20024 20000000 00000024 36130024 3e120024 3e05b814 
+  36150024 3e003841 3e00b843 3e013850 3e148024 29001900 00000704 00000210 
+  60802000 00000250 28000895 00000024 3000184c 60800024 00000400 28003155 
+  00000024 36f30024 00000210 00000252 00000744 3000184c 29001900 3a000024 
+  60802000 00000290 28000c95 00000024 3000184c 60800024 00000580 28002f15 
+  00000024 36f30024 00000210 00000292 00000404 3000184c 29001900 3a000024 
+  60802000 00000310 28001055 00000024 30000024 60800024 00003690 28002bd5 
+  00000024 00000210 00000312 00000404 3000184c 29001900 3a000024 60802000 
+  00000350 28001405 00000024 30000024 60800024 00000190 28002a45 00000024 
+  00000210 30000024 00000350 38000024 00000090 30000024 60800024 00000190 
+  28001e45 00000024 3010134c 30f04024 f4004041 6c8210c2 00000003 28002959 
+  00000024 000000d0 00000192 c8902003 00003690 30108024 3070c024 ad02804c 
+  3a100024 00001800 3af04024 30004024 61000024 000038d0 28001e58 00000740 
+  36130024 290016c0 3e000024 30001bcc 60900024 60900024 60900024 60900024 
+  38000024 00000090 30000024 60800024 000000d0 28002695 00000024 30000024 
+  60800024 00000110 28002685 00000024 30000024 60800024 00000000 28002685 
+  00000024 38000024 000038d0 000000c0 30004024 61000024 000008c0 28002689 
+  00000024 36130024 290016c0 3e000024 30001bcc 40900024 40900024 40900024 
+  40900024 38000024 36f48024 36f11810 36f09803 36f01801 34059014 36f30024 
+  36f20024 20000000 00000024 b386134c 34308024 6cd20024 38100024 28001e40 
+  38f04024 bc820024 b8802040 38f04024 00000090 28001400 38000024 c8900042 
+  30f0c024 00000190 ad020024 68902040 38f04024 00000090 68902000 000000d0 
+  68902000 00000110 28001040 38000024 290016c0 3e000024 00003650 68900001 
+  d1009bcc 68902000 00000010 28000c80 38000024 290016c0 3e000024 00003850 
+  68909bcc b8822240 30f30024 38004024 00002f90 68902000 00000050 28000880 
+  38000024 00000a40 36130024 3e120024 290016c0 3e000024 00000e40 290016c0 
+  3e000024 00001c80 290016c0 3e000024 000030c0 3e100024 000032c0 29001a00 
+  3e000024 00000390 1fe17f82 68921b8c fe100024 48b20024 c8962040 f40040c3 
+  6cd223c1 00003580 28003c15 00000024 36130024 290016c0 3e000024 36f30024 
+  00003850 68900024 000030d2 29000000 38000024 00003810 30000024 60800024 
+  00000024 28003f85 00000024 000037d2 b8802800 38000024 00003790 3000184c 
+  3e100024 00003b00 290016c0 3e000024 00000390 30101bcc 30f04024 3e100024 
+  00003f80 3e104024 290016c0 3e000024 000037d0 30001b4c 60800024 00000040 
+  28003c19 00000024 28003c00 38000024 36130024 40803850 3e03784f 280048c5 
+  3e03b802 40900024 24004880 003fffc2 31100024 40800024 00000024 28004895 
+  b0200024 00000002 38100024 36039bc2 36035bcf 20000000 36f40024 36130024 
+  40803850 3e03784f 28004d85 3e03b802 40900024 24004d40 003fffc2 31100024 
+  40800024 00000024 28004d55 b0200024 00000002 30092040 36039bc2 36035bcf 
+  20000000 36f40024 36130024 40803850 3e03784f 28005245 3e03b802 40900024 
+  24005200 003fffc2 30090440 40800024 00000024 28005215 b0200024 00000002 
+  38100024 36039bc2 36035bcf 20000000 36f40024 36130024 40803850 3e03784f 
+  28005705 3e03b802 40900024 240056c0 003fffc2 30090440 40800024 00000024 
+  280056d5 b0200024 00000002 30092040 36039bc2 36035bcf 20000000 36f40024 
+  36130024 3e003810 30100024 40800024 00000024 28005895 00000024 30f30024 
+  31100024 40802040 00000024 28005a15 00000024 20000000 36001bd0 4080184c 
+  00000024 28006085 3e007810 30104024 41820024 00000024 28005cd5 00000024 
+  30f30024 31104024 41820024 00000024 28006085 40902041 00000024 28005e55 
+  00000001 38004024 20000000 36005bd0 4080184c 3e00b801 280064c5 b2840024 
+  30108024 42840441 00000024 280064c5 62149801 00000024 280064d5 40900024 
+  00000024 28006215 00000024 20000000 42801bc2 36130024 3e004024 30104024 
+  6014b802 00000024 28006805 41829802 00000024 280065d5 00000024 00000050 
+  20000000 36f043cc 36130024 68923801 30007801 60120024 30104024 28006a95 
+  41820024 30093810 00000024 28006955 30004024 36005bd0 20000000 30f30024 
+  b080184c 3e00f842 3e007811 30105811 41820024 00000024 28007045 31108024 
+  42840024 00000024 28007045 62140024 00000024 28006dd5 00000024 28006cc0 
+  60900024 36f04024 20000000 3600dbc2 36130024 3e007842 b080b811 30105811 
+  41820024 00000024 28007545 31108024 62140024 00000024 28007545 42140024 
+  00000024 280072d5 00000024 280071c0 60900024 36f30024 20000000 36005bc2 
+  36130024 3e007842 30093811 30105811 41820024 00000024 28007a45 31108024 
+  62140024 00000024 28007a85 42140024 00000024 280077d5 00000024 280076c0 
+  00000024 00000050 30f31bcc 20000000 36005bc2 36130024 3e007840 30093811 
+  3e041811 31104024 41820040 00000024 28008045 40800024 00000024 28007fc5 
+  60100024 00000024 28007c45 00000024 36040024 28007c00 30130024 00000010 
+  3e040024 36f40024 20000000 36005bc0 20000000 00000010 4182184c 3e008024 
+  28008445 30108024 60240024 00000024 28008485 41920024 00000024 28008255 
+  00000024 00000050 20000000 36f083cc 36130024 3e120024 3e047810 36140024 
+  3e003801 28008940 000086c8 36004024 60120024 30091bc1 28008898 36045bd0 
+  28008b40 00008888 36f20024 20000000 00000024 c090184c 30107801 41820024 
+  00000024 280089d5 60900041 20000000 30091bc1 36130024 3e103810 3110b802 
+  42800024 31108024 28008c55 42802040 30091bc2 20000000 36f01810 
+<\ sizesize <- 08e20000 > // 2274 bytes of payload.
+
+//Section 3, 'voxdata_1':
+<0301:0000> (MEMORY; PAGE 1)
+  0301 0000 sizesize 
+  0000 0000 0109  //address, align, size
+  0000 0000 0000 0000 0000 0000 0000 0000 
+  0001 0001 0001 0001 0001 0001 0000 0000 
+  006e 0065 0078 0074 000a 0000 0070 0061 
+  0075 0073 0065 000a 0000 0076 006f 006c 
+  002d 000a 0000 0076 006f 006c 002b 000a 
+  0000 0056 0053 0031 0030 0031 0030 0043 
+  0020 0050 006c 0061 0079 0065 0072 000a 
+  0000 0050 0072 0065 0073 0073 0020 005b 
+  0053 0030 005d 0020 0074 006f 0020 0073 
+  0077 0069 0074 0063 0068 0020 0074 006f 
+  0020 006e 0065 0078 0074 0020 0073 006f 
+  006e 0067 002c 0020 0020 005b 0053 0031 
+  005d 0020 0074 006f 0020 0070 0061 0075 
+  0073 0065 002f 0070 006c 0061 0079 002e 
+  000a 0000 0050 0072 0065 0073 0073 0020 
+  005b 0053 0078 005d 0020 0074 006f 0020 
+  0073 0077 0069 0074 0063 0068 0020 0074 
+  006f 0020 0070 0072 0065 0076 0069 006f 
+  0075 0073 0020 0073 006f 006e 0067 002c 
+  0020 0020 005b 0053 0078 005d 0020 0063 
+  006f 006e 0074 0072 006f 006c 0073 0020 
+  0076 006f 006c 0075 006d 0065 002c 0020 
+  0063 006c 0069 0063 006b 0073 0020 002b 
+  002c 0020 006c 006f 006e 0067 0020 002d 
+  002e 000a 0000 0053 003a 002a 002e 004d 
+  0050 0033 0000 0043 006f 0075 006e 0074 
+  0046 0069 006c 0065 0073 0000 0043 006f 
+  0075 006e 0074 0046 0069 006c 0065 0073 
+  0020 006e 006f 0074 0020 0066 006f 0075 
+  006e 0064 000a 0000 0070 006c 0061 0079 
+  0065 0072 002e 0066 0069 006c 0065 0073 
+  003a 0020 0025 0064 000a 0000 0066 0069 
+  006c 0065 0073 003a 0020 0025 0064 000a 
+  0000 
+<\ sizesize <- 02180000 > // 536 bytes of payload.
+
+<0401:0000> (RELOCATION : SECTION NUMBER TO POKE TO)
+  0401 0000 sizesize 
+  // Relocations for section 0 follow.
+<\ sizesize <- 00000000 > // 0 bytes of payload.
+  // Relocations whose target (_strncpy) section is 0 (votext):
+<0403:0000> (RELOCATION : INTERNAL)
+  0403 0000 sizesize 
+  0001 0005 //to 1 location add base of section 0.
+<\ sizesize <- 00040000 > // 4 bytes of payload.
+  // Relocations whose target (_nowPressed) section is 1 (voxdata_1):
+<0403:0001> (RELOCATION : INTERNAL)
+  0403 0001 sizesize 
+  0005 0017 0022 0032 0041 0050 //to 5 locations add base of section 1.
+<\ sizesize <- 000c0000 > // 12 bytes of payload.
+  // Relocations whose target (_lastPressed1) section is 1 (voxdata_1):
+<0403:0001> (RELOCATION : INTERNAL)
+  0403 0001 sizesize 
+  0002 0019 0023 //to 2 locations add base of section 1.
+<\ sizesize <- 00060000 > // 6 bytes of payload.
+  // Relocations whose target (_MyPlayerCallback) section is 0 (votext):
+<0403:0000> (RELOCATION : INTERNAL)
+  0403 0000 sizesize 
+  0014 001a 001f 002a 002f 003a 003f 0049 004e 0058 005f 006e 007d 0082 0087 008f 00a7 00ad 00ba 00c3 00cf //to 20 locations add base of section 0.
+<\ sizesize <- 002a0000 > // 42 bytes of payload.
+  // Relocations whose target (next_1) section is 1 (voxdata_1):
+<0403:0001> (RELOCATION : INTERNAL)
+  0403 0001 sizesize 
+  0001 001e //to 1 location add base of section 1.
+<\ sizesize <- 00040000 > // 4 bytes of payload.
+  // Relocations whose target (_lastPressed2) section is 1 (voxdata_1):
+<0403:0001> (RELOCATION : INTERNAL)
+  0403 0001 sizesize 
+  0002 0029 0033 //to 2 locations add base of section 1.
+<\ sizesize <- 00060000 > // 6 bytes of payload.
+  // Relocations whose target (pause_2) section is 1 (voxdata_1):
+<0403:0001> (RELOCATION : INTERNAL)
+  0403 0001 sizesize 
+  0001 002e //to 1 location add base of section 1.
+<\ sizesize <- 00040000 > // 4 bytes of payload.
+  // Relocations whose target (_lastPressed4) section is 1 (voxdata_1):
+<0403:0001> (RELOCATION : INTERNAL)
+  0403 0001 sizesize 
+  0002 0039 0042 //to 2 locations add base of section 1.
+<\ sizesize <- 00060000 > // 6 bytes of payload.
+  // Relocations whose target (_lastPressed5) section is 1 (voxdata_1):
+<0403:0001> (RELOCATION : INTERNAL)
+  0403 0001 sizesize 
+  0002 0048 0052 //to 2 locations add base of section 1.
+<\ sizesize <- 00060000 > // 6 bytes of payload.
+  // Relocations whose target (_delay_samples) section is 1 (voxdata_1):
+<0403:0001> (RELOCATION : INTERNAL)
+  0403 0001 sizesize 
+  0004 004d 0057 0062 00b1 //to 4 locations add base of section 1.
+<\ sizesize <- 000a0000 > // 10 bytes of payload.
+  // Relocations whose target (_button_volume_pressed) section is 1 (voxdata_1):
+<0403:0001> (RELOCATION : INTERNAL)
+  0403 0001 sizesize 
+  0004 0054 0079 00ac 00b5 //to 4 locations add base of section 1.
+<\ sizesize <- 000a0000 > // 10 bytes of payload.
+  // Relocations whose target (_button_volume_pressed2) section is 1 (voxdata_1):
+<0403:0001> (RELOCATION : INTERNAL)
+  0403 0001 sizesize 
+  0003 0061 007c 00b7 //to 3 locations add base of section 1.
+<\ sizesize <- 00080000 > // 8 bytes of payload.
+  // Relocations whose target (vol_3) section is 1 (voxdata_1):
+<0403:0001> (RELOCATION : INTERNAL)
+  0403 0001 sizesize 
+  0001 006f //to 1 location add base of section 1.
+<\ sizesize <- 00040000 > // 4 bytes of payload.
+  // Relocations whose target (_button_volume_pressed3) section is 1 (voxdata_1):
+<0403:0001> (RELOCATION : INTERNAL)
+  0403 0001 sizesize 
+  0002 0081 00b9 //to 2 locations add base of section 1.
+<\ sizesize <- 00060000 > // 6 bytes of payload.
+  // Relocations whose target (vol_4) section is 1 (voxdata_1):
+<0403:0001> (RELOCATION : INTERNAL)
+  0403 0001 sizesize 
+  0001 008e //to 1 location add base of section 1.
+<\ sizesize <- 00040000 > // 4 bytes of payload.
+  // Relocations whose target (_button_pause_pressed) section is 1 (voxdata_1):
+<0403:0001> (RELOCATION : INTERNAL)
+  0403 0001 sizesize 
+  0001 00c2 //to 1 location add base of section 1.
+<\ sizesize <- 00040000 > // 4 bytes of payload.
+  // Relocations whose target (_button_change_song) section is 1 (voxdata_1):
+<0403:0001> (RELOCATION : INTERNAL)
+  0403 0001 sizesize 
+  0001 00ce //to 1 location add base of section 1.
+<\ sizesize <- 00040000 > // 4 bytes of payload.
+  // Relocations whose target (vs1010cpl_5) section is 1 (voxdata_1):
+<0403:0001> (RELOCATION : INTERNAL)
+  0403 0001 sizesize 
+  0001 00d1 //to 1 location add base of section 1.
+<\ sizesize <- 00040000 > // 4 bytes of payload.
+  // Relocations whose target (presss0_6) section is 1 (voxdata_1):
+<0403:0001> (RELOCATION : INTERNAL)
+  0403 0001 sizesize 
+  0001 00d6 //to 1 location add base of section 1.
+<\ sizesize <- 00040000 > // 4 bytes of payload.
+  // Relocations whose target (presssx_7) section is 1 (voxdata_1):
+<0403:0001> (RELOCATION : INTERNAL)
+  0403 0001 sizesize 
+  0001 00d9 //to 1 location add base of section 1.
+<\ sizesize <- 00040000 > // 4 bytes of payload.
+  // Relocations whose target (smp3_8) section is 1 (voxdata_1):
+<0403:0001> (RELOCATION : INTERNAL)
+  0403 0001 sizesize 
+  0002 00dc 00f2 //to 2 locations add base of section 1.
+<\ sizesize <- 00060000 > // 6 bytes of payload.
+  // Relocations whose target (countfiles_9) section is 1 (voxdata_1):
+<0403:0001> (RELOCATION : INTERNAL)
+  0403 0001 sizesize 
+  0001 00de //to 1 location add base of section 1.
+<\ sizesize <- 00040000 > // 4 bytes of payload.
+  // Relocations whose target (_totalFiles) section is 1 (voxdata_1):
+<0403:0001> (RELOCATION : INTERNAL)
+  0403 0001 sizesize 
+  0002 00e1 0104 //to 2 locations add base of section 1.
+<\ sizesize <- 00060000 > // 6 bytes of payload.
+  // Relocations whose target (countfiles_10) section is 1 (voxdata_1):
+<0403:0001> (RELOCATION : INTERNAL)
+  0403 0001 sizesize 
+  0001 00e9 //to 1 location add base of section 1.
+<\ sizesize <- 00040000 > // 4 bytes of payload.
+  // Relocations whose target (_main) section is 0 (votext):
+<0403:0000> (RELOCATION : INTERNAL)
+  0403 0000 sizesize 
+  0004 00ea 00f9 0110 0112 //to 4 locations add base of section 0.
+<\ sizesize <- 000a0000 > // 10 bytes of payload.
+  // Relocations whose target (_PlayNamedFile) section is 0 (votext):
+<0403:0000> (RELOCATION : INTERNAL)
+  0403 0000 sizesize 
+  0001 00f3 //to 1 location add base of section 0.
+<\ sizesize <- 00040000 > // 4 bytes of payload.
+  // Relocations whose target (playerfil_11) section is 1 (voxdata_1):
+<0403:0001> (RELOCATION : INTERNAL)
+  0403 0001 sizesize 
+  0001 0101 //to 1 location add base of section 1.
+<\ sizesize <- 00040000 > // 4 bytes of payload.
+  // Relocations whose target (filesd_12) section is 1 (voxdata_1):
+<0403:0001> (RELOCATION : INTERNAL)
+  0403 0001 sizesize 
+  0001 0108 //to 1 location add base of section 1.
+<\ sizesize <- 00040000 > // 4 bytes of payload.
+  // Relocations whose target (ncp_done) section is 0 (votext):
+<0403:0000> (RELOCATION : INTERNAL)
+  0403 0000 sizesize 
+  0001 0117 //to 1 location add base of section 0.
+<\ sizesize <- 00040000 > // 4 bytes of payload.
+  // Relocations whose target (ncp_lp) section is 0 (votext):
+<0403:0000> (RELOCATION : INTERNAL)
+  0403 0000 sizesize 
+  0002 011a 011f //to 2 locations add base of section 0.
+<\ sizesize <- 00060000 > // 6 bytes of payload.
+  // Relocations whose target (ncp_doneXY) section is 0 (votext):
+<0403:0000> (RELOCATION : INTERNAL)
+  0403 0000 sizesize 
+  0001 012a //to 1 location add base of section 0.
+<\ sizesize <- 00040000 > // 4 bytes of payload.
+  // Relocations whose target (ncp_lpXY) section is 0 (votext):
+<0403:0000> (RELOCATION : INTERNAL)
+  0403 0000 sizesize 
+  0002 012d 0132 //to 2 locations add base of section 0.
+<\ sizesize <- 00060000 > // 6 bytes of payload.
+  // Relocations whose target (ncp_doneYX) section is 0 (votext):
+<0403:0000> (RELOCATION : INTERNAL)
+  0403 0000 sizesize 
+  0001 013d //to 1 location add base of section 0.
+<\ sizesize <- 00040000 > // 4 bytes of payload.
+  // Relocations whose target (ncp_lpYX) section is 0 (votext):
+<0403:0000> (RELOCATION : INTERNAL)
+  0403 0000 sizesize 
+  0002 0140 0145 //to 2 locations add base of section 0.
+<\ sizesize <- 00060000 > // 6 bytes of payload.
+  // Relocations whose target (ncp_doneYY) section is 0 (votext):
+<0403:0000> (RELOCATION : INTERNAL)
+  0403 0000 sizesize 
+  0001 0150 //to 1 location add base of section 0.
+<\ sizesize <- 00040000 > // 4 bytes of payload.
+  // Relocations whose target (ncp_lpYY) section is 0 (votext):
+<0403:0000> (RELOCATION : INTERNAL)
+  0403 0000 sizesize 
+  0002 0153 0158 //to 2 locations add base of section 0.
+<\ sizesize <- 00060000 > // 6 bytes of payload.
+  // Relocations whose target (cat_next) section is 0 (votext):
+<0403:0000> (RELOCATION : INTERNAL)
+  0403 0000 sizesize 
+  0001 0165 //to 1 location add base of section 0.
+<\ sizesize <- 00040000 > // 4 bytes of payload.
+  // Relocations whose target (cat_next2) section is 0 (votext):
+<0403:0000> (RELOCATION : INTERNAL)
+  0403 0000 sizesize 
+  0001 016b //to 1 location add base of section 0.
+<\ sizesize <- 00040000 > // 4 bytes of payload.
+  // Relocations whose target (ncat_done) section is 0 (votext):
+<0403:0000> (RELOCATION : INTERNAL)
+  0403 0000 sizesize 
+  0002 0171 017c //to 2 locations add base of section 0.
+<\ sizesize <- 00060000 > // 6 bytes of payload.
+  // Relocations whose target (ncat_next) section is 0 (votext):
+<0403:0000> (RELOCATION : INTERNAL)
+  0403 0000 sizesize 
+  0001 0176 //to 1 location add base of section 0.
+<\ sizesize <- 00040000 > // 4 bytes of payload.
+  // Relocations whose target (ncat_next2) section is 0 (votext):
+<0403:0000> (RELOCATION : INTERNAL)
+  0403 0000 sizesize 
+  0001 017f //to 1 location add base of section 0.
+<\ sizesize <- 00040000 > // 4 bytes of payload.
+  // Relocations whose target (ncmp_done) section is 0 (votext):
+<0403:0000> (RELOCATION : INTERNAL)
+  0403 0000 sizesize 
+  0003 0186 018b 018e //to 3 locations add base of section 0.
+<\ sizesize <- 00080000 > // 8 bytes of payload.
+  // Relocations whose target (ncmp_next) section is 0 (votext):
+<0403:0000> (RELOCATION : INTERNAL)
+  0403 0000 sizesize 
+  0001 0191 //to 1 location add base of section 0.
+<\ sizesize <- 00040000 > // 4 bytes of payload.
+  // Relocations whose target (chr_done) section is 0 (votext):
+<0403:0000> (RELOCATION : INTERNAL)
+  0403 0000 sizesize 
+  0001 019a //to 1 location add base of section 0.
+<\ sizesize <- 00040000 > // 4 bytes of payload.
+  // Relocations whose target (chr_next) section is 0 (votext):
+<0403:0000> (RELOCATION : INTERNAL)
+  0403 0000 sizesize 
+  0001 019d //to 1 location add base of section 0.
+<\ sizesize <- 00040000 > // 4 bytes of payload.
+  // Relocations whose target (rchr_chk) section is 0 (votext):
+<0403:0000> (RELOCATION : INTERNAL)
+  0403 0000 sizesize 
+  0001 01a7 //to 1 location add base of section 0.
+<\ sizesize <- 00040000 > // 4 bytes of payload.
+  // Relocations whose target (rchr_next) section is 0 (votext):
+<0403:0000> (RELOCATION : INTERNAL)
+  0403 0000 sizesize 
+  0001 01ab //to 1 location add base of section 0.
+<\ sizesize <- 00040000 > // 4 bytes of payload.
+  // Relocations whose target (spn_done) section is 0 (votext):
+<0403:0000> (RELOCATION : INTERNAL)
+  0403 0000 sizesize 
+  0002 01b6 01ba //to 2 locations add base of section 0.
+<\ sizesize <- 00060000 > // 6 bytes of payload.
+  // Relocations whose target (spn_next2) section is 0 (votext):
+<0403:0000> (RELOCATION : INTERNAL)
+  0403 0000 sizesize 
+  0001 01bd //to 1 location add base of section 0.
+<\ sizesize <- 00040000 > // 4 bytes of payload.
+  // Relocations whose target (spn_next) section is 0 (votext):
+<0403:0000> (RELOCATION : INTERNAL)
+  0403 0000 sizesize 
+  0001 01bf //to 1 location add base of section 0.
+<\ sizesize <- 00040000 > // 4 bytes of payload.
+  // Relocations whose target (cspn_done) section is 0 (votext):
+<0403:0000> (RELOCATION : INTERNAL)
+  0403 0000 sizesize 
+  0002 01ca 01ce //to 2 locations add base of section 0.
+<\ sizesize <- 00060000 > // 6 bytes of payload.
+  // Relocations whose target (cspn_next2) section is 0 (votext):
+<0403:0000> (RELOCATION : INTERNAL)
+  0403 0000 sizesize 
+  0001 01d1 //to 1 location add base of section 0.
+<\ sizesize <- 00040000 > // 4 bytes of payload.
+  // Relocations whose target (cspn_next) section is 0 (votext):
+<0403:0000> (RELOCATION : INTERNAL)
+  0403 0000 sizesize 
+  0001 01d3 //to 1 location add base of section 0.
+<\ sizesize <- 00040000 > // 4 bytes of payload.
+  // Relocations whose target (pbrk_done1) section is 0 (votext):
+<0403:0000> (RELOCATION : INTERNAL)
+  0403 0000 sizesize 
+  0001 01de //to 1 location add base of section 0.
+<\ sizesize <- 00040000 > // 4 bytes of payload.
+  // Relocations whose target (pbrk_done) section is 0 (votext):
+<0403:0000> (RELOCATION : INTERNAL)
+  0403 0000 sizesize 
+  0001 01e2 //to 1 location add base of section 0.
+<\ sizesize <- 00040000 > // 4 bytes of payload.
+  // Relocations whose target (pbrk_next2) section is 0 (votext):
+<0403:0000> (RELOCATION : INTERNAL)
+  0403 0000 sizesize 
+  0001 01e5 //to 1 location add base of section 0.
+<\ sizesize <- 00040000 > // 4 bytes of payload.
+  // Relocations whose target (pbrk_next) section is 0 (votext):
+<0403:0000> (RELOCATION : INTERNAL)
+  0403 0000 sizesize 
+  0001 01e7 //to 1 location add base of section 0.
+<\ sizesize <- 00040000 > // 4 bytes of payload.
+  // Relocations whose target (str_done) section is 0 (votext):
+<0403:0000> (RELOCATION : INTERNAL)
+  0403 0000 sizesize 
+  0001 01f4 //to 1 location add base of section 0.
+<\ sizesize <- 00040000 > // 4 bytes of payload.
+  // Relocations whose target (str_done1) section is 0 (votext):
+<0403:0000> (RELOCATION : INTERNAL)
+  0403 0000 sizesize 
+  0001 01f7 //to 1 location add base of section 0.
+<\ sizesize <- 00040000 > // 4 bytes of payload.
+  // Relocations whose target (str_next2) section is 0 (votext):
+<0403:0000> (RELOCATION : INTERNAL)
+  0403 0000 sizesize 
+  0001 01fa //to 1 location add base of section 0.
+<\ sizesize <- 00040000 > // 4 bytes of payload.
+  // Relocations whose target (str_next) section is 0 (votext):
+<0403:0000> (RELOCATION : INTERNAL)
+  0403 0000 sizesize 
+  0001 01fd //to 1 location add base of section 0.
+<\ sizesize <- 00040000 > // 4 bytes of payload.
+  // Relocations whose target (mchr_nul) section is 0 (votext):
+<0403:0000> (RELOCATION : INTERNAL)
+  0403 0000 sizesize 
+  0001 0208 //to 1 location add base of section 0.
+<\ sizesize <- 00040000 > // 4 bytes of payload.
+  // Relocations whose target (mchr_done) section is 0 (votext):
+<0403:0000> (RELOCATION : INTERNAL)
+  0403 0000 sizesize 
+  0001 020c //to 1 location add base of section 0.
+<\ sizesize <- 00040000 > // 4 bytes of payload.
+  // Relocations whose target (mchr_next) section is 0 (votext):
+<0403:0000> (RELOCATION : INTERNAL)
+  0403 0000 sizesize 
+  0001 020f //to 1 location add base of section 0.
+<\ sizesize <- 00040000 > // 4 bytes of payload.
+  // Relocations whose target (_strlen) section is 0 (votext):
+<0403:0000> (RELOCATION : INTERNAL)
+  0403 0000 sizesize 
+  0001 0219 //to 1 location add base of section 0.
+<\ sizesize <- 00040000 > // 4 bytes of payload.
+  // Relocations whose target (@000) section is 0 (votext):
+<0403:0000> (RELOCATION : INTERNAL)
+  0403 0000 sizesize 
+  0001 021a //to 1 location add base of section 0.
+<\ sizesize <- 00040000 > // 4 bytes of payload.
+  // Relocations whose target (xfrm_done) section is 0 (votext):
+<0403:0000> (RELOCATION : INTERNAL)
+  0403 0000 sizesize 
+  0001 021e //to 1 location add base of section 0.
+<\ sizesize <- 00040000 > // 4 bytes of payload.
+  // Relocations whose target (_strcpy) section is 0 (votext):
+<0403:0000> (RELOCATION : INTERNAL)
+  0403 0000 sizesize 
+  0001 0220 //to 1 location add base of section 0.
+<\ sizesize <- 00040000 > // 4 bytes of payload.
+  // Relocations whose target (@001) section is 0 (votext):
+<0403:0000> (RELOCATION : INTERNAL)
+  0403 0000 sizesize 
+  0001 0221 //to 1 location add base of section 0.
+<\ sizesize <- 00040000 > // 4 bytes of payload.
+  // Relocations whose target (_strlen@0) section is 0 (votext):
+<0403:0000> (RELOCATION : INTERNAL)
+  0403 0000 sizesize 
+  0001 0229 //to 1 location add base of section 0.
+<\ sizesize <- 00040000 > // 4 bytes of payload.
+  // Relocations whose target (_strcpy@0) section is 0 (votext):
+<0403:0000> (RELOCATION : INTERNAL)
+  0403 0000 sizesize 
+  0001 0232 //to 1 location add base of section 0.
+<\ sizesize <- 00040000 > // 4 bytes of payload.
+//From Emulation-Debug\main.o: //From Emulation-Debug\main.o: //From Emulation-Debug\main.o: //From D:\VSIDE\libvs1010/libc.a:_string.o: //From D:\VSIDE\libvs1010/libc.a:_string.o: //From D:\VSIDE\libvs1010/libc.a:_string.o: //From D:\VSIDE\libvs1010/libc.a:_string.o: //From D:\VSIDE\libvs1010/libc.a:_string.o: //From D:\VSIDE\libvs1010/libc.a:_string.o: //From D:\VSIDE\libvs1010/libc.a:_string.o: //From D:\VSIDE\libvs1010/libc.a:_string.o: //From D:\VSIDE\libvs1010/libc.a:_string.o: //From D:\VSIDE\libvs1010/libc.a:_string.o: //From D:\VSIDE\libvs1010/libc.a:_string.o: //From D:\VSIDE\libvs1010/libc.a:_string.o: //From D:\VSIDE\libvs1010/libc.a:_string.o: //From D:\VSIDE\libvs1010/libc.a:_string.o: //From D:\VSIDE\libvs1010/libc.a:_string.o: //From D:\VSIDE\libvs1010/libc.a:_string.o: //From D:\VSIDE\libvs1010/libc.a:_string.o: //From D:\VSIDE\libvs1010/libc.a:_string.o: //From D:\VSIDE\libvs1010/libc.a:_string.o: //From D:\VSIDE\libvs1010/libc.a:_string.o: //From D:\VSIDE\libvs1010/libc.a:_string.o: //From D:\VSIDE\libvs1010/libc.a:_string.o: //From D:\VSIDE\libvs1010/libc.a:_string.o: //From D:\VSIDE\libvs1010/libc.a:_string.o: //From D:\VSIDE\libvs1010/libc.a:_string.o: //From D:\VSIDE\libvs1010/libc.a:_string.o: //From D:\VSIDE\libvs1010/libc.a:_string.o: //From D:\VSIDE\libvs1010/libc.a:_string.o: //From D:\VSIDE\libvs1010/libc.a:_string.o: //From D:\VSIDE\libvs1010/libc.a:_string.o: //From D:\VSIDE\libvs1010/libc.a:_string.o: //From D:\VSIDE\libvs1010/libc.a:_string.o: //From D:\VSIDE\libvs1010/libc.a:_string.o: //From D:\VSIDE\libvs1010/libc.a:_string.o: //From D:\VSIDE\libvs1010/libc.a:_string.o: //From D:\VSIDE\libvs1010/libc.a:_string.o: //From D:\VSIDE\libvs1010/libc.a:_strlen.o: //From D:\VSIDE\libvs1010/libc.a:_strcpy.o: //From D:\VSIDE\libvs1010/libc.a:_string.o: //From D:\VSIDE\libvs1010/libc.a:_string.o: //From D:\VSIDE\libvs1010/libc.a:_string.o: //From D:\VSIDE\libvs1010/libc.a:_string.o: //From D:\VSIDE\libvs1010/libc.a:_string.o: //From D:\VSIDE\libvs1010/libc.a:_strlen.o: //From D:\VSIDE\libvs1010/libc.a:_strlen.o: //From D:\VSIDE\libvs1010/libc.a:_strcpy.o: //From D:\VSIDE\libvs1010/libc.a:_strcpy.o: //From Emulation-Debug\main.o: //From Emulation-Debug\main.o: //From Emulation-Debug\main.o: //From Emulation-Debug\main.o: //From Emulation-Debug\main.o: //From Emulation-Debug\main.o: //From Emulation-Debug\main.o: //From Emulation-Debug\main.o: //From Emulation-Debug\main.o: //From Emulation-Debug\main.o: //From Emulation-Debug\main.o: //From Emulation-Debug\main.o: //From Emulation-Debug\main.o: //From Emulation-Debug\main.o: //From Emulation-Debug\main.o: //From Emulation-Debug\main.o: //From Emulation-Debug\main.o: //From Emulation-Debug\main.o: //From Emulation-Debug\main.o: //From Emulation-Debug\main.o: //From Emulation-Debug\main.o: //From Emulation-Debug\main.o: //From Emulation-Debug\main.o: //From Emulation-Debug\main.o: 
+<0900:0000> (ENTRYLIST)
+  0900 0000 sizesize 
+  0061 0000 000d  // _MyPlayerCallback
+  6d61 0000 00d1  // _main
+  
+<\ sizesize <- 000c0000 > // 12 bytes of payload.
+00000000 ffffffff 
