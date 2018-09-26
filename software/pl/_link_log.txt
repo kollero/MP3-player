@@ -1,0 +1,583 @@
+
+----- Read COFF Files...
+Read COFF file vs1010fixedabs.o
+Read COFF file Emulation-Debug\main.o
+ + section: 1_PlayNamedFile, 13 word(s)
+ + section: 2_MyPlayerCallback, 224 word(s)
+ + section: 3_main, 89 word(s)
+ + section: 4_bss_x, 0 word(s)
+ + section: 5_init_x, 18 word(s)
+ + section: 6_const_x, 121 word(s)
+
+----- Remove Debug Symbols
+Add reference to symbol _MyPlayerCallback section 2_MyPlayerCallback
+
+----- MarkEntrySymbols
+Marked symbol _main as needed.
+
+----- FindSectionSymbols..
+Section 1_PlayNamedFile can be referenced using symbol... _PlayNamedFile
+Section 2_MyPlayerCallback can be referenced using symbol... _MyPlayerCallback
+Section 3_main can be referenced using symbol... _main
+Section 4_bss_x can be referenced using symbol... suitable symbol not found, creating a temporary one 4_bss_x_section
+Section 5_init_x can be referenced using symbol... _button_pause_pressed
+Section 6_const_x can be referenced using symbol... next_1
+
+----- MarkEntrySections..
+Auto-referenced section 3_main.
+
+----- Set Relocation symbols
+
+----- Propagate references
+
+Propagating references for section 2_MyPlayerCallback... 
+ - needs _GpioReadPin, Found actual, it's absolute 100 (0x64); _nowPressed, 
+  -> marked section 5_init_x as needed; _lastPressed1, _MyPlayerCallback, next_1, 
+  -> marked section 6_const_x as needed; _MyPlayerCallback, _nowPressed, _lastPressed1, _GpioReadPin, Found actual, it's absolute 100 (0x64); _lastPressed2, _MyPlayerCallback, pause_2, _MyPlayerCallback, _nowPressed, _lastPressed2, _GpioReadPin, Found actual, it's absolute 100 (0x64); _lastPressed3, _MyPlayerCallback, previous_3, _MyPlayerCallback, _nowPressed, _lastPressed3, _GpioReadPin, Found actual, it's absolute 100 (0x64); _lastPressed4, _MyPlayerCallback, _player, Found actual, it's absolute 177 (0xb1); _MyPlayerCallback, _nowPressed, _lastPressed4, _GpioReadPin, Found actual, it's absolute 100 (0x64); _lastPressed5, _MyPlayerCallback, _delay_samples, _MyPlayerCallback, _nowPressed, _lastPressed5, _button_volume_pressed, _delay_samples, _MyPlayerCallback, _MyPlayerCallback, _button_volume_pressed2, _delay_samples, _player, Found actual, it's absolute 177 (0xb1); _player, Found actual, it's absolute 177 (0xb1); _MyPlayerCallback, vol_4, _printf, Found actual, it's absolute 91 (0x5b); _button_volume_pressed, _button_volume_pressed2, _MyPlayerCallback, _button_volume_pressed3, _MyPlayerCallback, _MyPlayerCallback, _player, Found actual, it's absolute 177 (0xb1); vol_5, _MyPlayerCallback, _printf, Found actual, it's absolute 91 (0x5b); _MyPlayerCallback, _button_volume_pressed, _MyPlayerCallback, _delay_samples, _button_volume_pressed, _button_volume_pressed2, _button_volume_pressed3, _MyPlayerCallback, _printf, Found actual, it's absolute 91 (0x5b); _player, Found actual, it's absolute 177 (0xb1); _player, Found actual, it's absolute 177 (0xb1); _button_change_song, _MyPlayerCallback, _printf, Found actual, it's absolute 91 (0x5b); _player, Found actual, it's absolute 177 (0xb1); _button_pause_pressed, _MyPlayerCallback, _printf, Found actual, it's absolute 91 (0x5b); _player, Found actual, it's absolute 177 (0xb1); _player, Found actual, it's absolute 177 (0xb1); _button_change_song, _MyPlayerCallback, 
+Propagating references for section 3_main... 
+ - needs vs1010dpl_6, _printf, Found actual, it's absolute 91 (0x5b); _player, Found actual, it's absolute 177 (0xb1); smp3_7, countfiles_8, _RunLib, Found actual, it's absolute 104 (0x68); _totalFiles, countfiles_9, _main, _printf, Found actual, it's absolute 91 (0x5b); _player, Found actual, it's absolute 177 (0xb1); smp3_7, _PlayNamedFile, 
+  -> marked section 1_PlayNamedFile as needed; _player, Found actual, it's absolute 177 (0xb1); _main, _player, Found actual, it's absolute 177 (0xb1); _player, Found actual, it's absolute 177 (0xb1); playerfil_10, _printf, Found actual, it's absolute 91 (0x5b); _totalFiles, filesd_11, _printf, Found actual, it's absolute 91 (0x5b); _player, Found actual, it's absolute 177 (0xb1); _PlayerPlayFile, Found actual, it's absolute 103 (0x67); _main, _player, Found actual, it's absolute 177 (0xb1); _main, _player, Found actual, it's absolute 177 (0xb1); _main, _main, 
+Propagating references for section 5_init_x... 
+ - needs 
+Propagating references for section 6_const_x... 
+ - needs 
+Propagating references for section 1_PlayNamedFile... 
+ - needs _player, Found actual, it's absolute 177 (0xb1); _strncpy, symbol _strncpy is unresolved; _PlayerPlayFile, Found actual, it's absolute 103 (0x67); 
+Trying to resolve _strncpy...
+looking for symbol _strncpy from D:\VSIDE\libvs1010/libc.a... 
+Read object _string.o from library D:\VSIDE\libvs1010/libc.a
+ + section: 7__string, 273 word(s)
+
+Objects added to project, relink.
+Section 1_PlayNamedFile can be referenced using symbol... _PlayNamedFile
+Section 2_MyPlayerCallback can be referenced using symbol... _MyPlayerCallback
+Section 3_main can be referenced using symbol... _main
+Section 4_bss_x can be referenced using symbol... suitable symbol not found, creating a temporary one 4_bss_x_section
+Section 5_init_x can be referenced using symbol... _button_pause_pressed
+Section 6_const_x can be referenced using symbol... next_1
+Section 7__string can be referenced using symbol... _strncpy
+
+Objects added, propagating all references again...
+
+Propagating references for section 1_PlayNamedFile... 
+ - needs _player, Found actual, it's absolute 177 (0xb1); _strncpy, Found actual, it's in section 7__string; _PlayerPlayFile, Found actual, it's absolute 103 (0x67); 
+Propagating references for section 2_MyPlayerCallback... 
+ - needs _GpioReadPin, Found actual, it's absolute 100 (0x64); _nowPressed, _lastPressed1, _MyPlayerCallback, next_1, _MyPlayerCallback, _nowPressed, _lastPressed1, _GpioReadPin, Found actual, it's absolute 100 (0x64); _lastPressed2, _MyPlayerCallback, pause_2, _MyPlayerCallback, _nowPressed, _lastPressed2, _GpioReadPin, Found actual, it's absolute 100 (0x64); _lastPressed3, _MyPlayerCallback, previous_3, _MyPlayerCallback, _nowPressed, _lastPressed3, _GpioReadPin, Found actual, it's absolute 100 (0x64); _lastPressed4, _MyPlayerCallback, _player, Found actual, it's absolute 177 (0xb1); _MyPlayerCallback, _nowPressed, _lastPressed4, _GpioReadPin, Found actual, it's absolute 100 (0x64); _lastPressed5, _MyPlayerCallback, _delay_samples, _MyPlayerCallback, _nowPressed, _lastPressed5, _button_volume_pressed, _delay_samples, _MyPlayerCallback, _MyPlayerCallback, _button_volume_pressed2, _delay_samples, _player, Found actual, it's absolute 177 (0xb1); _player, Found actual, it's absolute 177 (0xb1); _MyPlayerCallback, vol_4, _printf, Found actual, it's absolute 91 (0x5b); _button_volume_pressed, _button_volume_pressed2, _MyPlayerCallback, _button_volume_pressed3, _MyPlayerCallback, _MyPlayerCallback, _player, Found actual, it's absolute 177 (0xb1); vol_5, _MyPlayerCallback, _printf, Found actual, it's absolute 91 (0x5b); _MyPlayerCallback, _button_volume_pressed, _MyPlayerCallback, _delay_samples, _button_volume_pressed, _button_volume_pressed2, _button_volume_pressed3, _MyPlayerCallback, _printf, Found actual, it's absolute 91 (0x5b); _player, Found actual, it's absolute 177 (0xb1); _player, Found actual, it's absolute 177 (0xb1); _button_change_song, _MyPlayerCallback, _printf, Found actual, it's absolute 91 (0x5b); _player, Found actual, it's absolute 177 (0xb1); _button_pause_pressed, _MyPlayerCallback, _printf, Found actual, it's absolute 91 (0x5b); _player, Found actual, it's absolute 177 (0xb1); _player, Found actual, it's absolute 177 (0xb1); _button_change_song, _MyPlayerCallback, 
+Propagating references for section 3_main... 
+ - needs vs1010dpl_6, _printf, Found actual, it's absolute 91 (0x5b); _player, Found actual, it's absolute 177 (0xb1); smp3_7, countfiles_8, _RunLib, Found actual, it's absolute 104 (0x68); _totalFiles, countfiles_9, _main, _printf, Found actual, it's absolute 91 (0x5b); _player, Found actual, it's absolute 177 (0xb1); smp3_7, _PlayNamedFile, _player, Found actual, it's absolute 177 (0xb1); _main, _player, Found actual, it's absolute 177 (0xb1); _player, Found actual, it's absolute 177 (0xb1); playerfil_10, _printf, Found actual, it's absolute 91 (0x5b); _totalFiles, filesd_11, _printf, Found actual, it's absolute 91 (0x5b); _player, Found actual, it's absolute 177 (0xb1); _PlayerPlayFile, Found actual, it's absolute 103 (0x67); _main, _player, Found actual, it's absolute 177 (0xb1); _main, _player, Found actual, it's absolute 177 (0xb1); _main, _main, 
+Propagating references for section 5_init_x... 
+ - needs 
+Propagating references for section 6_const_x... 
+ - needs 
+Propagating references for section 7__string... 
+ - needs ncp_done, ncp_lp, ncp_lp, ncp_doneXY, ncp_lpXY, ncp_lpXY, ncp_doneYX, ncp_lpYX, ncp_lpYX, ncp_doneYY, ncp_lpYY, ncp_lpYY, cat_next, cat_next2, ncat_done, ncat_next, ncat_done, ncat_next2, ncmp_done, ncmp_done, ncmp_done, ncmp_next, chr_done, chr_next, rchr_chk, rchr_next, spn_done, spn_done, spn_next2, spn_next, cspn_done, cspn_done, cspn_next2, cspn_next, pbrk_done1, pbrk_done, pbrk_next2, pbrk_next, str_done, str_done1, str_next2, str_next, mchr_nul, mchr_done, mchr_next, _strlen, symbol _strlen is unresolved; @000, xfrm_done, _strcpy, symbol _strcpy is unresolved; @001, 
+Trying to resolve _strlen...
+looking for symbol _strlen from D:\VSIDE\libvs1010/libc.a... 
+Read object _strlen.o from library D:\VSIDE\libvs1010/libc.a
+ + section: 8__string, 8 word(s)
+
+Objects added to project, relink.
+Section 1_PlayNamedFile can be referenced using symbol... _PlayNamedFile
+Section 2_MyPlayerCallback can be referenced using symbol... _MyPlayerCallback
+Section 3_main can be referenced using symbol... _main
+Section 4_bss_x can be referenced using symbol... suitable symbol not found, creating a temporary one 4_bss_x_section
+Section 5_init_x can be referenced using symbol... _button_pause_pressed
+Section 6_const_x can be referenced using symbol... next_1
+Section 7__string can be referenced using symbol... _strncpy
+Section 8__string can be referenced using symbol... _strlen
+
+Objects added, propagating all references again...
+
+Propagating references for section 1_PlayNamedFile... 
+ - needs _player, Found actual, it's absolute 177 (0xb1); _strncpy, _PlayerPlayFile, Found actual, it's absolute 103 (0x67); 
+Propagating references for section 2_MyPlayerCallback... 
+ - needs _GpioReadPin, Found actual, it's absolute 100 (0x64); _nowPressed, _lastPressed1, _MyPlayerCallback, next_1, _MyPlayerCallback, _nowPressed, _lastPressed1, _GpioReadPin, Found actual, it's absolute 100 (0x64); _lastPressed2, _MyPlayerCallback, pause_2, _MyPlayerCallback, _nowPressed, _lastPressed2, _GpioReadPin, Found actual, it's absolute 100 (0x64); _lastPressed3, _MyPlayerCallback, previous_3, _MyPlayerCallback, _nowPressed, _lastPressed3, _GpioReadPin, Found actual, it's absolute 100 (0x64); _lastPressed4, _MyPlayerCallback, _player, Found actual, it's absolute 177 (0xb1); _MyPlayerCallback, _nowPressed, _lastPressed4, _GpioReadPin, Found actual, it's absolute 100 (0x64); _lastPressed5, _MyPlayerCallback, _delay_samples, _MyPlayerCallback, _nowPressed, _lastPressed5, _button_volume_pressed, _delay_samples, _MyPlayerCallback, _MyPlayerCallback, _button_volume_pressed2, _delay_samples, _player, Found actual, it's absolute 177 (0xb1); _player, Found actual, it's absolute 177 (0xb1); _MyPlayerCallback, vol_4, _printf, Found actual, it's absolute 91 (0x5b); _button_volume_pressed, _button_volume_pressed2, _MyPlayerCallback, _button_volume_pressed3, _MyPlayerCallback, _MyPlayerCallback, _player, Found actual, it's absolute 177 (0xb1); vol_5, _MyPlayerCallback, _printf, Found actual, it's absolute 91 (0x5b); _MyPlayerCallback, _button_volume_pressed, _MyPlayerCallback, _delay_samples, _button_volume_pressed, _button_volume_pressed2, _button_volume_pressed3, _MyPlayerCallback, _printf, Found actual, it's absolute 91 (0x5b); _player, Found actual, it's absolute 177 (0xb1); _player, Found actual, it's absolute 177 (0xb1); _button_change_song, _MyPlayerCallback, _printf, Found actual, it's absolute 91 (0x5b); _player, Found actual, it's absolute 177 (0xb1); _button_pause_pressed, _MyPlayerCallback, _printf, Found actual, it's absolute 91 (0x5b); _player, Found actual, it's absolute 177 (0xb1); _player, Found actual, it's absolute 177 (0xb1); _button_change_song, _MyPlayerCallback, 
+Propagating references for section 3_main... 
+ - needs vs1010dpl_6, _printf, Found actual, it's absolute 91 (0x5b); _player, Found actual, it's absolute 177 (0xb1); smp3_7, countfiles_8, _RunLib, Found actual, it's absolute 104 (0x68); _totalFiles, countfiles_9, _main, _printf, Found actual, it's absolute 91 (0x5b); _player, Found actual, it's absolute 177 (0xb1); smp3_7, _PlayNamedFile, _player, Found actual, it's absolute 177 (0xb1); _main, _player, Found actual, it's absolute 177 (0xb1); _player, Found actual, it's absolute 177 (0xb1); playerfil_10, _printf, Found actual, it's absolute 91 (0x5b); _totalFiles, filesd_11, _printf, Found actual, it's absolute 91 (0x5b); _player, Found actual, it's absolute 177 (0xb1); _PlayerPlayFile, Found actual, it's absolute 103 (0x67); _main, _player, Found actual, it's absolute 177 (0xb1); _main, _player, Found actual, it's absolute 177 (0xb1); _main, _main, 
+Propagating references for section 5_init_x... 
+ - needs 
+Propagating references for section 6_const_x... 
+ - needs 
+Propagating references for section 7__string... 
+ - needs ncp_done, ncp_lp, ncp_lp, ncp_doneXY, ncp_lpXY, ncp_lpXY, ncp_doneYX, ncp_lpYX, ncp_lpYX, ncp_doneYY, ncp_lpYY, ncp_lpYY, cat_next, cat_next2, ncat_done, ncat_next, ncat_done, ncat_next2, ncmp_done, ncmp_done, ncmp_done, ncmp_next, chr_done, chr_next, rchr_chk, rchr_next, spn_done, spn_done, spn_next2, spn_next, cspn_done, cspn_done, cspn_next2, cspn_next, pbrk_done1, pbrk_done, pbrk_next2, pbrk_next, str_done, str_done1, str_next2, str_next, mchr_nul, mchr_done, mchr_next, _strlen, Found actual, it's in section 8__string; @000, xfrm_done, _strcpy, symbol _strcpy is unresolved; @001, 
+Propagating references for section 8__string... 
+ - needs _strlen@0, 
+Trying to resolve _strcpy...
+looking for symbol _strcpy from D:\VSIDE\libvs1010/libc.a... 
+Read object _strcpy.o from library D:\VSIDE\libvs1010/libc.a
+ + section: 9__string, 10 word(s)
+
+Objects added to project, relink.
+Section 1_PlayNamedFile can be referenced using symbol... _PlayNamedFile
+Section 2_MyPlayerCallback can be referenced using symbol... _MyPlayerCallback
+Section 3_main can be referenced using symbol... _main
+Section 4_bss_x can be referenced using symbol... suitable symbol not found, creating a temporary one 4_bss_x_section
+Section 5_init_x can be referenced using symbol... _button_pause_pressed
+Section 6_const_x can be referenced using symbol... next_1
+Section 7__string can be referenced using symbol... _strncpy
+Section 8__string can be referenced using symbol... _strlen
+Section 9__string can be referenced using symbol... _strcpy
+
+Objects added, propagating all references again...
+
+Propagating references for section 1_PlayNamedFile... 
+ - needs _player, Found actual, it's absolute 177 (0xb1); _strncpy, _PlayerPlayFile, Found actual, it's absolute 103 (0x67); 
+Propagating references for section 2_MyPlayerCallback... 
+ - needs _GpioReadPin, Found actual, it's absolute 100 (0x64); _nowPressed, _lastPressed1, _MyPlayerCallback, next_1, _MyPlayerCallback, _nowPressed, _lastPressed1, _GpioReadPin, Found actual, it's absolute 100 (0x64); _lastPressed2, _MyPlayerCallback, pause_2, _MyPlayerCallback, _nowPressed, _lastPressed2, _GpioReadPin, Found actual, it's absolute 100 (0x64); _lastPressed3, _MyPlayerCallback, previous_3, _MyPlayerCallback, _nowPressed, _lastPressed3, _GpioReadPin, Found actual, it's absolute 100 (0x64); _lastPressed4, _MyPlayerCallback, _player, Found actual, it's absolute 177 (0xb1); _MyPlayerCallback, _nowPressed, _lastPressed4, _GpioReadPin, Found actual, it's absolute 100 (0x64); _lastPressed5, _MyPlayerCallback, _delay_samples, _MyPlayerCallback, _nowPressed, _lastPressed5, _button_volume_pressed, _delay_samples, _MyPlayerCallback, _MyPlayerCallback, _button_volume_pressed2, _delay_samples, _player, Found actual, it's absolute 177 (0xb1); _player, Found actual, it's absolute 177 (0xb1); _MyPlayerCallback, vol_4, _printf, Found actual, it's absolute 91 (0x5b); _button_volume_pressed, _button_volume_pressed2, _MyPlayerCallback, _button_volume_pressed3, _MyPlayerCallback, _MyPlayerCallback, _player, Found actual, it's absolute 177 (0xb1); vol_5, _MyPlayerCallback, _printf, Found actual, it's absolute 91 (0x5b); _MyPlayerCallback, _button_volume_pressed, _MyPlayerCallback, _delay_samples, _button_volume_pressed, _button_volume_pressed2, _button_volume_pressed3, _MyPlayerCallback, _printf, Found actual, it's absolute 91 (0x5b); _player, Found actual, it's absolute 177 (0xb1); _player, Found actual, it's absolute 177 (0xb1); _button_change_song, _MyPlayerCallback, _printf, Found actual, it's absolute 91 (0x5b); _player, Found actual, it's absolute 177 (0xb1); _button_pause_pressed, _MyPlayerCallback, _printf, Found actual, it's absolute 91 (0x5b); _player, Found actual, it's absolute 177 (0xb1); _player, Found actual, it's absolute 177 (0xb1); _button_change_song, _MyPlayerCallback, 
+Propagating references for section 3_main... 
+ - needs vs1010dpl_6, _printf, Found actual, it's absolute 91 (0x5b); _player, Found actual, it's absolute 177 (0xb1); smp3_7, countfiles_8, _RunLib, Found actual, it's absolute 104 (0x68); _totalFiles, countfiles_9, _main, _printf, Found actual, it's absolute 91 (0x5b); _player, Found actual, it's absolute 177 (0xb1); smp3_7, _PlayNamedFile, _player, Found actual, it's absolute 177 (0xb1); _main, _player, Found actual, it's absolute 177 (0xb1); _player, Found actual, it's absolute 177 (0xb1); playerfil_10, _printf, Found actual, it's absolute 91 (0x5b); _totalFiles, filesd_11, _printf, Found actual, it's absolute 91 (0x5b); _player, Found actual, it's absolute 177 (0xb1); _PlayerPlayFile, Found actual, it's absolute 103 (0x67); _main, _player, Found actual, it's absolute 177 (0xb1); _main, _player, Found actual, it's absolute 177 (0xb1); _main, _main, 
+Propagating references for section 5_init_x... 
+ - needs 
+Propagating references for section 6_const_x... 
+ - needs 
+Propagating references for section 7__string... 
+ - needs ncp_done, ncp_lp, ncp_lp, ncp_doneXY, ncp_lpXY, ncp_lpXY, ncp_doneYX, ncp_lpYX, ncp_lpYX, ncp_doneYY, ncp_lpYY, ncp_lpYY, cat_next, cat_next2, ncat_done, ncat_next, ncat_done, ncat_next2, ncmp_done, ncmp_done, ncmp_done, ncmp_next, chr_done, chr_next, rchr_chk, rchr_next, spn_done, spn_done, spn_next2, spn_next, cspn_done, cspn_done, cspn_next2, cspn_next, pbrk_done1, pbrk_done, pbrk_next2, pbrk_next, str_done, str_done1, str_next2, str_next, mchr_nul, mchr_done, mchr_next, _strlen, @000, xfrm_done, _strcpy, Found actual, it's in section 9__string; @001, 
+Propagating references for section 8__string... 
+ - needs _strlen@0, 
+Propagating references for section 9__string... 
+ - needs _strcpy@0, 
+----- Remove unneeded symbols
+Removing unneeded symbol(s) rom_vo_max_num_files, _vo_max_num_files, _vo_files, _SysError, rom_osVersion, _osVersion, _vo_feof, _DoBootFromX, _callAddress, _currentDirectory, _runlevel, _AudioIdleHook, _sprintf, _vo_ferror, _vo_ungetc, dmb_6, _usbuf, rom_vo_sys_report_hook, rom_vo_osMemorySize, _vo_osMemorySize, F1B1, F0B5, F0B7, kernelRomXStart, F1B5, F0B1, F0B8, _sdSize, F5B6, _peripClkHz, _vo_fopen, _vo_StartOS, rom_vo_pfiles, _vo_pfiles, _streamFormat, _vo_fgetc, CopyKernelRamSymbols@0, _fopen_retries, CopyKernelRamSymbols@1, _Identify, nul_3, _vo_fgets, _InitSD, _GetTimeFromRTC, _vo_simple_files, sd_4, rom_lcd0, _vo_fputs, nil_2, _vo_fputc, rom_vo_osMemoryStart, _vo_osMemoryStart, _callParameter, rom_vo_fat_allocationSizeClusters, _vo_fat_allocationSizeClusters, _AudioInited, CopyKernelRamSymbols, F0B12, F0B13, _PlayerCallback, F0B10, _vo_ftell, rom_vo_filesystems, _vo_filesystems, _PeekX, _PeekY, _ResetExternalUnit, rom_vo_get_time_from_rtc_hook, _console, _XvmHook, _vo_fflush, rom_lastErrorMessagePtr, _lastErrorMessagePtr, _vo_fread, kernelRamVectorsStart, kernelRomVectorsStart, _PostBoot, rom_stdaudioin, _stdaudioin, rom_appFile, _vo_fseek, _s54edc0, _vo_fclose, _FileNameCompare, _textx, _texty, _VmUnhandled, _ScreenOutputFunction, _sdBusWidth, _audioOutChannels, _loadedLibs, _UserHook2, _UserHook3, _UserHook1, _UserHook4, _UserHook5, _StreamCheck, rom_voResult, _voResult, rom___nextDeviceInstance, ___nextDeviceInstance, _kernelDebugLevel, rom_vo_sys_error_hook, rom_vo_stderr, _vo_stderr, kernelRamXStart, _vo_fwrite, _DelayL, _fprintf, _StartFileSystem, rom_vo_stdout, _vo_stdout, noid_5, _StereoCopy, x_1, _spiBootResult, kernelRomVectorsEnd, rom_currentTime, _currentTime, _sbs, rom_stdaudioout, _stdaudioout, _textxLimit, rom_vo_stdin, _vo_stdin, _audioNumberBits, _loadedLib, _appFlags, rom_vo_pdevices, _vo_pdevices, _audioSampleRate, rom_console, kernelRomXEnd, _auDec, _lcd0, _StreamProtocolPutChar, _appFile, _FatFindFile, _ResourceLoadHook, _clkx, _diskSurfaceY, _SysReport, _vm, F1B10, F1B15, F1B20, F1B24, F1B27, F1B28, F1B23, F1B19, F1B14, F1B9, F1B4, F2B11, F2B14, F2B17, F2B19, __LINKINFO_JMPI_97_MyPlayerCallback, _file_at_end, _lastPressed8, _mask, rchr_done, spn_done2, _strstr, _strncat, _strxfrm, _strspn, _strncmp, _strcspn, _strcat, _strrchr, _strchr, _strerror, _strpbrk, _memchr, _strncpyXX, _strncpyXY, _strncpyYX, _strncpyYY, 
+
+
+*1+ SYMBOL LISTING - 79 symbol(s) in project:
+
+*1*  _RunLib                        absolute    104 (0x0068)
+*1*  _GpioReadPin                   absolute    100 (0x0064)
+*1*  _printf                        absolute     91 (0x005b)
+*1*  _player                        absolute    177 (0x00b1)
+*1*  _PlayerPlayFile                absolute    103 (0x0067)
+*1*  _PlayNamedFile                 1_PlayNamedFile+0   	(declared in Emulation-Debug\main.o)
+*1*  _MyPlayerCallback              2_MyPlayerCallback+0   	(declared in Emulation-Debug\main.o)
+*1*  _main                          3_main+0   	(declared in Emulation-Debug\main.o)
+*1*  _button_pause_pressed          5_init_x+0   	(declared in Emulation-Debug\main.o)
+*1*  _button_change_song            5_init_x+1   	(declared in Emulation-Debug\main.o)
+*1*  _button_volume_pressed         5_init_x+2   	(declared in Emulation-Debug\main.o)
+*1*  _button_volume_pressed2        5_init_x+3   	(declared in Emulation-Debug\main.o)
+*1*  _button_volume_pressed3        5_init_x+4   	(declared in Emulation-Debug\main.o)
+*1*  _delay_samples                 5_init_x+6   	(declared in Emulation-Debug\main.o)
+*1*  _nowPressed                    5_init_x+8   	(declared in Emulation-Debug\main.o)
+*1*  _lastPressed1                  5_init_x+9   	(declared in Emulation-Debug\main.o)
+*1*  _lastPressed2                  5_init_x+10   	(declared in Emulation-Debug\main.o)
+*1*  _lastPressed3                  5_init_x+11   	(declared in Emulation-Debug\main.o)
+*1*  _lastPressed4                  5_init_x+12   	(declared in Emulation-Debug\main.o)
+*1*  _lastPressed5                  5_init_x+13   	(declared in Emulation-Debug\main.o)
+*1*  _totalFiles                    5_init_x+15   	(declared in Emulation-Debug\main.o)
+*1*  next_1                         6_const_x+0   	(declared in Emulation-Debug\main.o)
+*1*  pause_2                        6_const_x+6   	(declared in Emulation-Debug\main.o)
+*1*  previous_3                     6_const_x+13   	(declared in Emulation-Debug\main.o)
+*1*  vol_4                          6_const_x+23   	(declared in Emulation-Debug\main.o)
+*1*  vol_5                          6_const_x+29   	(declared in Emulation-Debug\main.o)
+*1*  vs1010dpl_6                    6_const_x+35   	(declared in Emulation-Debug\main.o)
+*1*  smp3_7                         6_const_x+51   	(declared in Emulation-Debug\main.o)
+*1*  countfiles_8                   6_const_x+59   	(declared in Emulation-Debug\main.o)
+*1*  countfiles_9                   6_const_x+70   	(declared in Emulation-Debug\main.o)
+*1*  playerfil_10                   6_const_x+92   	(declared in Emulation-Debug\main.o)
+*1*  filesd_11                      6_const_x+110   	(declared in Emulation-Debug\main.o)
+*1*  _strncpy                       7__string+0   	(declared in D:\VSIDE\libvs1010/libc.a:_string.o)
+*1*  _strncpy                       7__string+0   	(declared in D:\VSIDE\libvs1010/libc.a:_string.o)
+*1*  @000                           7__string+262   	(declared in D:\VSIDE\libvs1010/libc.a:_string.o)
+*1*  @001                           7__string+269   	(declared in D:\VSIDE\libvs1010/libc.a:_string.o)
+*1*  str_next2                      7__string+221   	(declared in D:\VSIDE\libvs1010/libc.a:_string.o)
+*1*  cspn_next2                     7__string+183   	(declared in D:\VSIDE\libvs1010/libc.a:_string.o)
+*1*  spn_next2                      7__string+163   	(declared in D:\VSIDE\libvs1010/libc.a:_string.o)
+*1*  ncat_next2                     7__string+101   	(declared in D:\VSIDE\libvs1010/libc.a:_string.o)
+*1*  cat_next2                      7__string+84   	(declared in D:\VSIDE\libvs1010/libc.a:_string.o)
+*1*  mchr_done                      7__string+254   	(declared in D:\VSIDE\libvs1010/libc.a:_string.o)
+*1*  str_done                       7__string+237   	(declared in D:\VSIDE\libvs1010/libc.a:_string.o)
+*1*  cspn_done                      7__string+193   	(declared in D:\VSIDE\libvs1010/libc.a:_string.o)
+*1*  spn_done                       7__string+173   	(declared in D:\VSIDE\libvs1010/libc.a:_string.o)
+*1*  chr_done                       7__string+140   	(declared in D:\VSIDE\libvs1010/libc.a:_string.o)
+*1*  ncmp_done                      7__string+127   	(declared in D:\VSIDE\libvs1010/libc.a:_string.o)
+*1*  ncat_done                      7__string+110   	(declared in D:\VSIDE\libvs1010/libc.a:_string.o)
+*1*  ncp_done                       7__string+15   	(declared in D:\VSIDE\libvs1010/libc.a:_string.o)
+*1*  str_done1                      7__string+235   	(declared in D:\VSIDE\libvs1010/libc.a:_string.o)
+*1*  ncp_lp                         7__string+14   	(declared in D:\VSIDE\libvs1010/libc.a:_string.o)
+*1*  mchr_nul                       7__string+253   	(declared in D:\VSIDE\libvs1010/libc.a:_string.o)
+*1*  rchr_chk                       7__string+150   	(declared in D:\VSIDE\libvs1010/libc.a:_string.o)
+*1*  pbrk_done                      7__string+214   	(declared in D:\VSIDE\libvs1010/libc.a:_string.o)
+*1*  ncp_doneXY                     7__string+34   	(declared in D:\VSIDE\libvs1010/libc.a:_string.o)
+*1*  ncp_doneYX                     7__string+53   	(declared in D:\VSIDE\libvs1010/libc.a:_string.o)
+*1*  ncp_doneYY                     7__string+72   	(declared in D:\VSIDE\libvs1010/libc.a:_string.o)
+*1*  mchr_next                      7__string+245   	(declared in D:\VSIDE\libvs1010/libc.a:_string.o)
+*1*  str_next                       7__string+220   	(declared in D:\VSIDE\libvs1010/libc.a:_string.o)
+*1*  cspn_next                      7__string+179   	(declared in D:\VSIDE\libvs1010/libc.a:_string.o)
+*1*  spn_next                       7__string+159   	(declared in D:\VSIDE\libvs1010/libc.a:_string.o)
+*1*  rchr_next                      7__string+145   	(declared in D:\VSIDE\libvs1010/libc.a:_string.o)
+*1*  chr_next                       7__string+131   	(declared in D:\VSIDE\libvs1010/libc.a:_string.o)
+*1*  ncmp_next                      7__string+116   	(declared in D:\VSIDE\libvs1010/libc.a:_string.o)
+*1*  ncat_next                      7__string+95   	(declared in D:\VSIDE\libvs1010/libc.a:_string.o)
+*1*  cat_next                       7__string+78   	(declared in D:\VSIDE\libvs1010/libc.a:_string.o)
+*1*  pbrk_next2                     7__string+203   	(declared in D:\VSIDE\libvs1010/libc.a:_string.o)
+*1*  pbrk_done1                     7__string+213   	(declared in D:\VSIDE\libvs1010/libc.a:_string.o)
+*1*  _strlen                        8__string+0   	(declared in D:\VSIDE\libvs1010/libc.a:_strlen.o)
+*1*  _strcpy                        9__string+0   	(declared in D:\VSIDE\libvs1010/libc.a:_strcpy.o)
+*1*  pbrk_next                      7__string+199   	(declared in D:\VSIDE\libvs1010/libc.a:_string.o)
+*1*  xfrm_done                      7__string+270   	(declared in D:\VSIDE\libvs1010/libc.a:_string.o)
+*1*  ncp_lpXY                       7__string+33   	(declared in D:\VSIDE\libvs1010/libc.a:_string.o)
+*1*  ncp_lpYX                       7__string+52   	(declared in D:\VSIDE\libvs1010/libc.a:_string.o)
+*1*  ncp_lpYY                       7__string+71   	(declared in D:\VSIDE\libvs1010/libc.a:_string.o)
+*1*  _strlen@0                      8__string+2   	(declared in D:\VSIDE\libvs1010/libc.a:_strlen.o)
+*1*  _strlen                        8__string+0   	(declared in D:\VSIDE\libvs1010/libc.a:_strlen.o)
+*1*  _strcpy@0                      9__string+4   	(declared in D:\VSIDE\libvs1010/libc.a:_strcpy.o)
+*1*  _strcpy                        9__string+0   	(declared in D:\VSIDE\libvs1010/libc.a:_strcpy.o)
+
+
+==1-  ====== PROJECT NOW HAS 9 SECTIONS: ======
+==1=    Page:0  Words:  273   7__string
+==1=    Page:0  Words:  224   2_MyPlayerCallback
+==1=    Page:0  Words:   89   3_main
+==1=    Page:0  Words:   13   1_PlayNamedFile
+==1=    Page:0  Words:   10   9__string
+==1=    Page:0  Words:    8   8__string
+==1=    Page:1  Words:  121   6_const_x
+==1=    Page:1  Words:   18   5_init_x
+==1=    Page:1  Words:    0   4_bss_x
+==1-  ==== Total words: I 617, X 139, Y 0. ====
+
+----- Remove unreferenced sections
+Removing unreferenced section 4_bss_x, page 1, 0 words
+
+
+==2-  ====== PROJECT NOW HAS 8 SECTIONS: ======
+==2=    Page:0  Words:  273   7__string
+==2=    Page:0  Words:  224   2_MyPlayerCallback
+==2=    Page:0  Words:   89   3_main
+==2=    Page:0  Words:   13   1_PlayNamedFile
+==2=    Page:0  Words:   10   9__string
+==2=    Page:0  Words:    8   8__string
+==2=    Page:1  Words:  121   6_const_x
+==2=    Page:1  Words:   18   5_init_x
+==2-  ==== Total words: I 617, X 139, Y 0. ====
+
+----- Merge
+
+Merging all text sections.
+Section 1_PlayNamedFile is to be merged.
+Section 2_MyPlayerCallback is to be merged.
+Section 3_main is to be merged.
+Section 7__string is to be merged.
+Section 8__string is to be merged.
+Section 9__string is to be merged.
+Merging earlierly marked sections...
+Merge section 0 name 1_PlayNamedFile to votext
+mark section 1_PlayNamedFile for deletion.
+Merge section 0 name 2_MyPlayerCallback to votext
+mark section 2_MyPlayerCallback for deletion.
+Merge section 0 name 3_main to votext
+mark section 3_main for deletion.
+Merge section 2 name 7__string to votext
+mark section 7__string for deletion.
+Merge section 2 name 8__string to votext
+mark section 8__string for deletion.
+Merge section 2 name 9__string to votext
+mark section 9__string for deletion.
+add new section votext to allsections.
+
+Merging all sections that are free to move.
+Section 5_init_x is to be merged.
+Section 6_const_x is to be merged.
+Merging earlierly marked sections...
+Merge section 0 name 5_init_x to voxdata_1
+mark section 5_init_x for deletion.
+Merge section 0 name 6_const_x to voxdata_1
+mark section 6_const_x for deletion.
+add new section voxdata_1 to allsections.
+
+Merging bss sections.
+
+
+==3-  ====== PROJECT NOW HAS 2 SECTIONS: ======
+==3=    Page:0  Words:  617   votext
+==3=    Page:1  Words:  139   voxdata_1
+==3-  ==== Total words: I 617, X 139, Y 0. ====
+
+
+SYMBOL LISTING AFTER MERGE:
+
+*2+ SYMBOL LISTING - 79 symbol(s) in project:
+
+*2*  _RunLib                        absolute    104 (0x0068)
+*2*  _GpioReadPin                   absolute    100 (0x0064)
+*2*  _printf                        absolute     91 (0x005b)
+*2*  _player                        absolute    177 (0x00b1)
+*2*  _PlayerPlayFile                absolute    103 (0x0067)
+*2*  _PlayNamedFile                 votext+0 
+*2*  _MyPlayerCallback              votext+13 
+*2*  _main                          votext+237 
+*2*  _button_pause_pressed          voxdata_1+0 
+*2*  _button_change_song            voxdata_1+1 
+*2*  _button_volume_pressed         voxdata_1+2 
+*2*  _button_volume_pressed2        voxdata_1+3 
+*2*  _button_volume_pressed3        voxdata_1+4 
+*2*  _delay_samples                 voxdata_1+6 
+*2*  _nowPressed                    voxdata_1+8 
+*2*  _lastPressed1                  voxdata_1+9 
+*2*  _lastPressed2                  voxdata_1+10 
+*2*  _lastPressed3                  voxdata_1+11 
+*2*  _lastPressed4                  voxdata_1+12 
+*2*  _lastPressed5                  voxdata_1+13 
+*2*  _totalFiles                    voxdata_1+15 
+*2*  next_1                         voxdata_1+18 
+*2*  pause_2                        voxdata_1+24 
+*2*  previous_3                     voxdata_1+31 
+*2*  vol_4                          voxdata_1+41 
+*2*  vol_5                          voxdata_1+47 
+*2*  vs1010dpl_6                    voxdata_1+53 
+*2*  smp3_7                         voxdata_1+69 
+*2*  countfiles_8                   voxdata_1+77 
+*2*  countfiles_9                   voxdata_1+88 
+*2*  playerfil_10                   voxdata_1+110 
+*2*  filesd_11                      voxdata_1+128 
+*2*  _strncpy                       votext+326 
+*2*  _strncpy                       votext+326 
+*2*  @000                           votext+588 
+*2*  @001                           votext+595 
+*2*  str_next2                      votext+547 
+*2*  cspn_next2                     votext+509 
+*2*  spn_next2                      votext+489 
+*2*  ncat_next2                     votext+427 
+*2*  cat_next2                      votext+410 
+*2*  mchr_done                      votext+580 
+*2*  str_done                       votext+563 
+*2*  cspn_done                      votext+519 
+*2*  spn_done                       votext+499 
+*2*  chr_done                       votext+466 
+*2*  ncmp_done                      votext+453 
+*2*  ncat_done                      votext+436 
+*2*  ncp_done                       votext+341 
+*2*  str_done1                      votext+561 
+*2*  ncp_lp                         votext+340 
+*2*  mchr_nul                       votext+579 
+*2*  rchr_chk                       votext+476 
+*2*  pbrk_done                      votext+540 
+*2*  ncp_doneXY                     votext+360 
+*2*  ncp_doneYX                     votext+379 
+*2*  ncp_doneYY                     votext+398 
+*2*  mchr_next                      votext+571 
+*2*  str_next                       votext+546 
+*2*  cspn_next                      votext+505 
+*2*  spn_next                       votext+485 
+*2*  rchr_next                      votext+471 
+*2*  chr_next                       votext+457 
+*2*  ncmp_next                      votext+442 
+*2*  ncat_next                      votext+421 
+*2*  cat_next                       votext+404 
+*2*  pbrk_next2                     votext+529 
+*2*  pbrk_done1                     votext+539 
+*2*  _strlen                        votext+599 
+*2*  _strcpy                        votext+607 
+*2*  pbrk_next                      votext+525 
+*2*  xfrm_done                      votext+596 
+*2*  ncp_lpXY                       votext+359 
+*2*  ncp_lpYX                       votext+378 
+*2*  ncp_lpYY                       votext+397 
+*2*  _strlen@0                      votext+601 
+*2*  _strlen                        votext+599 
+*2*  _strcpy@0                      votext+611 
+*2*  _strcpy                        votext+607 
+----- Eliminate absolute relocations
+Eliminate relocation to absolute symbol _player in votext (abs+offset=233)
+Eliminate relocation to absolute symbol _PlayerPlayFile in votext (abs+offset=103)
+Eliminate relocation to absolute symbol _GpioReadPin in votext (abs+offset=100)
+Eliminate relocation to absolute symbol _GpioReadPin in votext (abs+offset=100)
+Eliminate relocation to absolute symbol _GpioReadPin in votext (abs+offset=100)
+Eliminate relocation to absolute symbol _GpioReadPin in votext (abs+offset=100)
+Eliminate relocation to absolute symbol _player in votext (abs+offset=218)
+Eliminate relocation to absolute symbol _GpioReadPin in votext (abs+offset=100)
+Eliminate relocation to absolute symbol _player in votext (abs+offset=218)
+Eliminate relocation to absolute symbol _player in votext (abs+offset=227)
+Eliminate relocation to absolute symbol _printf in votext (abs+offset=91)
+Eliminate relocation to absolute symbol _player in votext (abs+offset=227)
+Eliminate relocation to absolute symbol _printf in votext (abs+offset=91)
+Eliminate relocation to absolute symbol _printf in votext (abs+offset=91)
+Eliminate relocation to absolute symbol _player in votext (abs+offset=225)
+Eliminate relocation to absolute symbol _player in votext (abs+offset=190)
+Eliminate relocation to absolute symbol _printf in votext (abs+offset=91)
+Eliminate relocation to absolute symbol _player in votext (abs+offset=217)
+Eliminate relocation to absolute symbol _printf in votext (abs+offset=91)
+Eliminate relocation to absolute symbol _player in votext (abs+offset=225)
+Eliminate relocation to absolute symbol _player in votext (abs+offset=190)
+Eliminate relocation to absolute symbol _printf in votext (abs+offset=91)
+Eliminate relocation to absolute symbol _player in votext (abs+offset=227)
+Eliminate relocation to absolute symbol _RunLib in votext (abs+offset=104)
+Eliminate relocation to absolute symbol _printf in votext (abs+offset=91)
+Eliminate relocation to absolute symbol _player in votext (abs+offset=225)
+Eliminate relocation to absolute symbol _player in votext (abs+offset=224)
+Eliminate relocation to absolute symbol _player in votext (abs+offset=223)
+Eliminate relocation to absolute symbol _player in votext (abs+offset=222)
+Eliminate relocation to absolute symbol _printf in votext (abs+offset=91)
+Eliminate relocation to absolute symbol _printf in votext (abs+offset=91)
+Eliminate relocation to absolute symbol _player in votext (abs+offset=223)
+Eliminate relocation to absolute symbol _PlayerPlayFile in votext (abs+offset=103)
+Eliminate relocation to absolute symbol _player in votext (abs+offset=223)
+Eliminate relocation to absolute symbol _player in votext (abs+offset=223)
+
+----- Create a Loadable...
+Export Dynamic App loadable.ap3 with title pl
+*3* SYMBOL TABLE ***
+*3*   _PlayNamedFile                 	 0.0
+*3*   _MyPlayerCallback              	 0.13
+*3*   _main                          	 0.237
+*3*   _strncpy                       	 0.326
+*3*   _strncpy                       	 0.326
+*3*   @000                           	 0.588
+*3*   @001                           	 0.595
+*3*   str_next2                      	 0.547
+*3*   cspn_next2                     	 0.509
+*3*   spn_next2                      	 0.489
+*3*   ncat_next2                     	 0.427
+*3*   cat_next2                      	 0.410
+*3*   mchr_done                      	 0.580
+*3*   str_done                       	 0.563
+*3*   cspn_done                      	 0.519
+*3*   spn_done                       	 0.499
+*3*   chr_done                       	 0.466
+*3*   ncmp_done                      	 0.453
+*3*   ncat_done                      	 0.436
+*3*   ncp_done                       	 0.341
+*3*   str_done1                      	 0.561
+*3*   ncp_lp                         	 0.340
+*3*   mchr_nul                       	 0.579
+*3*   rchr_chk                       	 0.476
+*3*   pbrk_done                      	 0.540
+*3*   ncp_doneXY                     	 0.360
+*3*   ncp_doneYX                     	 0.379
+*3*   ncp_doneYY                     	 0.398
+*3*   mchr_next                      	 0.571
+*3*   str_next                       	 0.546
+*3*   cspn_next                      	 0.505
+*3*   spn_next                       	 0.485
+*3*   rchr_next                      	 0.471
+*3*   chr_next                       	 0.457
+*3*   ncmp_next                      	 0.442
+*3*   ncat_next                      	 0.421
+*3*   cat_next                       	 0.404
+*3*   pbrk_next2                     	 0.529
+*3*   pbrk_done1                     	 0.539
+*3*   _strlen                        	 0.599
+*3*   _strcpy                        	 0.607
+*3*   pbrk_next                      	 0.525
+*3*   xfrm_done                      	 0.596
+*3*   ncp_lpXY                       	 0.359
+*3*   ncp_lpYX                       	 0.378
+*3*   ncp_lpYY                       	 0.397
+*3*   _strlen@0                      	 0.601
+*3*   _strlen                        	 0.599
+*3*   _strcpy@0                      	 0.611
+*3*   _strcpy                        	 0.607
+*3*   _button_pause_pressed          	 1.0
+*3*   _button_change_song            	 1.1
+*3*   _button_volume_pressed         	 1.2
+*3*   _button_volume_pressed2        	 1.3
+*3*   _button_volume_pressed3        	 1.4
+*3*   _delay_samples                 	 1.6
+*3*   _nowPressed                    	 1.8
+*3*   _lastPressed1                  	 1.9
+*3*   _lastPressed2                  	 1.10
+*3*   _lastPressed3                  	 1.11
+*3*   _lastPressed4                  	 1.12
+*3*   _lastPressed5                  	 1.13
+*3*   _totalFiles                    	 1.15
+*3*   next_1                         	 1.18
+*3*   pause_2                        	 1.24
+*3*   previous_3                     	 1.31
+*3*   vol_4                          	 1.41
+*3*   vol_5                          	 1.47
+*3*   vs1010dpl_6                    	 1.53
+*3*   smp3_7                         	 1.69
+*3*   countfiles_8                   	 1.77
+*3*   countfiles_9                   	 1.88
+*3*   playerfil_10                   	 1.110
+*3*   filesd_11                      	 1.128
+
+
+----- DLLENTRY: _MyPlayerCallback = 0.13
+
+----- DLLENTRY: _main = 0.237
+Export Dynamic App loadable.app with title pl
+*4* SYMBOL TABLE ***
+*4*   _PlayNamedFile                 	 0.0
+*4*   _MyPlayerCallback              	 0.13
+*4*   _main                          	 0.237
+*4*   _strncpy                       	 0.326
+*4*   _strncpy                       	 0.326
+*4*   @000                           	 0.588
+*4*   @001                           	 0.595
+*4*   str_next2                      	 0.547
+*4*   cspn_next2                     	 0.509
+*4*   spn_next2                      	 0.489
+*4*   ncat_next2                     	 0.427
+*4*   cat_next2                      	 0.410
+*4*   mchr_done                      	 0.580
+*4*   str_done                       	 0.563
+*4*   cspn_done                      	 0.519
+*4*   spn_done                       	 0.499
+*4*   chr_done                       	 0.466
+*4*   ncmp_done                      	 0.453
+*4*   ncat_done                      	 0.436
+*4*   ncp_done                       	 0.341
+*4*   str_done1                      	 0.561
+*4*   ncp_lp                         	 0.340
+*4*   mchr_nul                       	 0.579
+*4*   rchr_chk                       	 0.476
+*4*   pbrk_done                      	 0.540
+*4*   ncp_doneXY                     	 0.360
+*4*   ncp_doneYX                     	 0.379
+*4*   ncp_doneYY                     	 0.398
+*4*   mchr_next                      	 0.571
+*4*   str_next                       	 0.546
+*4*   cspn_next                      	 0.505
+*4*   spn_next                       	 0.485
+*4*   rchr_next                      	 0.471
+*4*   chr_next                       	 0.457
+*4*   ncmp_next                      	 0.442
+*4*   ncat_next                      	 0.421
+*4*   cat_next                       	 0.404
+*4*   pbrk_next2                     	 0.529
+*4*   pbrk_done1                     	 0.539
+*4*   _strlen                        	 0.599
+*4*   _strcpy                        	 0.607
+*4*   pbrk_next                      	 0.525
+*4*   xfrm_done                      	 0.596
+*4*   ncp_lpXY                       	 0.359
+*4*   ncp_lpYX                       	 0.378
+*4*   ncp_lpYY                       	 0.397
+*4*   _strlen@0                      	 0.601
+*4*   _strlen                        	 0.599
+*4*   _strcpy@0                      	 0.611
+*4*   _strcpy                        	 0.607
+*4*   _button_pause_pressed          	 1.0
+*4*   _button_change_song            	 1.1
+*4*   _button_volume_pressed         	 1.2
+*4*   _button_volume_pressed2        	 1.3
+*4*   _button_volume_pressed3        	 1.4
+*4*   _delay_samples                 	 1.6
+*4*   _nowPressed                    	 1.8
+*4*   _lastPressed1                  	 1.9
+*4*   _lastPressed2                  	 1.10
+*4*   _lastPressed3                  	 1.11
+*4*   _lastPressed4                  	 1.12
+*4*   _lastPressed5                  	 1.13
+*4*   _totalFiles                    	 1.15
+*4*   next_1                         	 1.18
+*4*   pause_2                        	 1.24
+*4*   previous_3                     	 1.31
+*4*   vol_4                          	 1.41
+*4*   vol_5                          	 1.47
+*4*   vs1010dpl_6                    	 1.53
+*4*   smp3_7                         	 1.69
+*4*   countfiles_8                   	 1.77
+*4*   countfiles_9                   	 1.88
+*4*   playerfil_10                   	 1.110
+*4*   filesd_11                      	 1.128
+
+
+----- DLLENTRY: _MyPlayerCallback = 0.13
+
+----- DLLENTRY: _main = 0.237
+
+Link result (errorlevel) is 0
+Total words: I 617, X 139, Y 0.
+
+----- Done.

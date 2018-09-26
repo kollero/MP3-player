@@ -1,0 +1,23 @@
+# VS1010B safe memory map for any user boot application.
+	
+MEMORY {
+	page 0:
+	# 2899 words of IRAM between end of vectors and start of VorbisDecode
+	ram_prog: origin = 0x0080, length = 0x0b53
+	postboot: origin = 65, length = 1
+
+	page 1:
+	# 5175 words between end of large stack and beginning of mp3bss
+	# (vs1010b stack size is 2304 words)
+	bss_x:    origin = 0x1000, length = 0x1437
+
+	page 2:
+	# 4397 words between end of large stack and beginning of mp3bss
+	# (vs1010b stack size is 2304 words)
+	bss_y:    origin = 0x1000, length = 0x112d
+}
+	
+CORE {
+	frequency = 12MHz
+}
+

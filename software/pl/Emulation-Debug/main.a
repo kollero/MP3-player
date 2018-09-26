@@ -1,0 +1,617 @@
+
+//_____________________________________________________________
+//
+	.sect code,PlayNamedFile	// 13 words
+	.export _PlayNamedFile
+_PlayNamedFile:
+	ldc 126,A0	// 126 -> A0
+	ldx (I6)+1,NULL	// I6 += 1
+	stx LR0,(I6)+1
+	stx I0,(I6) ; sty I1,(I6)
+	ldc _player+56,I0	// I0
+// 	strncpy(player.fileSpec,filename,126);
+	call _strncpy
+	mv I2,I1	// I2 -> 'filename'
+// jumped away
+// 	PlayerPlayFile();
+	call _PlayerPlayFile
+	nop
+// jumped away
+	ldy (I6),I1 ; ldx (I6)-1,I0
+	ldx (I6)-1,LR0
+	jr
+	nop
+// jumped away
+
+//_____________________________________________________________
+//
+	.sect code,MyPlayerCallback	// 224 words
+	.export _MyPlayerCallback
+_MyPlayerCallback:
+	ldx (I6)+1,NULL	// I6 += 1
+	stx LR0,(I6)+1
+	stx I6,(I6) ; sty I4,(I6)
+	ldx (I6)+1,I4
+	stx A0,(I6) ; sty A1,(I6)+1
+	stx B0,(I6) ; sty B1,(I6)+1
+	stx C0,(I6) ; sty I0,(I6)+1
+	stx I2,(I6)+1
+// 		nowPressed = GpioReadPin(0x20);
+	call _GpioReadPin
+	ldc 32,C0	// 32 -> C0
+// jumped away
+	ldc _nowPressed,I0	// ET2
+	stx A0,(I0)/*V*/ ; sub A0,NULL,A0	// ET1 ==> ET2
+// 		if (!nowPressed && lastPressed1)
+	ldc _lastPressed1,I0	// ET3
+	jzc F1B5	// unsigned compare
+	nop
+// jumped away
+	ldx (I0),A0/*V*/ ; ldy (I6)+1,NULL	// ET3 ==> 'lastPressed1'
+	sub A0,NULL,A0	// 'lastPressed1' != (0) -> (0)
+	ldc next_1,A0	// ET4
+	jzc F1B4	// unsigned compare
+	nop	// I6 += 1
+// jumped away
+	ldx (I6)-1,NULL
+F1B5:
+// 		lastPressed1 = nowPressed;
+	ldc _nowPressed,I0	// ET2
+	ldc _lastPressed1,I2	// ET3
+	ldc 38,C0	// 38 -> C0
+	ldx (I0),A0/*V*/ ; ldy (I6)+1,NULL	// ET2 ==> 'nowPressed'
+// 		nowPressed = GpioReadPin(0x26);
+	call _GpioReadPin
+	stx A0,(I2)/*V*/	// 'nowPressed' ==> ET3
+// jumped away
+	stx A0,(I0)/*V*/ ; sub A0,NULL,A0	// ET12 ==> ET2
+// 		if (!nowPressed && lastPressed2)
+	ldc _lastPressed2,I0	// ET13
+	jzc F1B10	// unsigned compare
+	nop
+// jumped away
+	ldx (I0),A0/*V*/ ; ldy (I6)+1,NULL	// ET13 ==> 'lastPressed2'
+	sub A0,NULL,A0	// 'lastPressed2' != (0) -> (0)
+	ldc pause_2,A0	// ET14
+	jzc F1B9	// unsigned compare
+	nop	// I6 += 1
+// jumped away
+	ldx (I6)-1,NULL
+F1B10:
+// 		lastPressed2 = nowPressed;
+	ldc _nowPressed,I0	// ET2
+	ldc _lastPressed2,I2	// ET13
+	ldc 26,C0	// 26 -> C0
+	ldx (I0),A0/*V*/ ; ldy (I6)+1,NULL	// ET2 ==> 'nowPressed'
+// 		nowPressed = GpioReadPin(0x1a);
+	call _GpioReadPin
+	stx A0,(I2)/*V*/	// 'nowPressed' ==> ET13
+// jumped away
+	stx A0,(I0)/*V*/ ; sub A0,NULL,A0	// ET1a ==> ET2
+// 		if (!nowPressed && lastPressed3)
+	ldc _lastPressed3,I0	// ET1b
+	jzc F1B15	// unsigned compare
+	nop
+// jumped away
+	ldx (I0),A0/*V*/ ; ldy (I6)+1,NULL	// ET1b ==> 'lastPressed3'
+	sub A0,NULL,A0	// 'lastPressed3' != (0) -> (0)
+	ldc previous_3,A0	// ET1c
+	jzc F1B14	// unsigned compare
+	nop	// I6 += 1
+// jumped away
+	ldx (I6)-1,NULL
+F1B15:
+// 		lastPressed3 = nowPressed;
+	ldc _nowPressed,I0	// ET2
+	ldc _lastPressed3,I2	// ET1b
+	ldc 35,C0	// 35 -> C0
+	ldx (I0),A0/*V*/ ; ldy (I6)+1,NULL	// ET2 ==> 'nowPressed'
+// 		nowPressed = GpioReadPin(0x23);
+	call _GpioReadPin
+	stx A0,(I2)/*V*/	// 'nowPressed' ==> ET1b
+// jumped away
+	stx A0,(I0)/*V*/ ; sub A0,NULL,A0	// ET20 ==> ET2
+// 		if (!nowPressed && lastPressed4)
+	ldc _lastPressed4,I0	// ET21
+	jzc F1B20	// unsigned compare
+	nop
+// jumped away
+	ldx (I0),A0/*V*/	// ET21 ==> 'lastPressed4'
+	sub A0,NULL,A0	// 'lastPressed4' != (0) -> (0)
+	ldc _player+41,I0	// ET23
+	jzc F1B19	// unsigned compare
+	nop
+// jumped away
+F1B20:
+// 		lastPressed4 = nowPressed;
+	ldc _nowPressed,I0	// ET2
+	ldc _lastPressed4,I2	// ET21
+	ldc 35,C0	// 35 -> C0
+	ldx (I0),A0/*V*/ ; ldy (I6)+1,NULL	// ET2 ==> 'nowPressed'
+// 		nowPressed = GpioReadPin(0x23);
+	call _GpioReadPin
+	stx A0,(I2)/*V*/	// 'nowPressed' ==> ET21
+// jumped away
+	stx A0,(I0)/*V*/ ; sub A0,NULL,A0	// ET2d ==> ET2
+// 		if (nowPressed && !lastPressed5)
+	ldc _lastPressed5,I0	// ET2e
+	jzs F1B24	// unsigned compare
+	nop
+// jumped away
+	ldx (I0),A0/*V*/	// ET2e ==> 'lastPressed5'
+	sub A0,NULL,A0	// 'lastPressed5' == (0) -> (0)
+	ldc _delay_samples,I0	// ET29
+	jzs F1B23	// unsigned compare
+	nop
+// jumped away
+F1B24:
+// 		lastPressed5 = nowPressed;
+	ldc _nowPressed,I0	// ET2
+	ldx (I0),A0/*V*/	// ET2 ==> 'nowPressed'
+	ldc _lastPressed5,I0	// ET2e
+	stx A0,(I0)/*V*/	// 'nowPressed' ==> ET2e
+// 		if(button_volume_pressed)
+	ldc _button_volume_pressed,I0	// ET2a
+	ldx (I0),A0/*V*/	// ET2a ==> 'button_volume_pressed'
+	sub A0,NULL,A0	// 'button_volume_pressed' == (0) -> (0)
+	ldc _delay_samples,I0	// ET29
+	jzs F1B27	// unsigned compare
+	nop
+// jumped away
+// 		}
+// {
+// 			if(delay_samples >0)
+	ldx (I0)+1,A0/*V*/ ; ldy (I4)-3,NULL
+	ldx (I0)-1,A1/*V*/
+	mv A1,A1	// update guard bits (cmp)
+	sub A,NULL,A ; ldx (I4)+3,B0	// 'delay_samples' > (0) -> (0)
+	ldc 0,B1
+	jgt F1B28	// signed compare
+	nop
+// jumped away
+	ldc _button_volume_pressed2,I0	// ET2b
+	ldc _delay_samples,I2	// ET29
+// 			}
+// else{
+// 				button_volume_pressed2=0;
+	stx B1,(I0)/*V*/ ; or NULL,ONES,A0	// ET30 ==> ET2b
+// 				delay_samples=player.auDec.sampleRate/2;
+	ldc _player+41,I0	// ET23
+	ldx (I0)+1,B0
+	ldx (I0)+7,B1
+	ashl B,A0,A ; ldy (I0)+1,NULL	// -1 -> AT33
+	stx A0,(I2)+1/*V*/
+	stx A1,(I2)-1/*V*/
+// 				if(player.volume<96)
+	ldc 96,A1	// 96 -> 0 -> ET39
+	ldx (I0),A0	// ET23 ==> 50 -> ET38
+	sub A0,A1,A0	// ET38 >= ET39 -> AT5d
+	ldc _player+50,I0	// ET37
+	jge F1B27	// signed compare
+	ldc vol_4,A0	// ET3a
+// jumped away
+	ldx (I6)+1,NULL	// I6 += 1
+// 				}
+// {
+// 					printf("vol-\n");
+	call _printf
+	stx A0,(I6)	// ET3a
+// jumped away
+	ldx (I0),A0 ; ldy (I6)-1,NULL	// I6 += -1
+// 					player.volume++;
+	sub A0,ONES,A0	// ET38 - (-1) -> ET3d
+// 					player.volume++;
+	sub A0,ONES,A0	// ET3d - (-1) -> ET3f
+// 					player.volume++;
+	sub A0,ONES,A0	// ET3f - (-1) -> ET41
+// 					player.volume++;
+	sub A0,ONES,A0	// ET41 - (-1) -> ET43
+	stx A0,(I0)	// ET43 ==> ET37
+F1B27:
+// 		if(!button_volume_pressed && button_volume_pressed2 && button_volume_pressed3)
+	ldc _button_volume_pressed,I0	// ET2a
+	ldx (I0),A0/*V*/	// ET2a ==> 'button_volume_pressed'
+	sub A0,NULL,A0	// 'button_volume_pressed' != (0) -> (0)
+	ldc _button_volume_pressed2,I0	// ET2b
+	jzc F1B1	// unsigned compare
+	nop
+// jumped away
+	ldx (I0),A0/*V*/	// ET2b ==> 'button_volume_pressed2'
+	sub A0,NULL,A0	// 'button_volume_pressed2' == (0) -> (0)
+	ldc _button_volume_pressed3,I0	// ET2c
+	jzs F1B1	// unsigned compare
+	nop
+// jumped away
+	ldx (I0),A0/*V*/	// ET2c ==> 'button_volume_pressed3'
+	sub A0,NULL,A0	// 'button_volume_pressed3' == (0) -> (0)
+	ldc 0,A0	// 0 -> 1 -> ET30
+	jzs F1B1	// unsigned compare
+	nop
+// jumped away
+// 		}
+// {
+// 				button_volume_pressed3=0;
+	stx A0,(I0)/*V*/	// ET30 ==> ET2c
+// 				if(player.volume>3)
+	ldc _player+50,I0	// ET37
+	ldc 3,A0	// 3 -> 0 -> ET45
+	ldx (I0),A1	// ET37 ==> 50 -> ET44
+	sub A1,A0,A0	// ET44 <= ET45 -> AT5e
+	ldc vol_5,A0	// ET46
+	jle F1B1	// signed compare
+	nop
+// jumped away
+	ldx (I6)+1,NULL	// I6 += 1
+// 				}
+// {
+// 					printf("vol+\n");
+	call _printf
+	stx A0,(I6)	// ET46
+// jumped away
+	ldx (I0),A0 ; ldy (I6)-1,NULL	// I6 += -1
+// 					player.volume--;
+	add A0,ONES,A0	// ET44 + (-1) -> ET49
+// 					player.volume--;
+	add A0,ONES,A0	// ET49 + (-1) -> ET4b
+// 					player.volume--;
+	add A0,ONES,A0	// ET4b + (-1) -> ET4d
+// 					player.volume--;
+	add A0,ONES,A0	// ET4d + (-1) -> ET4f
+	stx A0,(I0)	// ET4f ==> ET37
+F1B1:
+	ldx (I6)-1,I2
+	ldy (I6),I0 ; ldx (I6)-1,C0
+	ldy (I6),B1 ; ldx (I6)-1,B0
+	ldy (I6),A1 ; ldx (I6)-1,A0
+	ldx (I4),I6 ; ldy (I4),I4
+	ldx (I6)-1,NULL	// I6 += -1
+	ldx (I6)-1,LR0
+	jr
+	nop
+// jumped away
+	ldx (I4)-3,NULL ; and B1,NULL,B1	// I4 += -3
+// 			}
+// {
+// 				delay_samples-=samples;
+	ldx (I4)+3,B0	// unspill 'samples' from #0
+F1B28:
+	sub A,B,A	// 'delay_samples' - ET31 -> ET32
+	stx A0,(I0)+1/*V*/
+	j F1B27
+	stx A1,(I0)-1/*V*/
+// jumped away
+F1B23:
+// 		}
+// {
+// 				delay_samples=0;
+	and A,NULL,A	// 0 -> 2 -> ET2f
+	stx A0,(I0)+1/*V*/ ; and NULL,NULL,A0
+	stx A1,(I0)-1/*V*/
+// 				button_volume_pressed=0;
+	ldc _button_volume_pressed,I0	// ET2a
+	j F1B24
+	stx A0,(I0)/*V*/	// ET30 ==> ET2a
+// jumped away
+F1B19:
+// 		}
+// {
+// 				delay_samples=player.auDec.sampleRate/2;
+	ldx (I0)+1,B0 ; or NULL,ONES,A0
+	ldx (I0)-1,B1
+	ldc _delay_samples,I0	// ET29
+	ashl B,A0,A	// ET24 << AT26 -> ET27
+	stx A0,(I0)+1/*V*/ ; sub NULL,ONES,A0
+	stx A1,(I0)-1/*V*/
+// 				button_volume_pressed=1;
+	ldc _button_volume_pressed,I0	// ET2a
+	stx A0,(I0)/*V*/ ; sub NULL,ONES,A0	// ETf ==> ET2a
+// 				button_volume_pressed2=1;
+	ldc _button_volume_pressed2,I0	// ET2b
+	stx A0,(I0)/*V*/ ; sub NULL,ONES,A0	// ETf ==> ET2b
+// 				button_volume_pressed3=1;
+	ldc _button_volume_pressed3,I0	// ET2c
+	j F1B20
+	stx A0,(I0)/*V*/	// ETf ==> ET2c
+// jumped away
+F1B14:
+// 		}
+// {
+// 				printf("previous\n");
+	call _printf
+	stx A0,(I6)	// ET1c
+// jumped away
+	ldc _player+48,I0	// ET9
+	or NULL,ONES,A0 ; ldy (I6)-1,NULL	// I6 += -1
+// 				player.nextStep=-1;
+	stx A0,(I0)-7 ; and NULL,NULL,A0	// ET1e ==> ET9
+// 				player.auDec.pause = 0;
+	ldx (I0)-1,NULL	// ...
+	stx A0,(I0) ; sub NULL,ONES,A0	// ETa ==> ET9
+// 				player.auDec.cs.cancel = 1;
+	ldc _player+13,I0	// ETe
+	stx A0,(I0) ; sub NULL,ONES,A0	// ET6 ==> ETe
+// 				button_change_song=1;
+	ldc _button_change_song,I0	// ET10
+	j F1B15
+	stx A0,(I0)/*V*/	// ETf ==> ET10
+// jumped away
+F1B9:
+// 		}
+// {
+// 				printf("pause\n");
+	call _printf
+	stx A0,(I6)	// ET14
+// jumped away
+	ldc _player+40,I0	// ETc
+	ldx (I0),A1 ; sub NULL,ONES,A0	// 1 -> 0 -> ET6
+// 				player.auDec.pause ^= 1;
+	xor A1,A0,A0 ; ldy (I6)-1,NULL	// ET16 xor ET6 -> ET17
+	stx A0,(I0) ; sub NULL,ONES,A0	// ET17 ==> ETc
+// 				button_pause_pressed=1;
+	ldc _button_pause_pressed,I0	// ET18
+	j F1B10
+	stx A0,(I0)/*V*/	// ETf ==> ET18
+// jumped away
+F1B4:
+// 		}
+// {
+// 				printf("next\n");
+	call _printf
+	stx A0,(I6)	// ET4
+// jumped away
+	ldc _player+48,I0	// ET9
+	sub NULL,ONES,A0 ; ldy (I6)-1,NULL	// I6 += -1
+// 				player.nextStep=1;
+	stx A0,(I0)-7 ; and NULL,NULL,A1	// ET6 ==> ET9
+// 				player.auDec.pause = 0;
+	ldx (I0)-1,NULL	// ...
+	stx A1,(I0)	// ETa ==> ET9
+// 				player.auDec.cs.cancel = 1;
+	ldc _player+13,I0	// ETe
+	stx A0,(I0) ; sub NULL,ONES,A0	// ET6 ==> ETe
+// 				button_change_song=1;
+	ldc _button_change_song,I0	// ET10
+	j F1B5
+	stx A0,(I0)/*V*/	// ETf ==> ET10
+// jumped away
+
+//_____________________________________________________________
+//
+	.sect code,main	// 89 words
+	.export _main
+_main:
+	ldc vs1010dpl_6,A0	// ET0
+	ldx (I6)+1,NULL	// I6 += 1
+	stx LR0,(I6)+1
+// 	printf("VS1010D Player\n");
+	call _printf
+	stx A0,(I6)	// ET0
+// jumped away
+	ldc 64742,I0	// 64742 -> ET6
+	ldc 64736,I2	// 64736 -> ET3
+	ldc 65534,A0	// 65534 -> 1 -> ET2
+	ldy (I2),A1/*V*/	// I6 += 1
+// (*(__y volatile u_int16 *)(u_int16)(0xFCE0)) &= ~(1<<0);
+	and A1,A0,A1	// ET4 and ET2 -> ET5
+	sty A1,(I2)/*V*/	// ET5 ==> ET3
+// (*(__y volatile u_int16 *)(u_int16)(0xFCE6)) &= ~(1<<0);
+	ldy (I0),A1/*V*/	// ET6 ==> ET7
+	and A1,A0,A0	// ET7 and ET2 -> ET8
+	sty A0,(I0)/*V*/	// ET8 ==> ET6
+// (*(__y volatile u_int16 *)(u_int16)(0xFCE0)) &= ~(1<<0xf);
+	ldc 32767,A0	// 32767 -> 1 -> ET9
+	ldy (I2),A1/*V*/	// ET3 ==> ETa
+	and A1,A0,A1	// ETa and ET9 -> ETb
+	sty A1,(I2)/*V*/	// ETb ==> ET3
+// (*(__y volatile u_int16 *)(u_int16)(0xFCE6)) &= ~(1<<0xf);
+	ldy (I0),A1/*V*/	// ET6 ==> ETc
+	and A1,A0,A0	// ETc and ET9 -> ETd
+	sty A0,(I0)/*V*/	// ETd ==> ET6
+// player.volume=64;
+	ldc _player+50,I0	// ET11
+	ldc 64,A0	// 64 -> 0 -> ETe
+	stx A0,(I0)	// ETe ==> ET11
+// 	totalFiles = RunLib("CountFiles","S:*.MP3");
+	ldc smp3_7,A0	// ET12
+	stx A0,(I6)+1	// ET12
+	ldc countfiles_8,A0	// ET13
+	call _RunLib
+	stx A0,(I6)	// ET13
+// jumped away
+	ldc _totalFiles,I0	// ET17
+	ldc -31234,B0	// -31234 -> 2 -> B0
+	add A0,NULL,A1 ; ldx (I6)-2,NULL	// I6 += -2
+	sub NULL,ONES,A0	// 1 -> 0 -> ET15
+	mulss A1,A0	// ET14 sXtd ET15 -> P
+	add NULL,P,A	// P -> ET16
+	stx A0,(I0)+1/*V*/ ; or NULL,ONES,B1
+	mv B1,B1	// update guard bits (cmp)
+	stx A1,(I0)-1/*V*/ ; sub A,B,A
+// 	if (totalFiles == -31234)
+// (A2 already up to date)
+	ldc countfiles_9,A0	// ET19
+	jzc F2B11	// signed compare
+	nop
+// jumped away
+	ldx (I6)+1,NULL	// I6 += 1
+// 	}
+// {
+// 		printf("CountFiles not found\n");
+	call _printf
+	stx A0,(I6)	// ET19
+// jumped away
+	ldx (I6)-1,NULL	// I6 += -1
+F2B11:
+// 	}
+// {
+// 			player.nextStep = 1;
+	ldc _player+48,I0	// ET1c
+	sub NULL,ONES,A0	// 1 -> 0 -> ET15
+	ldc smp3_7,I2	// I2
+// 			PlayNamedFile("S:*.MP3");
+	call _PlayNamedFile
+	stx A0,(I0)	// ET15 ==> ET1c
+// jumped away
+// 		if (player.nextFile)
+	ldc _player+47,I0	// ET1f
+	ldx (I0),A0	// ET1f ==> 47 -> ET20
+	sub A0,NULL,A0	// ET20 != (0) -> (0)
+	nop
+	jzs F2B14	// signed compare
+	nop
+// jumped away
+// 		}
+// {
+// 			player.currentFile = player.nextFile;
+	ldc _player+46,I2	// ET22
+	stx A0,(I2) ; and NULL,NULL,A0	// ET20 ==> ET22
+// 			player.nextFile = 0;
+	stx A0,(I0)	// ET23 ==> ET1f
+F2B14:
+	ldc _player+45,I0	// ET25
+	ldy (I6)+1,NULL ; ldx (I0),A0	// I6 += 1
+// 		printf("player.files: %d\n", player.totalFiles);
+	stx A0,(I6)+1	// ET26
+	ldc playerfil_10,A0	// ET27
+	call _printf
+	stx A0,(I6)	// ET27
+// jumped away
+	ldc _totalFiles,I0	// ET17
+	ldx (I0)+1,A0/*V*/ ; ldy (I6)-1,NULL	// I6 += 1
+// 		printf("files: %d\n", totalFiles);
+	ldx (I0)-1,A1/*V*/
+	stx A0,(I6)+1	// A0
+	ldc filesd_11,A0	// ET29
+	stx A1,(I6)+1	// A1
+	call _printf
+	stx A0,(I6)	// ET29
+// jumped away
+	ldc _player+46,I0	// ET22
+	ldx (I0),A0 ; ldy (I6)-3,NULL	// I6 += -3
+// 		if (player.currentFile <= 0 || !(PlayerPlayFile() == 0))
+	sub A0,NULL,A0	// ET2b <= (0) -> (0)
+	nop
+	callgt _PlayerPlayFile
+	ldc F2B19,LR0
+// jumped away
+// 		}
+// {
+// 			player.currentFile = 1;
+	ldc _player+46,I0	// ET22
+	sub NULL,ONES,A0	// 1 -> 0 -> ET15
+F2B17:
+	j F2B11
+	stx A0,(I0)	// ET15 ==> ET22
+// jumped away
+F2B19:
+	sub A0,NULL,A0	// ET2c != (0) -> (0)
+	ldc _player+46,I0
+	jzc F2B17	// unsigned compare
+	sub NULL,ONES,A0
+// jumped away
+	j F2B11
+	nop
+// jumped away
+
+//_____________________________________________________________
+//
+	.sect data_x,bss_x	// 0 words
+	.export __LINKINFO_JMPI_97_MyPlayerCallback
+__LINKINFO_JMPI_97_MyPlayerCallback:
+	.bss 0
+
+//_____________________________________________________________
+//
+	.sect data_x,init_x	// 18 words
+	.export _button_pause_pressed
+_button_pause_pressed:
+	.word 0
+	.export _button_change_song
+_button_change_song:
+	.word 0
+	.export _button_volume_pressed
+_button_volume_pressed:
+	.word 0
+	.export _button_volume_pressed2
+_button_volume_pressed2:
+	.word 0
+	.export _button_volume_pressed3
+_button_volume_pressed3:
+	.word 0
+	.export _file_at_end
+_file_at_end:
+	.word 0
+	.export _delay_samples
+_delay_samples:
+	.word lo(0), hi(0)
+	.export _nowPressed
+_nowPressed:
+	.word 1
+_lastPressed1:
+	.word 1
+_lastPressed2:
+	.word 1
+_lastPressed3:
+	.word 1
+_lastPressed4:
+	.word 1
+_lastPressed5:
+	.word 1
+_lastPressed8:
+	.word 1
+	.export _totalFiles
+_totalFiles:
+	.word lo(0), hi(0)
+	.export _mask
+_mask:
+	.word 1
+
+//_____________________________________________________________
+//
+	.sect data_x,const_x	// 121 words
+next_1:
+	.word "next\n"
+
+	.zero 1
+pause_2:
+	.word "pause\n"
+
+	.zero 1
+previous_3:
+	.word "previous\n"
+
+	.zero 1
+vol_4:
+	.word "vol-\n"
+
+	.zero 1
+vol_5:
+	.word "vol+\n"
+
+	.zero 1
+vs1010dpl_6:
+	.word "VS1010D Player\n"
+
+	.zero 1
+smp3_7:
+	.word "S:*.MP3"
+
+	.zero 1
+countfiles_8:
+	.word "CountFiles"
+
+	.zero 1
+countfiles_9:
+	.word "CountFiles not found\n"
+
+	.zero 1
+playerfil_10:
+	.word "player.files: %d\n"
+
+	.zero 1
+filesd_11:
+	.word "files: %d\n"
+
+	.zero 1
+
+	.end
